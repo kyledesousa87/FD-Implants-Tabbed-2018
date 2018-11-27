@@ -38,7 +38,7 @@
     "scrollspy": "^1.6.0"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0-beta",
+    "bootstrap": "^4.0.0",
     "bower": "^1.8.2",
     "del": "^3.0.0",
     "gulp-imagemin": "^3.4.0",

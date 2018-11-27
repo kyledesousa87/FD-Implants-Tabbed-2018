@@ -268,7 +268,8 @@ $(document).ready(function() {
     });
 
 
-    $('.clients-reviews').owlCarousel({
+    var owl = $('.clients-reviews');
+    owl.owlCarousel({
         autoplay: true,
         loop:true,
         margin:10,
@@ -291,6 +292,8 @@ $(document).ready(function() {
             }
         }
     });
+
+
 
 
     $('.nav .nav-item .nav-link ').click(function() {

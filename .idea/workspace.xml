@@ -5,33 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cebb2776-d0dd-4d61-b84f-7000b5ba04a7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/FD-Implants-Tabbed-2018.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FD-Implants-Tabbed-2018.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/app-imp-new.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app-imp-new.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/fb-geo-location-bermondsey.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/fb-geo-location-birmingham.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/fb-geo-location-brentwood.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/fb-geo-location-cannon-st.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/fb-geo-location-leicester.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/fb-geo-location-liverpool-st.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/fb-geo-location-milton-keynes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/fb-geo-location-winchester.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/fb-geo-location-wokingham.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/geo-location-bermondsey.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/geo-location-birmingham.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/geo-location-brentwood.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/geo-location-cannon-st.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/geo-location-leicester.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/geo-location-liverpool-st.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/geo-location-milton-keynes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/geo-location-winchester.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/geo-location-wokingham.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/fd-implants-tabbed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/vendors/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/vendors/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/layout-tabbed.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout-tabbed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/content/content-hero-banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/content/content-hero-banner.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/content/grouped-content.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/content/grouped-content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/layout/navigation/main-nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/layout/navigation/main-nav.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/app-imp-new.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app-imp-new.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/_content-results.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_content-results.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/_main-nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_main-nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_panels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_panels.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/comps/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/comps/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/layout/_content-hero-banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_content-hero-banner.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/layout/_sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_sidebar.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,34 +38,36 @@
         <counts>
           <entry key="css" value="5" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="18" />
-          <entry key="js" value="2" />
-          <entry key="scss" value="14" />
+          <entry key="html" value="28" />
+          <entry key="js" value="15" />
+          <entry key="json" value="1" />
+          <entry key="scss" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="5" />
-          <entry key="HTML" value="18" />
-          <entry key="JavaScript" value="2" />
+          <entry key="HTML" value="28" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="15" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SCSS" value="14" />
+          <entry key="SCSS" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="23" />
-          <entry key="html" value="520" />
-          <entry key="js" value="10" />
-          <entry key="scss" value="882" />
+          <entry key="html" value="807" />
+          <entry key="js" value="35" />
+          <entry key="scss" value="1104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="520" />
-          <entry key="JavaScript" value="10" />
+          <entry key="HTML" value="807" />
+          <entry key="JavaScript" value="35" />
           <entry key="PLAIN_TEXT" value="23" />
-          <entry key="SCSS" value="882" />
+          <entry key="SCSS" value="1104" />
         </counts>
       </usages-collector>
     </session>
@@ -90,42 +78,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/layout/_sidebar.scss">
+        <entry file="file://$PROJECT_DIR$/src/scss/pages/_layout-tabbed.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="75">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/app-imp-new.js">
+        <entry file="file://$PROJECT_DIR$/src/layouts/layout-tabbed.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="287" column="23" selection-start-line="287" selection-start-column="23" selection-end-line="287" selection-end-column="23" />
-              <folding>
-                <element signature="e#65#428#0" />
-                <element signature="n#!!block;n#validateCancellationForm#0" />
-                <element signature="n#!!block;n#validateForm#0" />
-                <element signature="n#!!block;n#closeModal#0" />
-                <element signature="n#!!block;n#doVideo#0" />
-                <element signature="n#!!block;n#openModal#0" />
-                <element signature="n#!!block;n#reOpen#0" />
-                <element signature="n#!!block;n#anim#0" />
-                <element signature="n#!!block;n#navScroll#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/layout/_content-results.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-              <folding>
-                <element signature="e#394#646#0" />
-              </folding>
+            <state relative-caret-position="145">
+              <caret line="36" column="26" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -133,51 +98,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/partials/content/content-hero-banner.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="30">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
               <folding>
-                <element signature="n#div#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/comps/_buttons.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="179" column="16" lean-forward="true" selection-start-line="179" selection-start-column="16" selection-end-line="179" selection-end-column="16" />
+              <folding>
+                <element signature="e#743#1952#0" />
+                <element signature="e#954#1251#0" />
+                <element signature="e#1262#1541#0" />
+                <element signature="e#1552#1620#0" />
+                <element signature="e#1628#1842#0" />
+                <element signature="e#3079#3180#0" />
+                <element signature="e#1965#2162#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/partials/content/grouped-content.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/partials/content/content-nobel.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="3" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/partials/layout/page-layout/reviews.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-              <folding>
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/layout/_content-hero-banner.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+            <state relative-caret-position="218">
+              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+              <folding>
+                <element signature="e#162#184#0" />
+                <element signature="e#220#241#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,7 +146,12 @@
       <find>.nav-links_callbtn</find>
       <find>.main-holder</find>
       <find>close</find>
+      <find>$.support.transition</find>
+      <find>owl</find>
     </findStrings>
+    <replaceStrings>
+      <replace>$.support.owltransition</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -202,16 +163,23 @@
         <option value="$PROJECT_DIR$/src/pages/index.html" />
         <option value="$PROJECT_DIR$/src/pages/fd-implants-tabbed.html" />
         <option value="$PROJECT_DIR$/src/layouts/default.html" />
-        <option value="$PROJECT_DIR$/src/layouts/layout-tabbed.html" />
         <option value="$PROJECT_DIR$/src/partials/layout/navigation/main-nav.html" />
-        <option value="$PROJECT_DIR$/src/scss/app-imp-new.scss" />
         <option value="$PROJECT_DIR$/src/scss/layout/_main-nav.scss" />
         <option value="$PROJECT_DIR$/src/scss/layout/_content-results.scss" />
-        <option value="$PROJECT_DIR$/src/scss/layout/_sidebar.scss" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/js/vendors/bootstrap.min.js" />
+        <option value="$PROJECT_DIR$/src/js/vendors/owl.carousel.js" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/js/app-imp-new.js" />
-        <option value="$PROJECT_DIR$/src/scss/layout/_content-hero-banner.scss" />
-        <option value="$PROJECT_DIR$/src/partials/content/content-hero-banner.html" />
         <option value="$PROJECT_DIR$/src/partials/content/grouped-content.html" />
+        <option value="$PROJECT_DIR$/src/scss/components/_panels.scss" />
+        <option value="$PROJECT_DIR$/src/scss/app-imp-new.scss" />
+        <option value="$PROJECT_DIR$/src/scss/layout/_sidebar.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/_layout-tabbed.scss" />
+        <option value="$PROJECT_DIR$/src/layouts/layout-tabbed.html" />
+        <option value="$PROJECT_DIR$/src/partials/content/content-hero-banner.html" />
+        <option value="$PROJECT_DIR$/src/scss/comps/_buttons.scss" />
+        <option value="$PROJECT_DIR$/src/scss/layout/_content-hero-banner.scss" />
       </list>
     </option>
   </component>
@@ -263,7 +231,14 @@
               <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="vendors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
@@ -275,19 +250,6 @@
               <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -295,7 +257,14 @@
               <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="comps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,6 +281,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/scss/pages" />
       <recent name="$PROJECT_DIR$/src/scss/layout" />
       <recent name="$PROJECT_DIR$/src/partials/content" />
       <recent name="$PROJECT_DIR$/src/layouts" />
@@ -339,12 +309,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543315995158</updated>
-      <workItem from="1543315996295" duration="10786000" />
+      <workItem from="1543315996295" duration="16928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10786000" />
+    <option name="totallyTimeSpent" value="16928000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -361,13 +331,13 @@
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Gulp" side_tool="true" />
-      <window_info id="Favorites" sideWeight="0.5014451" side_tool="true" visible="true" weight="0.24973376" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49855492" visible="true" weight="0.24973376" />
+      <window_info id="Favorites" sideWeight="0.119170986" side_tool="true" visible="true" weight="0.24973376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.88082904" visible="true" weight="0.24973376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3148515" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.42673266" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -404,13 +374,6 @@
     <entry file="file://$PROJECT_DIR$/src/scss/layout/_content-home.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/layout-tabbed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -436,27 +399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" selection-start-line="17" selection-end-line="36" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/app-imp-new.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/fd-implants-tabbed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/content-home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="28" column="44" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -494,31 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/layout/_sidebar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/app-imp-new.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="287" column="23" selection-start-line="287" selection-start-column="23" selection-end-line="287" selection-end-column="23" />
-          <folding>
-            <element signature="e#65#428#0" />
-            <element signature="n#!!block;n#validateCancellationForm#0" />
-            <element signature="n#!!block;n#validateForm#0" />
-            <element signature="n#!!block;n#closeModal#0" />
-            <element signature="n#!!block;n#doVideo#0" />
-            <element signature="n#!!block;n#openModal#0" />
-            <element signature="n#!!block;n#reOpen#0" />
-            <element signature="n#!!block;n#anim#0" />
-            <element signature="n#!!block;n#navScroll#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/layout/_content-results.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -526,6 +443,13 @@
           <folding>
             <element signature="e#394#646#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/content/content-nobel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -540,34 +464,174 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/layout/_content-hero-banner.scss">
+    <entry file="file://$PROJECT_DIR$/src/partials/content/content-home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+        <state relative-caret-position="399">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/content-hero-banner.html">
+    <entry file="file://$PROJECT_DIR$/dist/js/app-imp-new.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/fd-implants-tabbed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/vendors/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="1223" column="41" selection-end-line="1223" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/vendors/popper.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/vendors/owl.carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="776">
+          <caret line="731" column="54" lean-forward="true" selection-start-line="731" selection-start-column="54" selection-end-line="731" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/components/_panels.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="207" selection-start-line="207" selection-end-line="207" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/_home.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/layout/_sidebar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/app-imp-new.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/content/grouped-content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="n#div#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/content-nobel.html">
+    <entry file="file://$PROJECT_DIR$/src/js/app-imp-new.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="29" />
+        <state relative-caret-position="102">
+          <caret line="295" selection-start-line="295" selection-end-line="295" />
+          <folding>
+            <element signature="e#65#428#0" />
+            <element signature="n#!!block;n#validateCancellationForm#0" />
+            <element signature="n#!!block;n#validateForm#0" />
+            <element signature="n#!!block;n#closeModal#0" />
+            <element signature="n#!!block;n#doVideo#0" />
+            <element signature="n#!!block;n#openModal#0" />
+            <element signature="n#!!block;n#reOpen#0" />
+            <element signature="n#!!block;n#anim#0" />
+            <element signature="n#!!block;n#navScroll#0" />
+            <element signature="e#7498#7547#0" />
+            <element signature="e#7615#8150#0" />
+            <element signature="e#8212#8660#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/grouped-content.html">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="345">
+          <caret line="168" column="40" selection-start-line="168" selection-start-column="40" selection-end-line="168" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/_layout-tabbed.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/layout-tabbed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/comps/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="179" column="16" lean-forward="true" selection-start-line="179" selection-start-column="16" selection-end-line="179" selection-end-column="16" />
+          <folding>
+            <element signature="e#743#1952#0" />
+            <element signature="e#954#1251#0" />
+            <element signature="e#1262#1541#0" />
+            <element signature="e#1552#1620#0" />
+            <element signature="e#1628#1842#0" />
+            <element signature="e#3079#3180#0" />
+            <element signature="e#1965#2162#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/content/content-hero-banner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/layout/_content-hero-banner.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="e#162#184#0" />
+            <element signature="e#220#241#0" />
+          </folding>
         </state>
       </provider>
     </entry>
