@@ -33,7 +33,7 @@
 }
 
 .main-holder {
-  margin-top: 60px;
+  margin-top: 90px;
 }
 .content {
   display: flex;
@@ -48,18 +48,7 @@
     justify-content: flex-start;
     margin: 0 auto;
     &__main {
-      @include media-breakpoint-up(xs) {
-        width: 100%;
-      }
-      @include media-breakpoint-up(sm) {
-        width: 100%;
-      }
-      @include media-breakpoint-up(md) {
-        width: 68%;
-      }
-      @include media-breakpoint-up(lg) {
-        width: 68%;
-      }
+      width: 100%;
 
       align-self: center;
     }

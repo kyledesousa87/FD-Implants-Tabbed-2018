@@ -212,8 +212,6 @@ function reOpen(){
         }
     }
 }
-
-
 // autoscroll anchors
 function anim(p) {
     if(p=='top')
@@ -228,8 +226,6 @@ function anim(p) {
         scrollTop:target+'px'
     },500);
 }
-
-
 function navScroll(){
     var menuBarOpenedOnce = 0;
     //caches a jQuery object containing the header element
@@ -249,10 +245,11 @@ $(window).on('resize scroll', function() {
     navScroll();
 });
 
-
-
 $(document).ready(function() {
 
+    $(".hamburger").click(function(){
+        $(this).toggleClass("is-active");
+    });
 
     navScroll();
 
@@ -288,7 +285,7 @@ $(document).ready(function() {
                 nav:false
             },
             1000:{
-                items:2,
+                items:3,
                 nav:true,
                 loop:false
             }
@@ -529,9 +526,12 @@ $(document).ready(function() {
     });
 
 
-    // reOpen();
+
+
+
 
 });
+
 
 
 

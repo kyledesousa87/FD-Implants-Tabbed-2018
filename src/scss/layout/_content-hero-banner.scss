@@ -1,0 +1,95 @@
+.banner-hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 1600px;
+  margin: 0 auto;
+  @include media-breakpoint-up(xs) {
+    width: 100%;
+  }
+  @include media-breakpoint-up(md) {
+    width: 97%;
+  }
+  @include media-breakpoint-up(lg) {
+    width: 97%;
+    padding: 40px 0 0 0;
+  }
+
+  &_henry {
+    padding-right: 50px;
+    .close-up {
+      transform: rotate(-5deg);
+    }
+  }
+  &_usp {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1 {
+      width: 70%;
+      margin-bottom: 35px;
+      text-align: right;
+    }
+
+    &_testimonial {
+      width: 70%;
+      font-size: 18px;
+
+      blockquote {
+        width: 100%;
+        position: relative;
+        margin-bottom: 35px;
+
+
+        p {
+          margin: 0;
+          font-size: 1.5em;
+          &::before {
+            top: -30px;
+            left: -32px;
+            color: $gray-300;
+            content: '“';
+            font-size: 3em;
+            position: absolute;
+
+          }
+          &::after {
+
+            color: $gray-300;
+            content: '”';
+
+            font-size: 3em;
+            position: absolute;
+
+          }
+        }
+      }
+
+      .footer-note {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        text-align: right;
+        justify-content: flex-end;
+        &_hed{
+          flex-grow: 1;
+          align-self: center;
+          padding-right: 15px;
+          h4 {
+
+            border-bottom: 1px solid $gray-300;
+            margin-bottom: 5px;
+            padding-bottom: 5px;
+          }
+        }
+        &_badge {
+          width: 120px;
+
+        }
+
+      }
+    }
+  }
+
+}
