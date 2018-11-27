@@ -1,0 +1,205 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{!— Required meta tags --}}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Finest Dental" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="1200" />
+    <title>UK's Finest Dental Implants</title>
+    <link rel="stylesheet" href="{{root}}/css/app-imp-new.css">
+    <link rel="shortcut icon" href="https://finestdental.co.uk/favicon.ico" />
+    <script async src="//176199.tctm.co/t.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58568623-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-58568623-1');
+    </script>
+</head>
+
+<body>
+
+    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+
+
+    <div id="cover" style="display: none"></div>
+    <main role="main">
+        {{>main-nav}}
+        <div class="sidebar-holder">
+            <div class="sidebar">
+                {{>call-form-comp}}
+            </div>
+        </div>
+        <div class="main-holder">
+            {{> body}}
+        </div>
+        {{>reviews}}
+        {{>footer}}
+
+
+
+    </main>
+
+    {{>modal-video}}
+    {{>modal-guarantee}}
+    {{>modal-terms}}
+    {{>modal-privacy}}
+    {{>modal-complaints}}
+
+    <script src="{{root}}/js/app-imp-new.js"></script>
+    <script type="text/javascript">
+        adroll_adv_id = "A3S22IZGENGDLL3L7YI4NK";
+        adroll_pix_id = "JBZRIZVLERC3DK3JQH3W6I";
+        /* OPTIONAL: provide email to improve user identification */
+        /* adroll_email = "username@example.com"; */
+        (function () {
+            var _onload = function(){
+                if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+                if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+                var scr = document.createElement("script");
+                var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+                scr.setAttribute('async', 'true');
+                scr.type = "text/javascript";
+                scr.src = host + "/j/roundtrip.js";
+                ((document.getElementsByTagName('head') || [null])[0] ||
+                    document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+            };
+            if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+            else {window.attachEvent('onload', _onload)}
+        }());
+    </script>
+
+    <!-- GOOGLE SUBFOOTER MAP CODE -->
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBT6duizAaZy3PGAVB5uNQq0BotsEnUllE&libraries=geometry"></script>
+    <script> -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBT6duizAaZy3PGAVB5uNQq0BotsEnUllE&libraries=geometry"></script>
+    <script>
+        var geocoder;
+        var map;
+        var myAddressLatLng;
+        var foundOne = false;
+        var events = new Object;
+        markers = new Object;
+        secondaryMarkers = [];
+        infoWindows = new Object;
+        limitKms = 70;
+        limitKms2 = 1000;
+
+        //calculates distance between two points in km's
+        function calcDistance(p1, p2){
+            return (google.maps.geometry.spherical.computeDistanceBetween(p1, p2) / 1000).toFixed(2);
+        }
+
+        function initialize() {
+            cur=0;
+            closestDistance=1000000;
+            foundOne = false;
+            geocoder = new google.maps.Geocoder();
+            var latlng = new google.maps.LatLng(52.0381634,-0.7751537);
+            var mapOptions = {
+                zoom: 11,
+                center: latlng,
+                styles: [{"stylers": [{ "saturation": -100 }]}]
+            }
+            map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+            bound = new google.maps.LatLngBounds();
+            centerOnAddress();
+        }
+
+        function rad(x) {return x*Math.PI/180;}
+        function centerOnAddress() {
+            var fail = false;
+            var address = '';
+            if (address.indexOf(' UK')==-1) address += ", UK";
+            geocoder.geocode( { 'address': address}, function(results, status) {
+                if (status == google.maps.GeocoderStatus.OK) {
+
+
+                    myAddressLatLng = new google.maps.LatLng(results[0].geometry.location.lat(),results[0].geometry.location.lng());
+
+                    if(address!=', UK') {
+                        map.setCenter(results[0].geometry.location);
+                        /* var marker = new google.maps.Marker({
+                          map: map,
+                          position: results[0].geometry.location
+                      }); */
+                        bound.extend(results[0].geometry.location);
+                        map.fitBounds(bound);
+                    }
+
+                    [[Ditto? &parents=`6` &total=`100` &summarize=`100` &depth=`1` &tpl=`locationsJS` &paginate=`1` &display=`100` ]]
+
+
+
+                    var R = 6371; // radius of earth in km
+
+                    if(address!=', UK') {
+                        for(i in markers) {
+
+
+                            var lat = myAddressLatLng.lat();
+                            var lng = myAddressLatLng.lng();
+                            var mlat = markers[i].position.lat();
+                            var mlng = markers[i].position.lng();
+                            var dLat  = rad(mlat - lat);
+                            var dLong = rad(mlng - lng);
+                            var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                                Math.cos(rad(lat)) * Math.cos(rad(lat)) * Math.sin(dLong/2) * Math.sin(dLong/2);
+                            var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+                            var d = R * c;
+                            if ( d<closestDistance ) {
+                                closestID = i;
+                                closestDistance=d;
+                            }
+                        }
+
+
+                        infoWindows[closestID].open(map,markers[closestID]);
+                        openWindow = true;
+                        closestDistance = Math.round(closestDistance * 10) / 10;
+                        infoWindows[closestID].setContent(infoWindows[closestID].getContent().replace("<!-- DIST -->"," ("+closestDistance+"m)"));
+                    }
+
+                    /* if(distance<=closestDistance) {
+                        closestDistance=distance;
+                        closestID = '';
+                    } */
+
+
+                    if(address==', UK') map.setZoom(7);
+
+                } else {
+                    if(status=='ZERO_RESULTS')
+                        alert('We were unable to geolocate the address you provided. Please try again.');
+                    else
+                        console.log('Geocode was not successful for the following reason: ' + status);
+                }
+            });
+
+
+        }
+
+        // defer GM loading except on locations page
+        if($('.locations #map-canvas').length) {
+            initialize();
+        } else {
+            var dgm = setTimeout(function(){
+                initialize();
+            },3000);
+        }
+
+
+    </script>
+
+</body>
+</html>

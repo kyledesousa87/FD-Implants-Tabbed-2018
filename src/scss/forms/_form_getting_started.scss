@@ -1,0 +1,146 @@
+.formContainer {
+  &.landscape {
+    h2, .meta-text {
+
+      margin: 0 .5rem 1rem;
+    }
+
+    .form-fields {
+      display: flex;
+      flex-wrap: wrap;
+      margin:0 0 0 -.5rem;
+
+      @include media-breakpoint-down(sm) {
+        display: flex;
+        flex-flow: column;
+      }
+
+      .col-fields {
+        @include media-breakpoint-down(sm) {
+
+          width: auto;
+          margin:0 0 .5rem .5rem;
+          flex: 1 0 45%;
+        }
+
+
+        margin:0 0 .5rem .5rem;
+        flex: 1 0 45%;
+      }
+    }
+  }
+
+  &.portait {
+    h2, .meta-text {
+
+      margin: 0 0 1rem;
+    }
+    .form-fields {
+      display: flex;
+      flex-flow: column;
+      margin:0 0 0 -.5rem;
+
+
+      .col-fields {
+        display: flex;
+        width: auto;
+        margin:0 0 .5rem .5rem;
+
+      }
+    }
+
+    input, select, textarea {
+      padding: 0;
+      margin: 0;
+      border: 0;
+      background-color: transparent;
+      width: 100%;
+      border: 1px solid #aaaaaa;
+      border-radius: 5px;
+      padding: 12px;
+      font-size: 18px;
+      line-height: 25px;
+      background-color: white;
+      display: block;
+      -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.28);
+      -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.28);
+      box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.28);
+      font-weight: 400;
+      font-family: 'Lato',Helvetica,Arial,sans-serif;
+      font-weight: 300;
+    }
+
+    .submit {
+
+      width: 100%;
+      color: white;
+      font-size: 18px;
+      text-align: center;
+      display: block;
+      padding: 17px;
+      border-radius: 5px;
+      transition: all 0.3s;
+
+      background-color: #186c5d;
+      box-shadow: 0 0 15px rgba(0,0,0,0.25);
+      text-transform: uppercase;
+      line-height: 100%;
+      transition: all 0.3;
+
+      font-weight: 300;
+    }
+  }
+
+  &.bg-white {
+    padding: 25px;
+    background-color: white;
+  }
+}
+
+.booking-form-container {
+  padding: 20px;
+}
+
+#formInfoCol {
+  background: url($imgPathRoot + "icon_clock.png");
+  background-position:0 0;
+  background-repeat:no-repeat;
+  padding-top:130px;
+  width:140px;
+  margin-top:20px;
+  margin-left:40px;
+}
+#formInfoCol p {
+  font-size:13px;
+  line-height:20px;
+  padding:0;
+  margin:0;
+  margin-bottom:10px;
+  color:#999999;
+}
+.hiddenFields {
+  display:none;
+}
+.formRow {
+  margin-bottom:15px;
+  height:51px;
+}
+.modal .formRow {
+  height:auto;
+}
+.formRow em {
+  display:block;
+  font-weight:500;
+  font-size:15px;
+  line-height:19px;
+  margin-left:5px;
+  margin-right:5px;
+
+  color:#aa3333;
+}
+.formRow.required {
+  display:none;
+}
+.formRow input,.formRow select,.formRow textarea {
+  margin:0 auto;
+}

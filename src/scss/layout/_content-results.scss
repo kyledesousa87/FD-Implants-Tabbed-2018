@@ -1,0 +1,41 @@
+.close-up-fake-margin {
+
+  @include media-breakpoint-up(xs) {
+    margin: auto;
+  }
+  @include media-breakpoint-up(sm) {
+    margin: auto;
+  }
+  @include media-breakpoint-up(md) {
+    margin: 0 0 0 7px;
+  }
+  @include media-breakpoint-up(lg) {
+    margin: 0 3px 0 19px;
+  }
+}
+.close-up {
+  background-color: $white;
+  box-shadow: 0 0px 13px -2px rgba(0,0,0,0.4);
+  margin-bottom: 15px;
+  &_img {
+    display: flex;
+    flex-direction: column;
+    .video-play-button {
+      z-index: 5;
+      position: absolute;
+      top:23%;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      left: 36px;
+      right: auto;
+    }
+  }
+  &_name {
+    padding: 10px 20px;
+    @include fluid-type(16px, 20px);
+    color: $acc1;
+    font-family: $fontName;
+    font-style: italic;
+    font-weight: bold;
+  }
+}

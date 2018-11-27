@@ -1,0 +1,212 @@
+// General Style
+
+
+.min-Height {
+
+  @include media-breakpoint-up(xs) {
+    min-height: auto;
+
+  }
+  @include media-breakpoint-up(sm) {
+    min-height: auto;
+
+  }
+  @include media-breakpoint-up(md) {
+    min-height: 600px;
+
+  }
+
+  @include media-breakpoint-up(lg) {
+    min-height: 600px;
+  }
+}
+
+.max-Height {
+
+  @include media-breakpoint-down(md) {
+    min-height: auto;
+    height: auto;
+  }
+  @include media-breakpoint-up(lg) {
+    min-height: 100%;
+    height: 100vh;
+  }
+
+}
+
+
+
+.splash-nobel {
+  background: url($imgPathRoot + "/new/splash-nobel-biocar.png");
+  background-position: calc(50% - 40%) 20%;
+  background-size: auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.bg-nobel {
+  background-color: #F0F0F0;
+}
+
+.splash-peaceOfMind {
+  background: url($imgPathRoot + "/new/splash-peaceofmind.jpg");
+
+
+  background-repeat: no-repeat;
+
+  @include media-breakpoint-up(xs) {
+    background-position: bottom left;
+    background-attachment: scroll;
+    background-size: 120%;
+    padding-bottom: 381px;
+  }
+  @include media-breakpoint-up(sm) {
+    background-attachment: scroll;
+    background-position: left bottom;
+    background-size: 62%;
+    padding-bottom: 390px;
+  }
+  @include media-breakpoint-up(md) {
+    background-attachment: scroll;
+    background-position: left bottom;
+    background-size: 62%;
+    padding-bottom: 390px;
+
+  }
+
+  @media (min-width: 1380px){
+    background-attachment: scroll;
+    background-position: bottom left;
+    background-size: 42%;
+    padding-bottom: inherit;
+  }
+
+  @include media-breakpoint-up(lg) {
+    background-attachment: scroll;
+    background-position: bottom left;
+    background-size: 42%;
+    padding-bottom: inherit;
+
+  }
+
+  @media (min-width: 1580px) {
+    background-attachment: scroll;
+    background-position: -130px -40px;
+    background-size: 40%;
+    padding-bottom: inherit;
+  }
+
+  @media (min-width: 2000px) {
+    background-attachment: scroll;
+    background-position: bottom left;
+    background-size: 40%;
+    padding-bottom: inherit;
+  }
+}
+
+.bg-peaceOfMind {
+  background-color: #f9efe3;
+}
+
+
+.usp-implant {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  h3, h4 {
+    display: flex;
+    flex-direction: row;
+  }
+  h4 {
+    position: relative;
+    top: 10px;
+  }
+  h3 {
+    position: relative;
+    top: 20px;
+  }
+
+  .usp-implant-row {
+
+    flex-direction: row;
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+
+
+    justify-content: space-evenly;
+
+    .usp-implant-row-inner {
+      background-image: linear-gradient(to left, rgba(255,255,255,0), rgba(255,255,255,1)); /* Standard syntax (must be last) */
+      display: flex;
+      flex-direction: row;
+      padding: 10px 10px 10px 25px;
+      width: 100%;
+      justify-content: space-around;
+
+
+      .usp-item{
+
+        margin-right: 10px;
+        align-self: center;
+
+      }
+    }
+
+  }
+  .usp-badge {
+
+
+
+
+
+    @include media-breakpoint-up(xs) {
+      width: 100px;
+
+    }
+    @include media-breakpoint-up(sm) {
+      width: 140px;
+
+    }
+    @include media-breakpoint-up(md) {
+      width: 150px;
+
+    }
+
+    @include media-breakpoint-up(lg) {
+      width: 150px;
+    }
+
+
+  }
+}
+
+
+.footer-disc {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  &_name{
+    @include fluid-type(16px, 18px);
+    border-bottom: 1px solid $acc1;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: $acc2;
+    font-weight: bold;
+    font-style: italic;
+  }
+  &_type{
+    @include fluid-type(16px, 18px);
+    font-style: italic;
+  }
+  &_img{
+    position: absolute;
+    right: 0;
+    top: -13px;
+    width: 100px;
+  }
+
+}

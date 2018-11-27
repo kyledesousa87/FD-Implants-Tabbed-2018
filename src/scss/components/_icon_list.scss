@@ -1,0 +1,238 @@
+.icon-row-bg {
+  padding: 20px 0;
+  @include media-breakpoint-down(md) {
+    padding: 0px;
+  }
+
+  background-color: lighten($acc1, 45%);
+
+  .icon-row-holder {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .icon-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-flow: wrap;
+
+
+    li {
+
+      @include media-breakpoint-up(lg) {
+        flex-basis: auto;
+      }
+      @include media-breakpoint-down(md) {
+        flex-basis: 33.33%;
+      }
+      @include media-breakpoint-down(sm) {
+        flex-basis: 50%;
+      }
+      @include media-breakpoint-down(xs) {
+        flex-basis: 50%;
+      }
+      display: block;
+      .icon-dis {
+        @include media-breakpoint-up(lg) {
+          padding: 0px 5px;
+        }
+        @include media-breakpoint-down(md) {
+          padding: 10px 10px;
+          border-bottom: 1px solid $acc1;
+          min-height: 90px;
+        }
+        @include media-breakpoint-down(sm) {
+          padding: 10px 10px;
+          border-bottom: 1px solid $acc1;
+          min-height: 90px;
+        }
+
+
+        position: relative;
+        &-ico {
+          position: absolute;
+
+          color: $acc1;
+
+          @include media-breakpoint-up(lg) {
+            font-size: 50px;
+            height: 50px;
+          }
+          @include media-breakpoint-down(md) {
+            font-size: 50px;
+            height: 50px;
+          }
+          @include media-breakpoint-down(sm) {
+            font-size: 30px;
+            height: 30px;
+          }
+          @include media-breakpoint-down(xs) {
+            font-size: 30px;
+            height: 30px;
+          }
+        }
+        &-h1, &-h2 {
+
+          @include media-breakpoint-up(lg) {
+            margin-left: 55px;
+          }
+          @include media-breakpoint-down(md) {
+            margin-left: 55px;
+          }
+          @include media-breakpoint-down(sm) {
+            margin-left: 35px;
+          }
+          @include media-breakpoint-down(xs) {
+            margin-left: 35px;
+          }
+
+        }
+        &-h1 {
+          font-size: 22px;
+          color: $acc1;
+        }
+        &-h2 {
+          font-size: 16px;
+          line-height: 18px;
+          font-weight: 400;
+          color: $acc3;
+        }
+      }
+
+    }
+
+  }
+
+}
+
+
+ul.tick-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    padding-left: 35px;
+    position: relative;
+    padding-bottom: 8px;
+    &:before {
+      content: '';
+      background: url($imgPathRoot + "tick_big.png");
+      background-position: center center;
+      background-size: contain;
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+}
+
+
+
+.sections-hed-num {
+  @include fluid-type(20px, 30px);
+  text-align: center;
+  padding: .8em 0;
+  span {
+    display: inline-block;
+    font-family: 'Lato',Helvetica,Arial,sans-serif;
+    border-radius: 50%;
+    background-color: #008fd3;
+    color: white;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 25px;
+    margin-right: 10px;
+    position: relative;
+  }
+}
+
+
+ul.whyBullets {
+  list-style: none;
+  font-weight: 300;
+  padding-left: 0;
+  li {
+
+    @include fluid-type(18px, 24px);
+    margin-bottom: 15px;
+    text-align: left;
+      .lnr {
+        margin-left: 0;
+        margin-right: 7px;
+    }
+  }
+}
+
+.pill-icon {
+  position: relative;
+  padding: 10px 0;
+
+  border-radius: 5px;
+  margin-bottom: 5px;
+  i {
+    position: absolute;
+    left: 15px;
+    top: 18px;
+    &.bigIcon {
+      @include fluid-type(35px, 38px);
+
+      color: $gray-600;
+    }
+  }
+  h3 {
+    @include fluid-type(18px, 24px);
+    margin-left: 60px;
+    line-height: 26px;
+    min-height: 50px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    justify-content: center;
+  }
+}
+
+.tick-list-icon {
+  position: relative;
+  border-radius: 5px;
+  margin-bottom: 5px;
+
+
+  i {
+    position: absolute;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin-right: 4px;
+    background-image: url($imgPathRoot + "icon-tick@2x.png");
+    background-image:
+            linear-gradient(transparent, transparent),
+            url($imgPathRoot + "icon-tick.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+  }
+
+
+
+
+  h3 {
+    @include fluid-type(16px, 20px);
+    margin-left: 60px;
+    line-height: 26px;
+    min-height: 50px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    justify-content: center;
+  }
+}

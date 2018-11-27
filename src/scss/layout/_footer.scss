@@ -1,0 +1,111 @@
+// Layout Style
+
+//$footerBG: pink;
+$footerBG: $acc1;
+$footerH: 280px;
+
+
+.footer {
+
+
+
+  background-color: $footerBG;
+
+  .footer-row {
+    max-width: 1600px;
+    @include make-row();
+    margin: 0 auto !important;
+
+    justify-content: center;
+    padding: 20px ;
+
+    .col {
+      @include make-col-ready();
+      @include media-breakpoint-down(sm) {
+        @include make-col(12);
+        padding: 15px 0;
+        border-bottom: 1px solid lighten($footerBG, 10% );
+
+
+        &:nth-child(1){
+          order: 4;
+          border:0 ;
+        }
+        &:nth-child(2){
+          order: 1;
+        }
+        &:nth-child(3){
+          order: 3;
+        }
+        &:nth-child(4){
+          order: 2;
+        }
+      }
+      @include media-breakpoint-up(lg) {
+        @include make-col(3);
+      }
+
+
+
+    }
+    color: white;
+
+    a {
+      &:hover {
+        color: white;
+        text-decoration: none;
+      }
+      font-weight: 300;
+      strong, span {
+        font-weight: 500;
+        text-decoration: none;
+      }
+      font-family: $fontName;
+      color: white;
+      transition: all 0.3s;
+      position: relative;
+
+    }
+
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, span {
+      color: #ffffff;
+    }
+    p {
+      color: #ffffff;
+      padding-top: 10px;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      li {
+        strong {
+          font-weight: 500;
+          color: #ffffff;
+        }
+        a {
+          strong {
+            font-weight: 500;
+            color: #ffffff;
+          }
+          font-family: $fontName;
+          color: white;
+          transition: all 0.3s;
+          position: relative;
+          &:hover {
+            color: white;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+.superfooter {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-color: #dddddd;
+  line-height: 77px;
+}

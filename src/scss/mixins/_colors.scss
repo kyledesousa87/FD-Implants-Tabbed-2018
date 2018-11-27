@@ -1,0 +1,22 @@
+$acc1: #318EBF;
+$acc2: #124B99;
+$acc3: #555555;
+$acc4: #186c5d;
+$acc5: #e6f2fb;
+$acc6: rgba(24,81,108,.95);
+$primary:       $acc1;
+$secondary:     $acc4;
+$light-blue: lighten($acc1, 50%);
+
+
+.txt-c1 { color: $acc1 !important;}
+.txt-c2 { color: $acc2 !important;}
+.txt-c3 { color: $acc3 !important;}
+.txt-c4 { color: $acc4 !important;}
+.txt-c5 { color: $acc5 !important;}
+
+a.txt-c1 { color: $acc1 !important;}
+a.txt-c2 { color: $acc2 !important;}
+a.txt-c3 { color: $acc3 !important;}
+a.txt-c4 { color: $acc4 !important;}
+a.txt-c5 { color: $acc5 !important;}

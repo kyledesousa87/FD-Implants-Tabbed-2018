@@ -1,0 +1,51 @@
+// Custom bootstrap variable overrides
+@import "mixins/colors";
+@import "bootstrap_variable_overrides";
+
+//Bootstrap styles
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/owl.carousel/src/scss/owl.carousel";
+@import "node_modules/owl.carousel/src/scss/owl.theme.default";
+@import "node_modules/hover.css/scss/hover";
+
+
+//Custom mixins
+@import "mixins/mixins";
+@import "mixins/variables";
+
+
+
+
+//GIA custom settings --
+@import "settings";
+
+@import "components/font";
+@import "components/lineicons";
+@import "components/reviews";
+@import "components/icon_list";
+
+//Component specific styles
+@import "layout/main-nav";
+@import "layout/sidebar";
+@import "layout/content-home";
+@import "layout/content-results";
+@import "layout/content-pricing";
+@import "layout/footer";
+
+
+@import "components/modal";
+@import "components/zindexs";
+
+@import "comps/bookingform";
+@import "comps/backgrounds";
+@import "comps/buttons";
+
+
+
+
+
+
+
+
+
+

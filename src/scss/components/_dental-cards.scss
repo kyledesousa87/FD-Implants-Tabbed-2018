@@ -1,0 +1,182 @@
+.dental-cards-holder {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+
+
+  &.single {
+    width: 100% !important;
+    padding-top: 0 !important;
+    margin-bottom: 20px;
+    .dental-cards-col .dental-card {
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    }
+  }
+
+
+  @include media-breakpoint-up(xs) {
+    width: 100%;
+    padding-top: 30px;
+  }
+  @include media-breakpoint-up(sm) {
+    width: 100%;
+    padding-top: 30px;
+  }
+  @include media-breakpoint-up(md) {
+    width: 100%;
+    padding-top: 30px;
+  }
+  @include media-breakpoint-up(lg) {
+    width: 100%;
+    padding-top: 45px;
+  }
+  @include media-breakpoint-up(xl) {
+    width: 80%;
+    padding-top: 45px;
+  }
+
+
+
+}
+
+
+
+.dental-card {
+  background-color: white;
+  border-radius: 5px;
+  width: 100%;
+  &.first {
+    margin-right: 5px;
+  }
+  &.last {
+    margin-left: 5px;
+  }
+
+  .dental-card-img {
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-color: $gray-300;
+    border-radius: 4px 4px 0 0;
+    img {
+      display: block;
+      margin: 0 auto;
+
+      @include media-breakpoint-up(xs) {
+        height: 65px;
+      }
+      @include media-breakpoint-up(sm) {
+        height: 80px;
+      }
+      @include media-breakpoint-up(md) {
+        height: 80px;
+      }
+      @include media-breakpoint-up(lg) {
+        height: 90px;
+      }
+    }
+    .tri {
+
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      width: 0;
+      height: 0;
+      bottom: 0;
+      $trSize: 10px;
+      border-left: $trSize solid transparent;
+      border-right: $trSize solid transparent;
+      border-bottom: $trSize solid #ffffff;
+    }
+  }
+  .dental-card-hed {
+    font-weight:600;
+    color: $gray-600;
+    text-align:center;
+    @include fluid-type(15px, 17px);
+  }
+  .detntal-details {
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &_price {
+      font-weight:500;
+      color:#2c8dd5;
+      text-align:center;
+      &.big {
+        @include fluid-type(18px, 20px);
+
+      }
+      &.small{
+        @include fluid-type(14px, 16px);
+      }
+    }
+    &_price_or {
+
+      font-weight:500;
+      color:#2c8dd5;
+      text-align:center;
+      @include media-breakpoint-up(lg) {
+        display: none;
+      }
+      @include media-breakpoint-down(md) {
+        display: none;
+      }
+      @include media-breakpoint-down(sm) {
+        display: block;
+      }
+      @include media-breakpoint-down(xs) {
+        display: block;
+      }
+      &.big {
+        @include fluid-type(18px, 20px);
+
+      }
+      &.small{
+        @include fluid-type(14px, 16px);
+      }
+      span {
+        font-weight:300;
+        @include media-breakpoint-up(lg) {
+          display: inline-block;
+        }
+        @include media-breakpoint-down(md) {
+          display: inline-block;
+        }
+        @include media-breakpoint-down(sm) {
+          display: none;
+        }
+        @include media-breakpoint-down(xs) {
+          display: none;
+        }
+      }
+    }
+    &_monthly {
+      font-weight:500;
+      color:#2c8dd5;
+      text-align:center;
+      &.big {
+        @include fluid-type(18px, 20px);
+
+      }
+      &.small{
+        @include fluid-type(14px, 16px);
+      }
+      @include fluid-type(18px, 20px);
+      span {
+        @include fluid-type(13px, 16px);
+        font-weight:300;
+      }
+    }
+  }
+
+
+}

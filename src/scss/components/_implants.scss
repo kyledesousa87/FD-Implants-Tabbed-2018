@@ -1,0 +1,360 @@
+.strip-cta {
+
+  $grid-gutter-width: 0px !default;
+  background-color: #EAF2F8;
+  border-radius: 20px;
+
+  h2 {
+    .nl-return {
+      @include media-breakpoint-up(md) {
+        display: inline-block;
+      }
+      @include media-breakpoint-down(sm) {
+       display: block;
+      }
+
+    }
+    @include media-breakpoint-up(sm) {
+      @include make-col(12);
+    }
+
+  }
+
+
+  &:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+}
+
+.strip-cta2 {
+
+  $grid-gutter-width: 0px !default;
+  border-radius: 20px;
+
+  h2 {
+    .nl-return {
+      @include media-breakpoint-up(md) {
+        display: inline-block;
+      }
+      @include media-breakpoint-down(sm) {
+        display: block;
+      }
+
+    }
+    @include media-breakpoint-up(sm) {
+      @include make-col(12);
+    }
+
+  }
+
+
+  &:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+}
+
+.strip {
+    @include media-breakpoint-down(sm) {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-flow: column;
+    }
+    @include media-breakpoint-up(md) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-flow: row;
+      flex-grow: 1;
+    }
+
+    .strip-col {
+
+      @include media-breakpoint-down(sm) {
+        width: 100%;
+        border-bottom: 1px solid $gray-200;
+
+      }
+      @include media-breakpoint-up(md) {
+        flex-grow: 1;
+      }
+
+      &:last-child {
+        border-bottom:0 !important;
+      }
+
+    }
+
+  .strip-item {
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eaf3f9+0,d5e3ed+100 */
+    background: #fff; /* Old browsers */
+    position:relative;
+
+    @include media-breakpoint-up(lg) {
+      padding: 15px 0;
+
+    }
+    @include media-breakpoint-down(md) {
+      padding: 10px 0;
+
+    }
+    @include media-breakpoint-down(sm) {
+      display: flex;
+      flex-flow: row;
+      padding: 5px 0;
+      align-items: center;
+
+    }
+    @include media-breakpoint-down(xs) {
+      display: flex;
+      flex-flow: row;
+      padding: 5px 0;
+      align-items: center;
+    }
+
+
+
+
+
+
+    .strip-item-img {
+      text-align: center;
+
+
+      @include media-breakpoint-up(xs) {
+        height: 30px;
+        width: 60px;
+      }
+      @include media-breakpoint-up(sm) {
+        height:35px;
+        width: 60px;
+      }
+      @include media-breakpoint-up(md) {
+        height:70px;
+        width: auto;
+      }
+      @include media-breakpoint-up(lg) {
+        height:100px;
+        padding-bottom: 10px;
+        width: 100%;
+      }
+
+
+      img {
+        @include media-breakpoint-up(xs) {
+          padding: 0;
+        }
+        @include media-breakpoint-up(sm) {
+          padding: 0 10px;
+        }
+        @include media-breakpoint-up(md) {
+          padding: 0 10px;
+        }
+        @include media-breakpoint-up(lg) {
+          padding: 0 10px;
+        }
+        height: 100%;
+        width: auto;
+        margin: 0 auto;
+      }
+
+
+
+
+    }
+    .strip-item-number {
+
+      @include media-breakpoint-up(lg) {
+        font-size:35px;
+        line-height: 30px;
+        border-bottom:1px solid #cccccc;
+        font-weight: 600;
+        text-align: center;
+      }
+
+      @include media-breakpoint-up(md) {
+        font-size:30px;
+        line-height: 25px;
+        border-bottom:1px solid #cccccc;
+        font-weight: 600;
+        text-align: center;
+      }
+
+      @include media-breakpoint-down(sm) {
+        font-size:18px;
+        border-bottom:0;
+        text-align: center;
+        font-weight: 300;
+      }
+
+
+
+      span {
+        font-family: $fontName;
+        @include media-breakpoint-up(md) {
+          font-size:14px;
+        }
+        @include media-breakpoint-down(sm) {
+          font-size:12px;
+        }
+
+        display:block;
+        padding-left:0;
+      }
+    }
+
+    .strip-item-monthly {
+
+
+      &.big {
+        @include fluid-type(15px, 20px);
+      }
+      &.small{
+        @include fluid-type(14px, 15px);
+      }
+
+      @include media-breakpoint-up(lg) {
+
+
+      }
+      @include media-breakpoint-down(md) {
+        flex-grow: 1;
+
+
+      }
+      @include media-breakpoint-down(sm) {
+        flex-grow: 1;
+
+
+      }
+      @include media-breakpoint-down(xs) {
+        flex-grow: 1;
+
+
+
+      }
+
+
+
+      font-weight:500;
+      color:#2c8dd5;
+      text-align:center;
+
+
+
+
+      span {
+        font-size:13px;
+        font-weight:300;
+
+      }
+    }
+
+    .strip-item-or {
+      @include media-breakpoint-up(lg) {
+        display: none;
+      }
+      @include media-breakpoint-down(md) {
+        display: none;
+      }
+      @include media-breakpoint-down(sm) {
+        display: block;
+        font-size:13px;
+      }
+      @include media-breakpoint-down(xs) {
+        display: block;
+        font-size:13px;
+
+      }
+
+    }
+
+    .strip-item-price {
+
+      &.big {
+          @include fluid-type(15px, 20px);
+      }
+      &.small{
+        @include fluid-type(14px, 15px);
+      }
+
+
+      @include media-breakpoint-down(sm) {
+        flex-grow: 1;
+      }
+      @include media-breakpoint-down(xs) {
+
+        flex-grow: 1;
+      }
+
+
+      font-weight:500;
+      color:#2c8dd5;
+      text-align:center;
+
+      span {
+        font-weight:300;
+        @include media-breakpoint-up(lg) {
+          display: inline-block;
+        }
+        @include media-breakpoint-down(md) {
+          display: inline-block;
+        }
+        @include media-breakpoint-down(sm) {
+          display: none;
+        }
+        @include media-breakpoint-down(xs) {
+          display: none;
+        }
+      }
+    }
+
+    &.first{
+      @include media-breakpoint-down(sm) {
+        border-radius: 20px 20px 0 0;
+      }
+      @include media-breakpoint-up(md) {
+        border-radius: 20px 0 0 20px;
+      }
+    }
+    &.last{
+
+      @include media-breakpoint-down(sm) {
+        border-radius: 0 0 20px 20px ;
+      }
+      @include media-breakpoint-up(md) {
+        border-radius:  0 20px 20px 0;
+      }
+    }
+
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    &.arch{
+
+      @include linear-gradient(#eaf3f9, #d5e3ed);
+    }
+  }
+}
+
+
+.cta {
+
+}
+
+
+
+
+
+
+
+
+

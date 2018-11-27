@@ -1,0 +1,131 @@
+.mobile-btn {
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+
+  border-radius: 0;
+  font-size: 30px;
+  .submit {
+    margin: 0;
+    padding: 15px;
+    color: $white;
+    background-color: $acc2;
+    width: 100%;
+    box-shadow: 0 0 33px #000;
+    border-radius: 50px !important;
+    border: 1px solid lighten($acc2, 10%) !important;
+    &:hover {
+      background-color: $acc1;
+      border: 1px solid lighten($acc1, 10%) !important;
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    display: none;
+  }
+  @include media-breakpoint-down(md) {
+    display: none;
+
+  }
+  @include media-breakpoint-down(sm) {
+    display: block;
+  }
+  @include media-breakpoint-down(xs) {
+    display: block;
+  }
+}
+
+.video-play-button {
+  $plW:12px;
+  $plH:24px;
+  position: relative;
+ display: flex;
+  width:  48px;
+  height: 48px;
+  /* background: #fa183d; */
+  border-radius: 50%;
+  padding: 4px 0 0 4px;
+  justify-content: center;
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: $acc1;
+    border-radius: 50%;
+    animation: pulse-border 1500ms ease-out infinite;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: $plH * 2;
+    height: $plH  * 2;
+    background: $acc1;
+    border-radius: 50%;
+    transition: all 500ms;
+  }
+  &:hover {
+    background-color: darken($acc1, 20%);
+    cursor: pointer;
+  }
+  span {
+    margin: -5px 0 0;
+    align-self: center;
+    z-index: 3;
+    width: 0;
+    height: 0;
+    border-left:  $plW solid #fff;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+  img {
+    position: relative;
+    z-index: 3;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+}
+
+
+.btn-play {
+  display: flex;
+  color: $gray-300;
+  .video-play-button {
+    margin-right: 10px;
+  }
+  .btn-play_txt {
+    align-self: center;
+    font-size: 18px;
+    color: $acc1;
+    cursor: pointer;
+  }
+}
+
+
+
+
+@keyframes pulse-border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 0;
+  }
+}
+
+
+

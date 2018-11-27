@@ -1,0 +1,105 @@
+.main-nav {
+  &.pass {
+    background-color: $white;
+    transition: background-color 300ms linear;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 0px 0px rgba(0,0,0,0.10);
+  }
+  .nav-wrapper {
+    width: 97%;
+    max-width: 1600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    .nav_logo{}
+    .nav-links{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+
+      .nav {
+        @include media-breakpoint-up(lg) {
+          display: flex;
+        }
+        @include media-breakpoint-down(md) {
+          display: flex;
+        }
+        @include media-breakpoint-down(sm) {
+          display: flex;
+        }
+        @include media-breakpoint-down(xs) {
+          display: none;
+        }
+        @media (max-width: 947px) {
+          display: none;
+        }
+        .nav-item {
+          display: flex;
+          align-content: center;
+          align-items: center;
+          align-self: center;
+          justify-content: center;
+          text-transform: capitalize;
+          .nav-link {
+            padding: 0 15px;
+            border-right:1px solid $gray-200 ;
+            &:last-child {
+              border-right:0;
+            }
+            .hide {
+              @include media-breakpoint-up(lg) {
+                display: inline-block;
+              }
+              @include media-breakpoint-down(md) {
+                display: none;
+              }
+              @include media-breakpoint-down(sm) {
+                display: none;
+              }
+              @include media-breakpoint-down(xs) {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.fd-logo {
+  @include svgPngFb("new/logo-finestdental");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  margin-right: 10px;
+  width: 180px;
+  height: 55px;
+}
+
+
+.nav-links_callbtn {
+  background-color: $acc2;
+  border-radius: 50px !important;
+  padding: 5px 0;
+  font-weight: bold;
+  border: 0;
+  color: white;
+  font-size: 18px;
+  width: auto !important;
+  min-width: 180px;
+  text-align: center;
+  margin: 7px 0;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  text-decoration: none;
+  &:hover {
+    background-color: $acc1;
+    color: white;
+    text-decoration: none;
+  }
+
+}

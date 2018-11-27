@@ -1,0 +1,113 @@
+
+<div class="vh-height-minus-subheader v-center-flex" id="choose">
+    <div class="container" >
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <div class="five-icons-row justify-content-around">
+                    <div class="col-cs">
+                        <img src="/images/icons/img-leading.jpg" class="embed-responsive">
+                    </div>
+                    <div class="col-cs">
+                        <img src="/images/icons/img-zero.jpg" class="embed-responsive">
+                    </div>
+                    <div class="col-cs">
+                        <img src="/images/icons/img-lifetime.jpg" class="embed-responsive">
+                    </div>
+                    <div class="col-cs">
+                        <img src="/images/icons/img-inv-quality.jpg" class="embed-responsive">
+                    </div>
+                    <div class="col-cs d-none d-sm-block">
+                        <img src="/images/icons/img-largest.jpg" class="embed-responsive">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="customStyle">
+            <div class="cs-1">
+                <img class="embed-responsive" src="/images/implants7/henry_ba_trim_thin.jpg?rl=f" alt="Henry before and after">
+            </div>
+            <div class="cs-2">
+                <div class="panel light cs-col-1 h-100 pad-40 d-flex flex-column justify-content-between">
+                    <h2>WORLD'S LEADING BRAND</h2>
+                    <p>To fulfill our commitment to excellence, we have chosen <strong>NOBEL BIOCARE</strong>, a
+                        pioneer in dental implantology, as our preferred partner. Nobel is the world's leading
+                        implant manufacturer.</p>
+
+                        <img src="/images/nobel_logo_large.png" alt="Nobel" width="200" class="panel-img-nobel">
+
+
+                </div>
+            </div>
+            <div class="cs-3">
+                <div class="panel light cs-col-2 h-100 pad-40  d-flex flex-column justify-content-between">
+                    <h2>LIFETIME GUARANTEE</h2>
+                    <p>The dental implant manufacturer's guarantee covers the very rare scenario of implant
+                    component fracture, undertaking to replace any implant component for a specified timeframe.
+                    <a href="#" class="guaranteePopup">+ Read Full Text</a>
+                    </p>
+                        <img src="/images/icon_tick_cs.png" alt="Nobel"  width="85" class="panel-img-tick">
+
+
+
+                </div>
+            </div>
+            <div class="cs-4 d-flex">
+                <div class="dental-card shadow openForm d-flex flex-column justify-content-between h-100 first ">
+                    <div class="dental-card-img h-50">
+                        <img src="/images/p_implants_single.png" alt="implant image">
+                        <div class="tri"></div>
+                    </div>
+                    <div class="detntal-details h-50">
+                        <div class="dental-card-hed">
+                            {{pricing.imp1.altName}}
+                        </div>
+
+                        <div class="detntal-details_monthly big">
+                            {{pricing.imp1.pmPrice}}<span><sup>{{pricing.imp1.termsNum}}</sup></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="dental-card shadow openForm d-flex flex-column justify-content-between h-100 last">
+                    <div class="dental-card-img h-50">
+                        <img src="/images/nobel_all_on_4.png" alt="implant image">
+                        <div class="tri"></div>
+                    </div>
+
+                    <div class="detntal-details h-50">
+                        <div class="dental-card-hed">
+                            {{pricing.singleArch.name}}
+                        </div>
+
+                        <div class="detntal-details_monthly big">
+                            {{pricing.singleArch.pmPrice}}<span><sup>{{pricing.singleArch.termsNum}}</sup></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cs-5">
+                <div class="panel-h shadow">
+                    <div class="panel-hed narrow">
+                        Book your <strong class=" d-none d-md-inline d">free</strong> consultation now.<sup>8</sup>
+                    </div>
+                    <div class="panel-body">
+                        {{>dental-implants-clean-form-no-hed}}
+                        <p class="nb-text mb-0 meta-text">
+                            <sup>8</sup>{{content.termsRefund}} {{content.termsCredit}}
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="price-box">
+                    <p class="meta-text mb-0">
+                        &nbsp;<sup>{{pricing.imp1.termsNum}}</sup>. 10% deposit of {{pricing.imp1.deposit}}, plus 60 payments of {{pricing.imp1.pmPrice}} at {{pricing.imp1.interest}} APR. Total paid {{pricing.imp1.total}}, total interest paid {{pricing.imp1.interestPayed}}. Subject to availability, terms and conditions apply.
+                        &nbsp;<sup>{{pricing.singleArch.termsNum}}</sup>. 10% deposit of {{pricing.singleArch.deposit}}, plus 60 payments of {{pricing.singleArch.pmPrice}} at {{pricing.singleArch.interest}} APR. Total paid {{pricing.singleArch.total}}, total interest paid {{pricing.singleArch.interestPayed}}. Subject to availability, terms and conditions apply.
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>

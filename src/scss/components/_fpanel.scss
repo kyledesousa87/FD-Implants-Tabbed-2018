@@ -1,0 +1,229 @@
+.fpanel {
+  color: #1d8fd5;
+  background-color: #f5f5f5;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  border-bottom-right-radius: 8px;
+  position: relative;
+  cursor: pointer;
+  transition: transform,opacity 0.3s;
+  -moz-transition: transform,opacity 0.3s;
+  -webkit-transition: transform,opacity 0.3s;
+  z-index: 10;
+  width: 100%;
+  text-align: center;
+
+  &#pMultiple {
+    h3, h4 {
+      color: #ae7e20;
+      border-color: rgba(174,126,32,0.5);
+    }
+    a {
+      background: url($imgPathRoot + "panel_corner_m.png");
+    }
+  }
+  &#pArch{
+    color: #007246;
+    a {
+      background: url($imgPathRoot + "panel_corner_a.png");
+    }
+  }
+  &#pTID{
+    color: #6e2b9d;
+    a {
+      background: url($imgPathRoot + "panel_corner_t.png");
+    }
+  }
+
+  .panelImageHolder {
+    -webkit-transition: height 0.3s;
+    img {
+      height: 110px;
+      width: auto;
+      margin: 0 auto;
+      display: block;
+      padding-top: 15px;
+      margin-bottom: 10px;
+      transition: all 0.25s;
+      &:hover {
+        transform:scale(1.1);
+      }
+    }
+  }
+  .panelName {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 12px;
+    h3 {
+      font-size: 23px;
+      line-height: 25px;
+      margin-bottom: 2px;
+      font-weight: 300;
+      color: inherit;
+      text-align: center;
+      text-transform: uppercase;
+      border-width: 0;
+      padding-bottom: 0;
+    }
+    h4{
+      font-size: 20px;
+      line-height: 25px;
+      font-weight: 300;
+      color: inherit;
+      margin-bottom: 0;
+      text-align: center;
+      padding-top: 0;
+    }
+  }
+
+    a {
+      display: block;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      border-bottom-right-radius: 8px;
+      width: 42px;
+      height: 42px;
+      text-decoration: none;
+      background: url($imgPathRoot + "panel_corner.png");
+    }
+
+}
+
+
+
+.expandedPanel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: none;
+  z-index: 501;
+  display: none;
+  text-align: left;
+  cursor: auto;
+  a {
+    &.corner{
+      &.top {
+        display: block;
+
+        top: 0;
+
+        border-top-right-radius: 8px;
+        background: url($imgPathRoot + "xpanel_corner_top.png");
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        border-bottom-right-radius: 8px;
+        width: 42px;
+        height: 42px;
+        text-decoration: none;
+      }
+    }
+    &.cta {
+      float: left;
+      margin-right: 50px;
+      font-size: 18px;
+      line-height: 20px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      transition: margin-right 0.3s;
+      -moz-transition: margin-right 0.3s;
+      -webkit-transition: margin-right 0.3s;
+      span {
+        float: left;
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        transition: margin-left 0.3s;
+        -moz-transition: margin-left 0.3s;
+        -webkit-transition: margin-left 0.3s;
+      }
+      i{
+        display: block;
+        float: left;
+        height: 60px;
+        font-size: 60px;
+        line-height: 60px;
+        opacity: 0.5;
+        transition: margin-left 0.3s;
+        -moz-transition: margin-left 0.3s;
+        -webkit-transition: margin-left 0.3s;
+      }
+    }
+  }
+  &.active {
+    .inner {
+      box-shadow: 0 0 20px rgba(136,136,136,1);
+    }
+  }
+
+  .inner {
+    padding: 40px;
+    padding-bottom: 25px;
+    width: auto;
+    background: #ebf6fb;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(170,170,170,0);
+    transition: box-shadow 0.3s;
+    -moz-transition: box-shadow 0.3s;
+    -webkit-transition: box-shadow 0.3s;
+    .xpHeadingCol1 {
+      width: 70%;
+      margin-right: 5%;
+      float: left;
+    }
+    .xpHeadingCol2 {
+      width: 25%;
+      float: left;
+      max-height: 70px;
+      img {
+        max-height: 100px;
+        display: block;
+        float: right;
+      }
+    }
+    p {
+      font-size: 15px;
+      line-height: 22px;
+      color: #666666;
+      margin-right: 15%;
+      font-weight: 300;
+      clear: both;
+      &.smallPrint {
+        font-size: 12px;
+        line-height: 15px;
+        padding-top: 10px;
+      }
+    }
+    a.cta {
+      float: left;
+      margin-right: 50px;
+      font-size: 18px;
+      line-height: 20px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      transition: margin-right 0.3s;
+      -moz-transition: margin-right 0.3s;
+      -webkit-transition: margin-right 0.3s;
+    }
+  }
+}
+
+
+.invisalign {
+  &.row {
+    padding-top: 15px;
+    margin-bottom: 40px;
+  }
+
+
+}
+
+.treatmentVids {
+  padding-top: 15px;
+  margin-bottom: 40px;
+  position: relative;
+}

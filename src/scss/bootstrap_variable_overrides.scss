@@ -1,0 +1,24 @@
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 1180px,
+        xl: 1380px,
+        g: 1600px
+) !default;
+
+
+$container-max-widths: (
+        xs: 540px,
+        sm: 700px,
+        md: 960px,
+        lg: 1140px,
+        xl: 1300px,
+        g: 1560px,
+) !default;
+
+
+$modal-lg:                          80% !default;
+$modal-md:                          80%  !default;
+$modal-sm:                          80% !important;
+

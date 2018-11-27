@@ -1,0 +1,27 @@
+.img-tick-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  li {
+    display: flex;
+    @include fluid-type(18px, 22px);
+    margin-right: 20px;
+    margin-bottom: 10px;
+    &:before {
+      content: "";
+
+      @include svgPngFb("new/img-icon-tick");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: contain;
+      width: 30px;
+      height: 30px;
+      margin-right: 5px;
+
+
+    }
+  }
+}

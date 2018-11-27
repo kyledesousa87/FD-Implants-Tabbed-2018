@@ -1,0 +1,292 @@
+.submit {
+
+  @include media-breakpoint-up(lg) {
+
+  }
+  @include media-breakpoint-down(md) {
+
+  }
+  @include media-breakpoint-down(sm) {
+
+  }
+  @include media-breakpoint-down(xs) {
+    width: 100%;
+  }
+
+
+  &.big {
+    padding: 20px 25px ;
+    @include fluid-type(17px, 20px);
+  }
+  &.full {
+    width: 100%;
+  }
+  outline:none;
+
+
+  background-color: $acc4;
+  color:$acc5 ;
+  box-shadow: 0 0 15px rgba(0,0,0,0.25);
+  span, strong {
+    color:$acc5 ;
+    &:hover {
+      color:$acc4;
+    }
+  }
+  border: 0;
+  &:hover {
+    background-color: white;
+    color:$acc4;
+    span, strong {
+      color:$acc4 ;
+
+    }
+  }
+}
+
+.submit-btn {
+
+
+
+  &.big {
+    padding: 20px 25px ;
+  }
+  &.full {
+    width: 100%;
+  }
+  outline:none;
+
+
+  background-color: $acc4;
+  color:$acc5 ;
+  box-shadow: 0 0 15px rgba(0,0,0,0.25);
+  span, strong {
+    color:$acc5 ;
+    &:hover {
+      color:$acc4;
+    }
+  }
+  border: 0;
+  &:hover {
+    background-color: white;
+    color:$acc4;
+    span, strong {
+      color:$acc4 ;
+
+    }
+  }
+}
+
+.float-btn {
+  @include media-breakpoint-up(lg) {
+    position: relative;
+  }
+  @include media-breakpoint-down(md) {
+    position: relative;
+
+  }
+  @include media-breakpoint-down(sm) {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    border-radius: 0;
+    z-index: 100;
+    padding: 15px;
+    font-size: 27px;
+  }
+  @include media-breakpoint-down(xs) {
+    padding: 15px;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    z-index: 100;
+    .submit {
+      box-shadow: 0 0 33px #000;
+      box-shadow: 0 0 33px #000;
+      border-radius: 50px !important;
+      border: 3px solid lighten($acc4, 30%) !important;
+    }
+  }
+}
+
+.mobile-btn {
+  @include media-breakpoint-up(lg) {
+    display: none;
+  }
+  @include media-breakpoint-down(md) {
+    display: none;
+
+  }
+  @include media-breakpoint-down(sm) {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    border-radius: 0;
+    z-index: 100;
+    padding: 15px;
+    font-size: 27px;
+  }
+  @include media-breakpoint-down(xs) {
+    padding: 15px;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    z-index: 100;
+    .submit {
+      box-shadow: 0 0 33px #000;
+      border-radius: 50px !important;
+      border: 3px solid lighten($acc4, 30%) !important;
+    }
+  }
+}
+
+.special-btn {
+
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  .btn {
+    height: 130px;
+    width: 130px;
+    @include fluid-type(14px, 18px);
+    color: $white;
+    background-color: $acc4;
+
+    margin-right: 10px;
+    position: absolute;
+    margin-left: auto;
+
+    bottom: 0;
+    right: 0;
+    box-shadow: 0 0 33px #000;
+    border-radius: 100% !important;
+    border: 3px solid lighten($acc4, 30%) !important;
+  }
+  @include media-breakpoint-up(lg) {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+
+  }
+  @include media-breakpoint-down(md) {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+
+
+  }
+  @include media-breakpoint-down(sm) {
+    display: none;
+
+  }
+  @include media-breakpoint-down(xs) {
+    display: none;
+
+  }
+}
+
+.hide-md-lg {
+  @include media-breakpoint-up(lg) {
+    display: inline-block;
+  }
+  @include media-breakpoint-down(md) {
+    display: inline-block;
+
+  }
+  @include media-breakpoint-down(sm) {
+    display: none;
+
+  }
+  @include media-breakpoint-down(xs) {
+    display: none;
+
+  }
+}
+
+a.btn-facebook {
+    background-color: #4267b2;
+    border-radius: 4px;
+    border: 1px solid lighten(#4267b2, 20%);
+    color: #ffffff !important;
+    width: 100%;
+    padding: 0.8rem 1.375rem;
+    position: relative;
+
+    display: block;
+
+    span {
+      color: white;
+      position: absolute;
+      left: 0;
+      border-right: 1px solid lighten(#4267b2, 20%);
+      top: 0;
+      padding: 0.8rem;
+
+    }
+
+}
+
+
+a.contact-btn-inline {
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 500;
+  color: $acc4;
+  font-size: inherit;
+  text-align: right;
+  .number {
+    display: block;
+    font-size: inherit;
+  }
+}
+
+a.contact-btn {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500;
+    color: $acc4;
+    width: 210px;
+    text-align: right;
+    .number {
+      display: block;
+      position: absolute;
+      margin-left: 35px;
+      padding-top: 3px;
+
+      @include media-breakpoint-up(lg) {
+        font-size: 25px;
+        line-height: 25px;
+      }
+      @include media-breakpoint-down(md) {
+        font-size: 18px;
+        line-height: 18px;
+      }
+      @include media-breakpoint-down(sm) {
+        font-size: 14px;
+        line-height: 14px;
+      }
+
+
+    }
+    &:before {
+      @extend .lnr;
+      @extend .lnr-phone-handset;
+      font-size: 25px;
+      position: absolute;
+      left: 0;
+      top: 0px;
+      font-weight: 700;
+    }
+}
+

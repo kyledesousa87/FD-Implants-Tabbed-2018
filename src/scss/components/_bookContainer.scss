@@ -1,0 +1,99 @@
+
+#bookContainer {
+  position:absolute;
+  right:40px;
+  top:10px;
+  display:none;
+  z-index:1001;
+  color:white;
+}
+
+#bookContainer .btn-primary {
+  background-color:#36663a;
+  border-color:#36663a;
+
+}
+
+
+a#zoomCTA {
+  @include media-breakpoint-up(lg) {
+    display: none;
+  }
+  @include media-breakpoint-down(md) {
+    display: none;
+  }
+  @include media-breakpoint-down(sm) {
+    display: block;
+  }
+  @include media-breakpoint-down(xs) {
+    display: block;
+  }
+  position:fixed;
+  right:0;
+  top:0;
+  width:220px;
+  height:50px;
+  z-index:1000;
+}
+a#zoomCTA .zoomClose {
+  position:absolute;
+  right:10px;
+  top:10px;
+  display:none;
+  font-size:30px;
+  color:white;
+}
+a#zoomCTA span {
+  position:absolute;
+}
+a#zoomCTA label {
+  display:inline;
+  margin:0;
+  padding:0;
+  font-weight:inherit;
+}
+a#zoomCTA i {
+  font-style: normal;
+  position: relative;
+  top: -3px;
+}
+a#zoomCTA .zoomClose i {
+  top:-11px;
+}
+a#zoomCTA:hover span.circle {
+  transform:scale(1.1) translate(15px,-10px);
+}
+
+
+a#zoomCTA span.circle {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4d9652+0,4d9652+100&1+0,1+80,0.66+81,0.66+87,0.33+88,0.33+94,0+95 */
+  background: -moz-radial-gradient(center, ellipse cover, rgba(77,150,82,1) 0%, rgba(77,150,82,1) 45%, rgba(77,150,82,0.66) 45%, rgba(77,150,82,0.66) 47.5%, rgba(77,150,82,0.33) 47.5%, rgba(77,150,82,0.33) 50%, rgba(77,150,82,0) 50%, rgba(77,150,82,0) 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(77,150,82,1) 0%,rgba(77,150,82,1) 45%,rgba(77,150,82,0.66) 45%,rgba(77,150,82,0.66) 47.5%,rgba(77,150,82,0.33) 47.5%,rgba(77,150,82,0.33) 50%,rgba(77,150,82,0) 50%,rgba(77,150,82,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, rgba(77,150,82,1) 0%,rgba(77,150,82,1) 45%,rgba(77,150,82,0.66) 45%,rgba(77,150,82,0.66) 47.5%,rgba(77,150,82,0.33) 47.5%,rgba(77,150,82,0.33) 50%,rgba(77,150,82,0) 50%,rgba(77,150,82,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  width: 320px;
+  height: 250px;
+  right: -85px;
+  top: -140px;
+  transform-origin:top right;
+  transition:all 0.4s;
+}
+
+a#zoomCTA span.zoomText {
+  color:white;
+  font-weight:400;
+  line-height:110%;
+  font-size:17px;
+  text-align:right;
+  top:6px;
+  right:10px;
+  text-transform:uppercase;
+}
+a#zoomCTA span.zoomText strong {
+  font-size:150%;
+  font-weight:500;
+  line-height:100%;
+}
+
+
+

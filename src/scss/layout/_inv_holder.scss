@@ -1,0 +1,98 @@
+.inv-holder {
+
+  @include media-breakpoint-up(md) {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 100%;
+
+  }
+  @include media-breakpoint-down(sm) {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 100%;
+
+    padding-bottom: 30px;
+  }
+  @include media-breakpoint-down(xs) {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    padding-bottom: 30px;
+  }
+  .inv-item {
+    width: 100%;
+
+    margin: 0 5px;
+    @include media-breakpoint-down(xs) {
+      margin: 0 0 5px;
+    }
+
+    .inv-item-holder {
+      background-color: $gray-200;
+      border-radius: 4px;
+      padding:  20px;
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      justify-content: space-around;
+      height: 100%;
+      flex-grow: 1;
+      flex-wrap: nowrap;
+      h3 {
+        color: $acc1;
+        @include fluid-type(24x, 32px);
+        font-weight: 600;
+        img {
+          width: 200px;
+        }
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid $gray-400;
+      }
+      ul {
+        margin: 0;
+        padding: 0px;
+        list-style: none;
+        li {
+          margin: 0;
+          padding: 0px;
+          list-style: none;
+          padding-bottom: 10px;
+          @include fluid-type(14px, 17px);
+        }
+
+      }
+      .inv-item_Price {
+
+
+        .ipPerMonth {
+          text-align: right;
+          display: block;
+          color: $acc1;
+          @include fluid-type(18x, 22px);
+          font-weight: 600;
+          span {
+            @include fluid-type(14x, 18px);
+          }
+          strike {
+            display: block;
+            color: black;
+          }
+        }
+        .ipFull {
+          text-align: right;
+          display: block;
+          color: $acc1;
+          @include fluid-type(14x, 16px);
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

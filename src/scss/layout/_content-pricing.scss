@@ -1,0 +1,38 @@
+.price-hed {
+  display: flex;
+  flex-direction: row;
+  .price-hed_img {
+    width: 100px;
+    &.arch {
+      width: 200px;
+      margin-right: 20px;
+    }
+  }
+  .price-hed_txt {
+    width: 100%;
+    flex-grow: 1;
+  }
+}
+
+.hiddenDivider {
+  @include media-breakpoint-up(xs) {
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    display: block;
+    width: 100%;
+  }
+  @include media-breakpoint-up(sm) {
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    display: block;
+    width: 100%;
+  }
+  @include media-breakpoint-up(md) {
+    display: none;
+  }
+  @include media-breakpoint-up(lg) {
+    display: none;
+  }
+}

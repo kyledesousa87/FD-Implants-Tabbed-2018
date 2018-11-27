@@ -1,0 +1,222 @@
+$navBarH: 54px;
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+.main-fill {
+  height: 100%;
+}
+
+body {
+
+  overflow-x: hidden;
+  &.fixed-header {
+    margin-top: $navBarH;
+  }
+}
+
+
+.v-center-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fill {
+
+  position: relative;
+
+  @include media-breakpoint-up(lg) {
+    min-height: 100%;
+  }
+  @include media-breakpoint-down(md) {
+    min-height: 100%;
+  }
+  @include media-breakpoint-down(sm) {
+    min-height: auto;
+  }
+  @include media-breakpoint-down(xs) {
+    min-height: auto;
+  }
+}
+
+.vh-height {
+  @include media-breakpoint-up(lg) {
+    min-height: 100vh;
+  }
+  @include media-breakpoint-down(md) {
+    min-height: auto;
+
+  }
+  @include media-breakpoint-down(sm) {
+    min-height: auto;
+  }
+  @include media-breakpoint-down(xs) {
+    min-height: auto;
+  }
+}
+
+.vh-height-minus-subheader {
+  @include media-breakpoint-up(lg) {
+    min-height: calc(100vh - 177px)
+  }
+  @include media-breakpoint-down(md) {
+    min-height: auto;
+
+  }
+  @include media-breakpoint-down(sm) {
+    min-height: auto;
+  }
+  @include media-breakpoint-down(xs) {
+    min-height: auto;
+  }
+}
+
+#cover {
+  position:fixed;
+  top:0;
+  left:0;
+  background-color:#E5E6E4;
+  background:rgba(0,0,0,0.75);
+  z-index:1000;
+  width:100%;
+  height:100%;
+  display:none;
+}
+
+.underlay {
+  margin-top: -131px;
+
+}
+
+
+.divider {
+  border-top: 2px solid $gray-200;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.customStyle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin:0 0 0 -1rem;
+
+  .cs-1 {
+    @include media-breakpoint-up(lg) {
+      flex:1 0 25%;
+      margin:0 0 1rem 1rem;
+    }
+    @include media-breakpoint-down(md) {
+      flex:1 0 25%;
+      margin:0 0 1rem 1rem;
+    }
+    @include media-breakpoint-down(sm) {
+      flex:1 0 90%;
+      margin:0 0 1rem 1rem;
+    }
+
+  }
+  .cs-2 {
+    @include media-breakpoint-up(lg) {
+      flex:1 0 25%;
+      margin:0 0 1rem 1rem;
+    }
+    @include media-breakpoint-down(md) {
+      flex:1 0 40%;
+      margin:0 0 1rem 1rem;
+    }
+    @include media-breakpoint-down(sm) {
+      flex:1 0 90%;
+      margin:0 0 1rem 1rem;
+    }
+
+  }
+  .cs-3 {
+    @include media-breakpoint-up(lg) {
+      flex:1 0 25%;
+      margin:0 0 1rem 1rem;
+    }
+    @include media-breakpoint-down(md) {
+      flex:1 0 45%;
+      margin:0 0 1rem 1rem;
+    }
+    @include media-breakpoint-down(sm) {
+      flex:1 0 90%;
+      margin:0 0 1rem 1rem;
+    }
+
+  }
+  .cs-4 {
+    @include media-breakpoint-up(lg) {
+      flex:1 0 30%;
+      margin:0 0 1rem 1rem;
+    }
+    @include media-breakpoint-down(md) {
+      flex:1 0 25%;
+      margin:0 0 1rem 1rem;
+    }
+    @include media-breakpoint-down(sm) {
+      flex:1 0 25%;
+      margin:0 0 1rem 1rem;
+    }
+
+  }
+  .cs-5 {
+
+    @include media-breakpoint-up(lg) {
+      flex:1 0 63%;
+      margin:0 0 1rem 1rem;
+    }
+    @include media-breakpoint-down(md) {
+      flex:1 0 63%;
+      margin:0 0 1rem 1rem;
+    }
+    @include media-breakpoint-down(sm) {
+      flex:1 0 90%;
+      margin:0 0 1rem 1rem;
+    }
+
+
+  }
+}
+
+.panel-img-nobel {
+
+  @include media-breakpoint-up(lg) {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 140px;
+  }
+  @include media-breakpoint-down(md) {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 140px;
+
+  }
+  @include media-breakpoint-down(sm) {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 100px;
+  }
+
+}
+
+.panel-img-tick {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}

@@ -1,0 +1,58 @@
+.cs-row-henry {
+  display: flex;
+
+  @include media-breakpoint-up(xs) {
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  @include media-breakpoint-up(md) {
+    flex-direction: row;
+    margin-top: 0px;
+  }
+  @include media-breakpoint-up(lg) {
+    flex-direction: row;
+    margin-bottom: 15px;
+    margin-top: 0px;
+  }
+
+  .cs-col-1 {
+    @include media-breakpoint-up(xs) {
+      width: 100%;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
+
+    @include media-breakpoint-up(md) {
+      width: 50%;
+      padding: 20px;
+      margin-right: 5px;
+    }
+    @include media-breakpoint-up(lg) {
+      width: 50%;
+      padding: 40px;
+      margin-right: 10px;
+    }
+  }
+
+  .cs-col-2 {
+    @include media-breakpoint-up(xs) {
+      width: 100%;
+      padding: 20px;
+
+    }
+
+    @include media-breakpoint-up(md) {
+      width: 50%;
+      padding: 20px;
+      margin-left: 5px;
+    }
+
+
+    @include media-breakpoint-up(lg) {
+      width: 50%;
+      padding: 40px;
+      margin-left: 10px;
+    }
+  }
+
+}

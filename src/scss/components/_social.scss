@@ -1,0 +1,21 @@
+.social {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: inline-block;
+    padding-right: 5px;
+    &:last-child{
+      padding-right: 0;
+    }
+    a {
+      display: block;
+      width: 20px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
