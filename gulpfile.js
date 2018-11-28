@@ -166,9 +166,9 @@ gulp.task('scripts', function () {
     // jQuery first, then Popper.js, then Bootstrap JS, then other JS libraries, and last app-imp-new.js
     return gulp.src([
             'src/js/vendors/jquery.min.js',
-            'src/js/vendors/owl.carousel.js',
             'src/js/vendors/popper.min.js', 
             'src/js/vendors/bootstrap.min.js',
+            'src/js/vendors/owl.carousel.js',
             'src/js/app-imp-new.js'
         ])
         .pipe(sourcemaps.init())

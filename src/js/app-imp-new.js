@@ -268,8 +268,8 @@ $(document).ready(function() {
     });
 
 
-    var owl = $('.clients-reviews');
-    owl.owlCarousel({
+
+    $('.clients-reviews').owlCarousel({
         autoplay: true,
         loop:true,
         margin:10,
@@ -502,7 +502,7 @@ $(document).ready(function() {
                 // if ($(window).width()<=bpWidth)
                 anim($('#panelsAnchor').offset());
             });
-            $('#coverLight').fadeIn(500);
+            $('#cover').fadeIn(500);
             $('.blurMe').addClass('blur');
         }
     });

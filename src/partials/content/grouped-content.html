@@ -10,10 +10,18 @@
                 </div>
             </nav>
             <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade in show active" id="getting-started" role="tabpanel" aria-labelledby="getting-started-tab">Getting Started</div>
-                <div class="tab-pane fade" id="prices" role="tabpanel" aria-labelledby="prices-tab">Prices</div>
-                <div class="tab-pane fade" id="results" role="tabpanel" aria-labelledby="results-tab">Results</div>
-                <div class="tab-pane fade" id="quality" role="tabpanel" aria-labelledby="quality-tab">Quality Guarantee</div>
+                <div class="tab-pane fade" id="getting-started" role="tabpanel" aria-labelledby="getting-started-tab">
+                    {{>content-gettingstarted}}
+                </div>
+                <div class="tab-pane fade in show active" id="prices" role="tabpanel" aria-labelledby="prices-tab">
+                    {{>content-pricing}}
+                </div>
+                <div class="tab-pane fade" id="results" role="tabpanel" aria-labelledby="results-tab">
+                    {{>content-results}}
+                </div>
+                <div class="tab-pane fade" id="quality" role="tabpanel" aria-labelledby="quality-tab">
+                    {{>content-quality}}
+                </div>
             </div>
         </div>
     </div>

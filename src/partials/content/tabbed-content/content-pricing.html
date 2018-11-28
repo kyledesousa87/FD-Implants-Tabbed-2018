@@ -1,0 +1,18 @@
+
+
+<div class="teeth-card-holder">
+    {{#each teethcard}}
+        <a href="#" class="teeth-card" id="card-teeth-{{id}}">
+            <div class="teeth-card_img">
+                <img src="../images/{{imgName}}.png" class="embed-responsive" alt="panel image">
+            </div>
+            <div class="teeth-card_name">
+                <h3>{{name}}</h3>
+                <h4>{{altName}}</h4>
+            </div>
+            <div class="teeth-card_price">
+            </div>
+            <a href="#" title="Find out more">&nbsp;</a>
+        </a>
+    {{/each}}
+</div>
