@@ -222,7 +222,7 @@ function anim(p) {
     if($('.fixedheader').length&&$(window).width()<=bpWidth)
         target -= $('#header').height();
 
-    $('html,body').animate({
+    $('.st-content').animate({
         scrollTop:target+'px'
     },500);
 }
