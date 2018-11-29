@@ -253,6 +253,8 @@ $(document).ready(function() {
 
     navScroll();
 
+
+
     $('.btn-readmore').on('click', function(e){
         e.preventDefault();
         var elem =  $(this).closest('.more-text').find(".btn-readmore").text();
@@ -266,8 +268,6 @@ $(document).ready(function() {
         }
         $(this).closest('.more-text').find('.more').slideToggle()
     });
-
-
 
     $('.clients-reviews').owlCarousel({
         autoplay: true,
@@ -293,9 +293,6 @@ $(document).ready(function() {
         }
     });
 
-
-
-
     $('.nav .nav-item .nav-link ').click(function() {
         $('.navbar .nav-anchor ul li a').removeClass('active');
         $(this).addClass('active');
@@ -308,7 +305,7 @@ $(document).ready(function() {
     });
 
     // close modal if overlay tapped/clicked
-    $('#cover,.modal').click(function(e) {
+    $('#cover,.modal,#coverLight' ).click(function(e) {
         if(e.target == this) {
             closeModal('video');
             closeModal('image');
@@ -323,6 +320,9 @@ $(document).ready(function() {
     });
 
     $('.openForm').click(function(e){
+        $('.panel-expand').removeClass('active');
+        $('.panel-expand').hide();
+        $('#coverLight').fadeOut(500);
         e.preventDefault();
         openModal('form');
     });
@@ -377,7 +377,10 @@ $(document).ready(function() {
         e.preventDefault();
         if(!$(this).hasClass('big')) {
             openModal('video');
-            // doVideo('data-iframe');
+            $('.panel-expand').removeClass('active');
+            $('.panel-expand').hide();
+            $('#coverLight').fadeOut(500);
+
             $('#videoModalOuter .modal-body').html($(this).data('iframe'));
         }
     });
@@ -394,7 +397,6 @@ $(document).ready(function() {
         $('#videoModalOuter').find('#cover', '#videoModalOuter').html('');
     });
 
-
     $("form[action='/consultation.php']").submit(function(event){
 
         if(validateForm($(this))) {
@@ -404,7 +406,6 @@ $(document).ready(function() {
         }
 
     });
-
 
     $("form[action='/patient_submission.php']").submit(function(event){
 
@@ -422,7 +423,6 @@ $(document).ready(function() {
         if(typeof pop !== 'undefined') window.clearTimeout(pop);
     });
 
-
     // defer FB pixel
     var dfbp = setTimeout(function(){
         !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -433,8 +433,6 @@ $(document).ready(function() {
         fbq('init', '1477526785873521'); // Insert your pixel ID here.
         fbq('track', 'PageView');
     },3000);
-
-
 
 
     // delayed load of above-the-fold reviews widget
@@ -483,45 +481,32 @@ $(document).ready(function() {
     // Add scrollspy to <body>
     $('body').scrollspy({offset: 50});
 
-
-    $('.fpanel a').click(function(e){
-
-        e.stopPropagation();
-        if($(this).attr('href').indexOf('#')==0) {
-            var i = $(this).parent().index('.fpanel');
-            e.preventDefault();
-            $('.expandedPanel:eq('+i+')').slideDown(500,function(i){
-                $(this).addClass('active');
-                var wh = $(window).height();
-                if($(this).height()>wh){
-                    // show bottom corner close button
-                    $(this).find('a.corner').fadeIn(500);
-                } else {
-                    $(this).find('a.corner').not('.top').fadeOut(500);
-                }
-                // if ($(window).width()<=bpWidth)
-                anim($('#panelsAnchor').offset());
-            });
-            $('#cover').fadeIn(500);
-            $('.blurMe').addClass('blur');
-        }
-    });
-
-    $('.fpanel').click(function(){
-        h = $(this).find('a').attr('href');
-        if(h=='#')
-            $(this).find('a').click();
-        else
-            location.href=h;
-    });
-
-    $('.expandedPanel a.corner,#coverLight').click(function(e){
+    $('.teeth-card').click(function(e){
         e.preventDefault();
+        var i =$(this).attr( "id" );
+        $('#coverLight').show();
+        $('#x'+i).slideDown(500,function(i){
+            $(this).addClass('active');
+            var wh = $(window).height();
+            if($(this).height()>wh){
+                // show bottom corner close button
+                $(this).find('a.corner').fadeIn(500);
+            } else {
+                $(this).find('a.corner').not('.top').fadeOut(500);
+            }
+            anim($('#panelsAnchor').offset());
+        });
+
+    });
+
+    $('.panel-expand a.corner,#cover, #coverLight').click(function(e){
+        e.preventDefault();
+
         $('.fpanel').removeClass('inactive');
-        $('.expandedPanel').removeClass('active');
-        $('.expandedPanel').slideUp(500);
+        $('.panel-expand').removeClass('active');
+        $('.panel-expand').slideUp(500);
+        $('#cover').fadeOut(500);
         $('#coverLight').fadeOut(500);
-        $('.blurMe').removeClass('blur');
         // if ($(window).width()<=bpWidth)
         if($(this).hasClass('corner')) {
             anim($('#panelsAnchor').offset());
@@ -531,6 +516,106 @@ $(document).ready(function() {
 
 
 
+    $('form#quote').submit(function(){
+        var quoteMode = 'none';
+        if($('.veneers').not('.imp3').length||quoteMode=='Veneers') {
+            // veneers mode
+            // validate
+            var tt = $('#treatmentType').val();
+            var nt = $('#numTreatments').val();
+            if(tt==''||nt=='0') {
+                alert("You need to choose the treatment type, and the quantity.");
+            } else {
+                if(tt=='sv') {
+                    if(nt=='1')
+                        var c = 11.23;
+                    else if (nt=='2')
+                        var c = 20.68;
+                    else if (nt=='4')
+                        var c = 44.94;
+                    else if (nt=='6')
+                        var c = 56.11;
+                    else if (nt=='12')
+                        var c = 85.00;
+                } else {
+                    if(nt=='4')
+                        var c = 37.68;
+                    else if (nt=='6')
+                        var c = 50.90;
+                    else if (nt=='8')
+                        var c = 64.13;
+                    else if (nt=='12')
+                        var c = 90.58;
+                    else if (nt=='16')
+                        var c = 113.25;
+                    else if (nt=='20')
+                        var c = 132.14;
+                }
+                $('#quoteModalOuter h3 strong').html(c);
+
+                $('#quoteModalOuter').modal('show');
+                // set Veneers-specific treatment ID
+                $('#quoteModalOuter input[name="treatment"]').val('15');
+            }
+        } else if($('.invisalign').length||quoteMode=='Invisalign') {
+            // invisalign mode;
+            var p = $('#chooseProduct').val();
+            if(p==''||p=='0') {
+                alert('Please choose a product.');
+            } else {
+                if(p=='1')
+                    var c = '28.23';
+                else if (p=='2')
+                    var c = '35.89';
+                else if (p=='3')
+                    var c = '55.73';
+                $('#quoteModalOuter h3').html(c);
+
+                $('#quoteModalOuter').modal('show');
+
+                // set Invisalign-specific treatment ID
+                $('#quoteModalOuter input[name="treatment"]').val('1');
+            }
+        } else  {
+            // implants mode
+
+            // validate
+            var nt = $('#numTeeth').val();
+            var ms = $('#missingSince').val();
+            if(nt==''||ms=='') {
+                alert("You need to choose the number of teeth you need replaced, and how long they've been missing.");
+            } else {
+                if(nt=='1'||nt=='2') {
+                    var c = 28.23;
+                } else if (nt=='3'||nt=='4') {
+                    var c = 47.23;
+                } else if (nt=='5'||nt=='6') {
+                    var c = 56.38;
+                } else if (nt=='7'||nt=='8') {
+                    var c = 75.19;
+                } else if (nt=='9'||nt=='10') {
+                    var c = 84.53;
+                } else if (nt=='11'||nt=='12') {
+                    var c = 101.45;
+                } else if (nt=='1A') {
+                    var c = 113.35;
+                } else if (nt=='2A') {
+                    var c = 188.92;
+                }
+                if (ms=='2') {
+                    c += 7.56;
+                }
+                $('#quoteModalOuter').modal('show');
+                $('#quoteModalOuter h3 span').html(Math.round(c * 100) / 100);
+
+
+
+                // set Implants-specific treatment ID
+                $('#quoteModalOuter input[name="treatment"]').val('4');
+            }
+        }
+        return false;
+    });
 
 
 });

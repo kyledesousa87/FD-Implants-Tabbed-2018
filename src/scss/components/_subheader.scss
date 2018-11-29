@@ -74,7 +74,6 @@
 
   a.btn-play {
     @include fluid-type(18px, 20px);
-
     position: relative;
     padding-right: 38px;
     display: inline-block;
@@ -82,7 +81,6 @@
     color:$acc1;
 
     &:before {
-
       @extend .lnr;
       @extend .lnr-chevron-right-circle;
       font-size: 30px;

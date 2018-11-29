@@ -6,6 +6,7 @@
   margin: 0 auto;
   display: flex;
   flex-direction: row;
+  flex-grow: 1;
   flex-wrap: nowrap;
 
   &_content{
@@ -13,5 +14,19 @@
   }
   &_sidebar{
     width: 30%;
+
+    @include media-breakpoint-up(xs) {
+      display: none;
+    }
+    @include media-breakpoint-up(sm) {
+      display: none;
+    }
+    @include media-breakpoint-up(md) {
+      display: block;
+    }
+    @include media-breakpoint-up(lg) {
+      display: block;
+    }
+
   }
 }

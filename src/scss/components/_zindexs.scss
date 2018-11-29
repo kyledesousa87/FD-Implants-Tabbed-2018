@@ -1,17 +1,37 @@
+
+#cover {
+  z-index:500;
+}
+
+#coverLight {
+  z-index:400;
+}
 .pushout {
-  z-index: 500;
+  z-index: 200;
 }
 
 .main-nav {
   &.pass {
-    z-index: 600 !important;
+    z-index: 200 !important;
   }
 }
 
 .fixed-top {
-  z-index: 600 !important;
+  z-index: 200 !important;
 }
 
 .mobile-btn {
-  z-index: 9999 !important;
+  z-index: 200 !important;
+}
+
+.panel-expand {
+  display: none;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  z-index: 700;
+  &.active {
+    z-index: 700;
+    display: block;
+  }
 }

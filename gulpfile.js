@@ -169,6 +169,8 @@ gulp.task('scripts', function () {
             'src/js/vendors/popper.min.js', 
             'src/js/vendors/bootstrap.min.js',
             'src/js/vendors/owl.carousel.js',
+            'src/js/vendors/classie.js',
+            'src/js/vendors/sidebarEffects.js',
             'src/js/app-imp-new.js'
         ])
         .pipe(sourcemaps.init())

@@ -161,20 +161,25 @@
   }
 }
 
-
-.btn-play {
+a.btn-book {
   display: flex;
-  color: $gray-300;
-  .video-play-button {
-    margin-right: 10px;
-  }
-  .btn-play_txt {
-    align-self: center;
-    font-size: 18px;
+  color: $acc1;
+  font-size: 18px;
+  flex-direction: row;
+
+  i {
     color: $acc1;
-    cursor: pointer;
+    font-size: 41px;
+
+    margin-right: 5px;
   }
+  &:hover {
+    text-decoration: none;
+  }
+
 }
+
+
 
 .btn-play-light {
   display: flex;
@@ -206,4 +211,60 @@
 }
 
 
+a.btn-primary {
+  color: $white !important;
+  &:hover {
+    color: $white !important;
+  }
+}
 
+a.btn-secondary {
+  color: $white !important;
+  &:hover {
+    color: $white !important;
+  }
+}
+
+
+.btn-play {
+  display: flex;
+  color: $gray-300;
+  .video-play-button {
+    margin-right: 10px;
+  }
+  .btn-play_txt {
+    align-self: center;
+    font-size: 18px;
+    color: $acc1;
+    cursor: pointer;
+  }
+}
+.btn-book {
+  display: flex;
+  color: $gray-300;
+  div {
+    align-self: center;
+  }
+}
+
+
+.btn-full-rnd {
+  outline: 0;
+  background-color: $acc1;
+  border-radius: 50px !important;
+  padding: 10px 0;
+  font-family: $fontName;
+  font-weight: bold;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  width: auto !important;
+  display: inline-block;
+  min-width: 180px;
+  text-align: center;
+  margin-top: 10px;
+
+  &:hover {
+    @include grow();
+  }
+}

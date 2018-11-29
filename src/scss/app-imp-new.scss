@@ -9,6 +9,8 @@
 @import "node_modules/hover.css/scss/hover";
 
 
+
+
 //Custom mixins
 @import "mixins/mixins";
 @import "mixins/variables";
@@ -23,6 +25,7 @@
 @import "components/lineicons";
 @import "components/reviews";
 @import "components/icon_list";
+@import "components/sidebareffects";
 
 //Component specific styles
 @import "pages/layout-tabbed";
@@ -34,6 +37,7 @@
 @import "layout/content-hero-banner";
 @import "layout/footer";
 @import "layout/teeth-card";
+@import "layout/teeth-panels";
 
 
 @import "components/modal";

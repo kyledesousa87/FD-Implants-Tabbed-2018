@@ -5,28 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cebb2776-d0dd-4d61-b84f-7000b5ba04a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/partials/content/teeth-panel/teeth-panels-single.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/teethcard.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/teethcard.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/fd-implants-tabbed.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/fd-implants-tabbed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/content-home-henry-lg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/content-home-henry-md.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/content-home-henry-sm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/content-inner-implant.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/content-inner-wholearch.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/content-pricing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/content-results.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/di-content/di-2col-map.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/di-content/di-henry-mobile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/di-content/di-henry.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/di-content/di-icon-row.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/di-content/di-lifetime.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/di-content/di-pill-icons-implants.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/di-content/di-price-cols.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/di-content/di-price-row.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/di-content/di-subheader-vid.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/di-content/di-why-finestdental.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/di-content/di-worldleading.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app-imp-new.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app-imp-new.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/layout-booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout-booking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/layout-tabbed.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout-tabbed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/content/content-hero-banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/content/content-hero-banner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/content/grouped-content.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/content/grouped-content.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/content/tabbed-content/content-pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/content/tabbed-content/content-pricing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/content/teeth-panel/teeth-panels.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/layout/navigation/main-nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/layout/navigation/main-nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/app-imp-new.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app-imp-new.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_subheader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_subheader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_zindexs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_zindexs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/comps/_bookingform.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/comps/_bookingform.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/comps/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/comps/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/layout/_content-hero-banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_content-hero-banner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/layout/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/layout/_teeth-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_teeth-card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/mixins/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/mixins/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/pages/_layout-tabbed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/_layout-tabbed.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,48 +39,50 @@
     <session id="617120960">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="5" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="56" />
-          <entry key="js" value="22" />
-          <entry key="json" value="6" />
-          <entry key="scss" value="24" />
+          <entry key="html" value="124" />
+          <entry key="js" value="42" />
+          <entry key="json" value="8" />
+          <entry key="scss" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="5" />
-          <entry key="HTML" value="56" />
-          <entry key="JSON" value="6" />
-          <entry key="JavaScript" value="22" />
+          <entry key="HTML" value="124" />
+          <entry key="JSON" value="8" />
+          <entry key="JavaScript" value="42" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="SCSS" value="24" />
+          <entry key="SCSS" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="24" />
-          <entry key="html" value="1199" />
-          <entry key="js" value="45" />
+          <entry key="html" value="1936" />
+          <entry key="js" value="428" />
           <entry key="json" value="199" />
-          <entry key="scss" value="1309" />
+          <entry key="scss" value="2468" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1199" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="1936" />
           <entry key="JSON" value="199" />
-          <entry key="JavaScript" value="45" />
+          <entry key="JavaScript" value="427" />
           <entry key="PLAIN_TEXT" value="24" />
-          <entry key="SCSS" value="1309" />
+          <entry key="SCSS" value="2468" />
         </counts>
       </usages-collector>
     </session>
@@ -89,20 +92,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/data/teethcard.json">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/testnav.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="90">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/partials/content/tabbed-content/content-pricing.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/layouts/layout-test-nav.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="884">
+              <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -119,6 +122,24 @@
       <find>close</find>
       <find>{{#if</find>
       <find>pSingle</find>
+      <find>imgName</find>
+      <find>brea</find>
+      <find>panel</find>
+      <find>xp</find>
+      <find>cover</find>
+      <find>panel-expand</find>
+      <find>#cover</find>
+      <find>$('#cover')</find>
+      <find>style=&quot;pad</find>
+      <find>btn-pla</find>
+      <find>btn-play</find>
+      <find>book</find>
+      <find>butt</find>
+      <find>play</find>
+      <find>close-up</find>
+      <find>.contact-form</find>
+      <find>navbar-toggle-offcanvas-left</find>
+      <find>offcanvas-left</find>
     </findStrings>
     <replaceStrings>
       <replace>$.support.owltransition</replace>
@@ -130,42 +151,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pages/index.html" />
-        <option value="$PROJECT_DIR$/src/layouts/default.html" />
-        <option value="$PROJECT_DIR$/src/partials/layout/navigation/main-nav.html" />
-        <option value="$PROJECT_DIR$/src/scss/layout/_main-nav.scss" />
-        <option value="$PROJECT_DIR$/src/scss/layout/_content-results.scss" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/js/vendors/bootstrap.min.js" />
         <option value="$PROJECT_DIR$/src/scss/components/_panels.scss" />
         <option value="$PROJECT_DIR$/src/scss/layout/_sidebar.scss" />
-        <option value="$PROJECT_DIR$/src/scss/pages/_layout-tabbed.scss" />
-        <option value="$PROJECT_DIR$/src/layouts/layout-tabbed.html" />
-        <option value="$PROJECT_DIR$/src/partials/content/content-hero-banner.html" />
-        <option value="$PROJECT_DIR$/src/scss/comps/_buttons.scss" />
-        <option value="$PROJECT_DIR$/src/scss/layout/_content-hero-banner.scss" />
         <option value="$PROJECT_DIR$/src/js/vendors/owl.carousel.js" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/partials/content/tabbed-content/content-getingstarted.html" />
         <option value="$PROJECT_DIR$/src/partials/content/tabbed-content/content-gettingstarted.html" />
         <option value="$PROJECT_DIR$/src/partials/content/tabbed-content/content-quality.html" />
-        <option value="$PROJECT_DIR$/src/js/app-imp-new.js" />
-        <option value="$PROJECT_DIR$/src/partials/content/teeth-panel/teeth-panels.html" />
         <option value="$PROJECT_DIR$/src/partials/content/teeth-cards/card-type-b.html" />
         <option value="$PROJECT_DIR$/src/partials/content/teeth-cards/card-type-c.html" />
         <option value="$PROJECT_DIR$/src/partials/content/teeth-cards/card-type-d.html" />
         <option value="$PROJECT_DIR$/src/partials/content/teeth-cards/card-type-a.html" />
         <option value="$PROJECT_DIR$/src/data/teeth-card.json" />
         <option value="$PROJECT_DIR$/src/partials/content/teeth-cards/card-type.html" />
-        <option value="$PROJECT_DIR$/src/scss/app-imp-new.scss" />
-        <option value="$PROJECT_DIR$/src/scss/layout/_teeth-card.scss" />
         <option value="$PROJECT_DIR$/src/partials/content/content-inner-wholearch.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/partials/content/content-pricing.html" />
-        <option value="$PROJECT_DIR$/src/partials/content/grouped-content.html" />
         <option value="$PROJECT_DIR$/src/pages/fd-implants-tabbed.html" />
-        <option value="$PROJECT_DIR$/src/partials/content/tabbed-content/content-pricing.html" />
         <option value="$PROJECT_DIR$/src/data/teethcard.json" />
+        <option value="$PROJECT_DIR$/src/scss/layout/_teeth-card.scss" />
+        <option value="$PROJECT_DIR$/src/partials/content/teeth-panel/teeth-panels.html" />
+        <option value="$PROJECT_DIR$/src/scss/layout/_layout.scss" />
+        <option value="$PROJECT_DIR$/src/scss/components/_zindexs.scss" />
+        <option value="$PROJECT_DIR$/src/partials/content/grouped-content.html" />
+        <option value="$PROJECT_DIR$/src/scss/components/_subheader.scss" />
+        <option value="$PROJECT_DIR$/src/scss/mixins/_colors.scss" />
+        <option value="$PROJECT_DIR$/src/partials/content/content-hero-banner.html" />
+        <option value="$PROJECT_DIR$/src/scss/layout/_teeth-panels.scss" />
+        <option value="$PROJECT_DIR$/src/partials/content/tabbed-content/content-pricing.html" />
+        <option value="$PROJECT_DIR$/src/partials/content/teeth-panel/teeth-panels-arch.html" />
+        <option value="$PROJECT_DIR$/src/partials/content/teeth-panel/teeth-panels-multiple.html" />
+        <option value="$PROJECT_DIR$/src/partials/content/teeth-panel/teeth-panels-single.html" />
+        <option value="$PROJECT_DIR$/src/partials/content/teeth-panel/teeth-panels-tiad.html" />
+        <option value="$PROJECT_DIR$/src/js/app-imp-new.js" />
+        <option value="$PROJECT_DIR$/src/partials/modals/modal-form.html" />
+        <option value="$PROJECT_DIR$/src/partials/modals/modal-form-quote.html" />
+        <option value="$PROJECT_DIR$/src/layouts/layout-booking.html" />
+        <option value="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp.html" />
+        <option value="$PROJECT_DIR$/src/scss/comps/_buttons.scss" />
+        <option value="$PROJECT_DIR$/src/scss/components/_modal.scss" />
+        <option value="$PROJECT_DIR$/src/scss/comps/_bookingform.scss" />
+        <option value="$PROJECT_DIR$/src/partials/layout/widget-quote.html" />
+        <option value="$PROJECT_DIR$/src/scss/layout/_content-hero-banner.scss" />
+        <option value="$PROJECT_DIR$/src/scss/pages/_layout-tabbed.scss" />
+        <option value="$PROJECT_DIR$/src/js/vendors/component-slidebars.js" />
+        <option value="$PROJECT_DIR$/src/layouts/layout-tabbed.html" />
+        <option value="$PROJECT_DIR$/src/partials/layout/navigation/main-nav.html" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/src/scss/components/_sidebareffects.scss" />
+        <option value="$PROJECT_DIR$/src/scss/app-imp-new.scss" />
+        <option value="$PROJECT_DIR$/src/layouts/layout-test-nav.html" />
+        <option value="$PROJECT_DIR$/src/pages/testnav.html" />
       </list>
     </option>
   </component>
@@ -190,11 +226,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1920" />
-    <option name="y" value="-57" />
-    <option name="width" value="1920" />
-    <option name="height" value="1005" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1680" />
+    <option name="y" value="-558" />
+    <option name="width" value="2560" />
+    <option name="height" value="1417" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -217,13 +253,13 @@
               <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -240,12 +276,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/js/vendors" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/scss/layout" />
-      <recent name="$PROJECT_DIR$/src/data" />
-      <recent name="$PROJECT_DIR$/src/partials/content/teeth-cards" />
-      <recent name="$PROJECT_DIR$/src/partials/content/teeth-panel" />
-      <recent name="$PROJECT_DIR$/src/partials/content/tabbed-content" />
+      <recent name="$PROJECT_DIR$/src/layouts" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/scss/components" />
+      <recent name="$PROJECT_DIR$/src/js/vendors" />
+      <recent name="$PROJECT_DIR$/src/scss/comps" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -273,12 +312,13 @@
       <workItem from="1543315996295" duration="17124000" />
       <workItem from="1543400025713" duration="6965000" />
       <workItem from="1543412692316" duration="196000" />
-      <workItem from="1543412899928" duration="1076000" />
+      <workItem from="1543412899928" duration="14766000" />
+      <workItem from="1543437942813" duration="12681000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25361000" />
+    <option name="totallyTimeSpent" value="51732000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -290,13 +330,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="-57" width="1920" height="1005" extended-state="0" />
+    <frame x="1680" y="-558" width="2560" height="1417" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8683206" visible="true" weight="0.25772098" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8660714" visible="true" weight="0.15170771" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
-      <window_info id="Favorites" order="4" sideWeight="0.13167939" side_tool="true" weight="0.25239617" />
+      <window_info id="Favorites" order="4" sideWeight="0.13392857" side_tool="true" weight="0.25772098" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -308,7 +348,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.42606792" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.24377358" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -322,35 +362,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/layouts/layout-booking.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/components/_lineicons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1083" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/layout/_content-home.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/content/content-pricing.html" />
     <entry file="file://$PROJECT_DIR$/src/scss/layout/_content-pricing.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -358,130 +370,272 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/content-home-henry-lg.html">
+    <entry file="file://$PROJECT_DIR$/src/scss/layout/_main-nav.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        <state relative-caret-position="134">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/layout/navigation/main-nav.html">
+    <entry file="file://$PROJECT_DIR$/src/data/teethcard.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="445">
+          <caret line="62" column="40" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/layout/_teeth-card.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/layout-callus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
           <folding>
-            <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#a#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#a#1;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/layout/_main-nav.scss">
+    <entry file="file://$PROJECT_DIR$/src/scss/layout/_layout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="588">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/css/app-imp-new.css">
+    <entry file="file://$PROJECT_DIR$/src/scss/components/_zindexs.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="16265" column="5" selection-start-line="16265" selection-start-column="5" selection-end-line="16265" selection-end-column="5" />
+        <state relative-caret-position="465">
+          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/content-nobel.html">
+    <entry file="file://$PROJECT_DIR$/src/scss/components/_subheader.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="29" />
+        <state relative-caret-position="348">
+          <caret line="80" column="16" lean-forward="true" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+          <folding>
+            <element signature="e#1856#2500#0" />
+            <element signature="e#2517#3003#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/js/app-imp-new.js">
+    <entry file="file://$PROJECT_DIR$/src/scss/mixins/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/layout/_teeth-panels.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+          <folding>
+            <element signature="e#709#757#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/mixins/_variables.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/partials/content/teeth-panel/teeth-panels-multiple.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        <state relative-caret-position="120">
+          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/vendors/bootstrap.min.js">
+    <entry file="file://$PROJECT_DIR$/src/partials/content/teeth-panel/teeth-panels-single.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="1223" column="41" selection-end-line="1223" selection-end-column="41" />
+        <state relative-caret-position="60">
+          <caret line="35" column="10" selection-end-line="37" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/vendors/popper.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/components/_panels.scss">
+    <entry file="file://$PROJECT_DIR$/src/partials/content/tabbed-content/content-pricing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="207" selection-start-line="207" selection-end-line="207" />
+        <state relative-caret-position="315">
+          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="102" />
+          <folding>
+            <element signature="n#a#0;n#div#1;n#!!top" />
+            <element signature="n#a#1;n#div#1;n#!!top" />
+            <element signature="n#a#2;n#div#1;n#!!top" />
+            <element signature="n#div#0;n#a#2;n#div#1;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/pages/_home.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/layout/_sidebar.scss">
+    <entry file="file://$PROJECT_DIR$/src/partials/content/teeth-panel/teeth-panels-tiad.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="475">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/layout/_content-hero-banner.scss">
+    <entry file="file://$PROJECT_DIR$/src/partials/content/teeth-panel/teeth-panels-arch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="25">
+          <caret line="8" column="70" lean-forward="true" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/scss/_modal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/modals/modal-form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/layout/widget-quote.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/components/_modal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="201" lean-forward="true" selection-start-line="201" selection-end-line="201" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/modals/modal-form-quote.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <element signature="n#button#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/comps/_buttons.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="179" column="16" selection-start-line="179" selection-start-column="16" selection-end-line="179" selection-end-column="16" />
+        <state relative-caret-position="-185">
+          <caret line="100" column="25" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
+          <folding>
+            <element signature="e#12#722#0" />
+            <element signature="e#743#1952#0" />
+            <element signature="e#1979#3213#0" />
+            <element signature="e#3226#3422#0" />
+            <element signature="e#3442#3666#0" />
+            <element signature="e#3671#3900#0" />
+            <element signature="e#3917#3994#0" />
+            <element signature="e#4102#4299#0" />
+            <element signature="e#4310#4386#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/comps/_bookingform.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+          <folding>
+            <element signature="e#14#2175#0" />
+            <element signature="e#1496#1596#0" />
+            <element signature="e#2573#2939#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/layout/_content-results.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="66" lean-forward="true" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/layout-booking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/layout/_content-hero-banner.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="110" column="29" lean-forward="true" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Off-Canvas-Menu-Bootstrap-4/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/browser-sync/dist/async.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="173" column="29" lean-forward="true" selection-start-line="173" selection-start-column="29" selection-end-line="173" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Off-Canvas-Menu-Bootstrap-4/dist/js/slidebars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2119">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/comps/build.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="19" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/partials/content/content-hero-banner.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/pages/_layout-tabbed.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/vendors/owl.carousel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="3422" column="22" lean-forward="true" selection-start-line="3422" selection-start-column="22" selection-end-line="3422" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/layout/page-layout/reviews.html">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/src/partials/content/grouped-content.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="167" column="43" selection-start-line="167" selection-start-column="43" selection-end-line="167" selection-end-column="43" />
+        <state relative-caret-position="165">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -492,149 +646,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/tabbed-content/content-results.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/tabbed-content/content-gettingstarted.html">
+    <entry file="file://$PROJECT_DIR$/src/js/vendors/slidebars.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="104" selection-start-line="9" selection-start-column="104" selection-end-line="9" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/tabbed-content/content-quality.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/teeth-panel/teeth-panels.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="113" column="6" selection-start-line="113" selection-start-column="6" selection-end-line="113" selection-end-column="6" />
+        <state relative-caret-position="705">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
           <folding>
-            <element signature="n#div#0;n#!!top" />
-            <element signature="e#2255#2261#0" expanded="true" />
-            <element signature="n#div#1;n#!!top" />
-            <element signature="n#div#2;n#!!top" />
-            <element signature="n#div#3;n#!!top" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/teeth-cards/card-type-b.html" />
-    <entry file="file://$PROJECT_DIR$/src/partials/content/teeth-cards/card-type-c.html" />
-    <entry file="file://$PROJECT_DIR$/src/js/app-imp-new.js">
+    <entry file="file://$PROJECT_DIR$/src/js/vendors/component-slidebars.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="500" column="17" lean-forward="true" selection-start-line="500" selection-start-column="17" selection-end-line="500" selection-end-column="17" />
-          <folding>
-            <element signature="e#65#428#0" />
-            <element signature="n#!!block;n#validateCancellationForm#0" />
-            <element signature="n#!!block;n#validateForm#0" />
-            <element signature="n#!!block;n#closeModal#0" />
-            <element signature="n#!!block;n#doVideo#0" />
-            <element signature="n#!!block;n#openModal#0" />
-            <element signature="n#!!block;n#reOpen#0" />
-            <element signature="n#!!block;n#anim#0" />
-            <element signature="n#!!block;n#navScroll#0" />
-            <element signature="e#7498#7547#0" />
-            <element signature="e#7615#8150#0" />
-            <element signature="e#8194#8642#0" />
-            <element signature="e#8701#9082#0" />
-            <element signature="e#9172#9496#0" />
-            <element signature="e#13597#15124#0" />
-            <element signature="e#16085#16236#0" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/teeth-cards/card-type-d.html" />
-    <entry file="file://$PROJECT_DIR$/node_modules/gulp/node_modules/readable-stream/lib/_stream_readable.js">
+    <entry file="file://$PROJECT_DIR$/src/scss/comps/_component-variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="663" column="4" selection-start-line="663" selection-start-column="4" selection-end-line="663" selection-end-column="4" />
+        <state relative-caret-position="105">
+          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/teeth-cards/card-type.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/app-imp-new.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/content-inner-wholearch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/layout/_content-results.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/layout/_teeth-card.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/partials/layout/navigation/main-nav.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/content-pricing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/layout-tabbed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="48" column="14" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/grouped-content.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/fd-implants-tabbed.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="30">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/tabbed-content/content-pricing.html">
+    <entry file="file://$PROJECT_DIR$/src/js/app-imp-new.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="730">
+          <caret line="518" column="37" selection-start-line="518" selection-start-column="37" selection-end-line="518" selection-end-column="37" />
+          <folding>
+            <element signature="e#65#428#0" />
+            <element signature="n#!!block;n#validateCancellationForm#0" />
+            <element signature="n#!!block;n#validateForm#0" />
+            <element signature="n#!!block;n#doVideo#0" />
+            <element signature="n#!!block;n#reOpen#0" />
+            <element signature="n#!!block;n#anim#0" />
+            <element signature="n#!!block;n#navScroll#0" />
+            <element signature="e#7498#7547#0" />
+            <element signature="e#16501#20144#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/teethcard.json">
+    <entry file="file://$PROJECT_DIR$/src/scss/comps/_component-slidebars.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="-1099">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/pages/_layout-tabbed.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="174" column="10" selection-start-line="174" selection-start-column="10" selection-end-line="174" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/vendors/sidebarEffects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/components/_sidebareffects.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5340">
+          <caret line="356" selection-start-line="356" selection-end-line="356" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/layout-tabbed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#main#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/app-imp-new.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gulp/node_modules/readable-stream/lib/_stream_readable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="668" column="44" lean-forward="true" selection-start-line="668" selection-start-column="44" selection-end-line="668" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/testnav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/layout-test-nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
         </state>
       </provider>
     </entry>

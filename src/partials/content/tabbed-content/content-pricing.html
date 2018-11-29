@@ -1,19 +1,66 @@
-
-
+<a id="panelsAnchor" name="panels"></a>
+<div class="teeth-panel-holder">
+    <div class="panel-expand" id="xpSingle">
+        {{>teeth-panels-single}}
+    </div>
+    <div class="panel-expand" id="xpMultiple">
+        {{>teeth-panels-multiple}}
+    </div>
+    <div class="panel-expand" id="xpArch">
+        {{>teeth-panels-arch}}
+    </div>
+    <div class="panel-expand" id="xpTID">
+        {{>teeth-panels-tiad}}
+    </div>
+</div>
 <div class="teeth-card-holder">
-    {{#each teethcard}}
-        <a href="#" class="teeth-card" id="card-teeth-{{id}}">
-            <div class="teeth-card_img">
-                <img src="../images/{{imgName}}.png" class="embed-responsive" alt="panel image">
-            </div>
-            <div class="teeth-card_name">
-                <h3>{{name}}</h3>
-                <h4>{{altName}}</h4>
-                <h1>{{testHTML}}</h1>
-            </div>
-            <div class="teeth-card_price">
-            </div>
-            <a href="#" title="Find out more">&nbsp;</a>
-        </a>
-    {{/each}}
+    <a href="#xpSingle" data-btnpanel="xpSingle" class="teeth-card" id="pSingle">
+        <div class="teeth-card_img">
+            <img src="../images/p_implants_single.png" class="embed-responsive" alt="panel image">
+        </div>
+        <div class="teeth-card_name">
+            <h3>Single</h3>
+            <h4>Implants</h4>
+        </div>
+        <div class="teeth-card_price">
+            from <span>£32</span>/mo
+        </div>
+    </a>
+    <a href="#xpMultiple" data-btnpanel="xpMultiple" class="teeth-card" id="pMultiple">
+        <div class="teeth-card_img">
+            <img src="../images/p_implants_multiple.png" class="embed-responsive" alt="panel image">
+        </div>
+        <div class="teeth-card_name">
+            <h3>Multiple</h3>
+            <h4>Implants</h4>
+        </div>
+        <div class="teeth-card_price">
+            Discounts Available
+        </div>
+    </a>
+    <a href="#xpArch" data-btnpanel="xpArch" class="teeth-card" id="pArch">
+        <div class="teeth-card_img">
+            <img src="../images/nobel_all_on_4.png" class="embed-responsive" alt="panel image">
+        </div>
+        <div class="teeth-card_name">
+            <h4>Implants</h4>
+            <h3>Retained</h3>
+
+        </div>
+        <div class="teeth-card_price">
+            from <span>£113.24pm</span>/mo
+        </div>
+    </a>
+    <a href="#xpTID" data-btnpanel="xpTID" class="teeth-card" id="pTID">
+        <div class="teeth-card_img">
+            <img src="../images/implants7/both_arches.png" class="embed-responsive" alt="panel image">
+        </div>
+        <div class="teeth-card_name">
+            <h4>Teeth</h4>
+            <h3>In a Day</h3>
+        </div>
+        <div class="teeth-card_price">
+            from <span>£188.81</span>/mo
+        </div>
+    </a>
 </div>
