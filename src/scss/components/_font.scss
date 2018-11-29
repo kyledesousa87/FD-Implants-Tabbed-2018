@@ -146,6 +146,13 @@ h6, .h6 {
   @include fluid-type($h6-font-size/1.5, $h6-font-size);
 }
 
+p {
+  &.feature {
+    font-size: 20px;
+
+  }
+}
+
 .meta {
   font-size: 12px;
 }

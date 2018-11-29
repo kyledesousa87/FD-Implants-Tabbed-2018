@@ -1,0 +1,73 @@
+.cs-tabs-panels {
+  display: flex;
+
+  @include media-breakpoint-up(xs) {
+    flex-direction: column;
+  }
+  @include media-breakpoint-up(sm) {
+    flex-direction: column;
+  }
+  @include media-breakpoint-up(md) {
+    flex-direction: row;
+  }
+  @include media-breakpoint-up(lg) {
+    flex-direction: row;
+  }
+  .tab-pane {
+    flex-grow: 1;
+    margin-right: 20px;
+    padding: 25px 0;
+
+    @include media-breakpoint-up(xs) {
+      width: 100%;
+    }
+    @include media-breakpoint-up(sm) {
+      width: 100%;
+    }
+    @include media-breakpoint-up(md) {
+      width: 45%;
+    }
+    @include media-breakpoint-up(lg) {
+      width: 45%;
+    }
+    &.full-pane {
+      width: 100%;
+      margin-right: 0px !important;
+    }
+  }
+  .tab-pane-fixed {
+    display: flex;
+    flex-direction: column;
+
+    @include media-breakpoint-up(xs) {
+      width: 100%;
+    }
+    @include media-breakpoint-up(sm) {
+      width: 100%;
+    }
+    @include media-breakpoint-up(md) {
+      width: 45%;
+    }
+    @include media-breakpoint-up(lg) {
+      width: 45%;
+    }
+    align-self: start;
+    padding-top: 25px;
+  }
+}
+
+.videoHolder{
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  clear: both;
+  width: 100%;
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+  }
+}

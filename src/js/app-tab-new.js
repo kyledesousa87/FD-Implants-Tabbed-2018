@@ -183,6 +183,7 @@ function openModal(id) {
 
     $('html,body').animate({scrollTop:0},'fast');
 
+
 }
 function reOpen(){
     $.urlParam = function(name){
@@ -501,7 +502,6 @@ $(document).ready(function() {
 
     $('.panel-expand a.corner,#cover, #coverLight').click(function(e){
         e.preventDefault();
-
         $('.fpanel').removeClass('inactive');
         $('.panel-expand').removeClass('active');
         $('.panel-expand').slideUp(500);
@@ -512,8 +512,6 @@ $(document).ready(function() {
             anim($('#panelsAnchor').offset());
         }
     });
-
-
 
 
     $('form#quote').submit(function(){
@@ -616,6 +614,59 @@ $(document).ready(function() {
         }
         return false;
     });
+
+
+    $( '[data-trigger="tab"]' ).click( function( e ) {
+        var href = $( this ).attr('href');
+        $('[data-toggle="tab"][href="'+ href +'"]' ).tab('show');
+        if(href === '#prices'){
+            $('#inlineFormContact').hide();
+        }else if(href === '#results'){
+            $('#inlineFormContact').hide();
+        }else {
+            $('#inlineFormContact').show();
+        }
+        // $('html,body').animate({scrollTop: $(href).offset().top},'slow');
+    } );
+
+
+    $( '[data-toggle="tab"]' ).click( function( e ) {
+        var href = $( this ).attr('href');
+        $('[data-toggle="tab"][href="'+ href +'"]' ).tab('show');
+
+
+
+        if(href === '#prices'){
+            $('#inlineFormContact').hide();
+        }else if(href === '#results'){
+            $('#inlineFormContact').hide();
+        }else {
+            $('#inlineFormContact').show();
+        }
+        // $('html,body').animate({scrollTop: $(href).offset().top},'slow');
+        $('.hamburger').removeClass('is-active');
+    } );
+
+    $( '#mobileNav .nav-item .nav-link' ).click( function( e ) {
+        e.preventDefault();
+        var href = $( this ).attr('href');
+
+        $('.st-container').removeClass('st-menu-open');
+        $('[data-toggle="tab"][href="'+ href +'"]' ).tab('show');
+        // main-holder_content
+
+        $('.hamburger').removeClass('is-active');
+
+
+        if(href === '#prices'){
+            $('#inlineFormContact').hide();
+        }else if(href === '#results'){
+            $('#inlineFormContact').hide();
+        }else {
+            $('#inlineFormContact').show();
+        }
+        // $('html,body').animate({scrollTop: $(href).offset().top},'slow');
+    } );
 
 
 });

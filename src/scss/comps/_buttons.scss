@@ -268,3 +268,25 @@ a.btn-secondary {
     @include grow();
   }
 }
+
+
+.btn-full {
+  outline: 0;
+  background-color: $acc1;
+  border: 1px solid lighten($acc1, 20%);
+  border-radius: 0px !important;
+  padding: 10px 0;
+  font-family: $fontName;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  width: auto !important;
+  display: inline-block;
+  min-width: 100%;
+  text-align: center;
+  margin-top: 10px;
+
+  &:hover {
+    @include grow();
+  }
+}

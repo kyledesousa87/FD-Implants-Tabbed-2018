@@ -163,7 +163,7 @@ gulp.task('fontAwesome', function () {
 
 // Concatenating js files
 gulp.task('scripts', function () {
-    // jQuery first, then Popper.js, then Bootstrap JS, then other JS libraries, and last app-imp-new.js
+    // jQuery first, then Popper.js, then Bootstrap JS, then other JS libraries, and last app-tab-new.js
     return gulp.src([
             'src/js/vendors/jquery.min.js',
             'src/js/vendors/popper.min.js', 
@@ -171,10 +171,10 @@ gulp.task('scripts', function () {
             'src/js/vendors/owl.carousel.js',
             'src/js/vendors/classie.js',
             'src/js/vendors/sidebarEffects.js',
-            'src/js/app-imp-new.js'
+            'src/js/app-tab-new.js'
         ])
         .pipe(sourcemaps.init())
-        .pipe(concat('app-imp-new.js'))
+        .pipe(concat('app-tab-new.js'))
         .pipe(sourcemaps.write('./'))
         .pipe(gulp.dest('dist/js/'))
         .pipe(browserSync.stream());

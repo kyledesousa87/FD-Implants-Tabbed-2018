@@ -1,6 +1,6 @@
 .booking-form {
   box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 0px 12px rgba(0,0,0,0.10);
-
+width: 100%;
 
   @include media-breakpoint-up(xs) {
     margin: auto;
@@ -9,7 +9,6 @@
     margin: auto;
   }
   @include media-breakpoint-up(md) {
-    margin-top: 120px;
     align-self: start;
   }
   @include media-breakpoint-up(lg) {
@@ -23,7 +22,7 @@
     justify-content: space-between;
     a {
       background-color: $acc1;
-
+      text-align: center;
       color: white;
       font-size: 18px;
       line-height: 25px;
@@ -154,15 +153,28 @@
 
 .widget-form {
   background-color: $white;
+
+  @include linearGradient($acc1, $acc2);
+
   box-shadow: 0 0px 13px -2px rgba(0,0,0,0.4);
   margin:40px 0 15px 0;
   h3 {
-    color: $acc2;
+    color: $white;
     font-size: 42px;
     text-align: center;
     padding: 15px 0 0 0;
   }
   &_body {
     padding: 25px;
+    .meta-text {
+      color: white;
+    }
   }
+}
+
+
+#inlineFormContact {
+ .booking-form {
+   align-self: start;
+ }
 }

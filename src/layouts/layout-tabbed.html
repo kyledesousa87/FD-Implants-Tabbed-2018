@@ -13,7 +13,7 @@
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="1200" />
     <title>UK's Finest Dental Implants</title>
-    <link rel="stylesheet" href="{{root}}/css/app-imp-new.css">
+    <link rel="stylesheet" href="{{root}}/css/app-tab-new.css">
     <link rel="shortcut icon" href="https://finestdental.co.uk/favicon.ico" />
     <!--<script async src="//176199.tctm.co/t.js"></script>-->
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -48,13 +48,13 @@
                 these menus will be under the push wrapper
             -->
             <nav class="st-menu st-effect-3" id="menu-3">
-                <h2 class="icon icon-lab">Sidebar</h2>
-                <ul>
-                    <li><a class="icon icon-data" href="#">Data Management</a></li>
-                    <li><a class="icon icon-location" href="#">Location</a></li>
-                    <li><a class="icon icon-study" href="#">Study</a></li>
-                    <li><a class="icon icon-photo" href="#">Collections</a></li>
-                    <li><a class="icon icon-wallet" href="#">Credits</a></li>
+
+                <ul id="mobileNav">
+                    <li class="nav-item"><a class="nav-link" data-trigger="tab" href="#getting-started">Get&nbsp;Started</a></li>
+                    <li class="nav-item"><a class="nav-link" data-trigger="tab" href="#prices"  aria-pressed="true">Prices</a></li>
+                    <li class="nav-item"><a class="nav-link" data-trigger="tab" href="#results"  aria-pressed="true">Results</a></li>
+                    <li class="nav-item"><a class="nav-link" data-trigger="tab" href="#quality"  aria-pressed="true">Quality Guarantee</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#reviews"  href="#reviews" aria-pressed="true">Reviews</a></li>
                 </ul>
             </nav>
 
@@ -65,10 +65,9 @@
 
 
                     <div class="main clearfix">
-                        <div id="st-trigger-effects">
+                        <div>
                             {{>content-hero-banner}}
                             <main role="main" class="main-holder">
-
                                 <div class="main-holder_content">
                                     <div id="coverLight" style="display: none"></div>
                                     {{> body}}
@@ -77,6 +76,7 @@
                                     {{>widget-quote}}
                                 </div>
                             </main>
+
                             {{>reviews}}
                             {{>footer}}
                         </div>
@@ -98,7 +98,7 @@
     {{>modal-privacy}}
     {{>modal-complaints}}
 
-    <script src="{{root}}/js/app-imp-new.js"></script>
+    <script src="{{root}}/js/app-tab-new.js"></script>
 
 
 

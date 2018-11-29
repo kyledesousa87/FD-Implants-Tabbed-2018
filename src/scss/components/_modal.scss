@@ -81,19 +81,27 @@ button.close-blue {
     }
 
   }
-  .modal-content {
-    border: 0;
-    position: relative;
+  .modal-dialog {
+    max-width: 600px;
+    .modal-content {
+      padding: 15px;
+      .modal-body {
+        h3 {
+          margin-bottom: 25px;
+          padding-bottom: 10px;
+          border-bottom: 1px solid #dddddd;
+        }
+        position: relative;
+        clear: both;
+        width: 100%;
 
-    &:before, &:after {
-     display: none;
-    }
+      }
 
-    &:after {
-      display: none;
     }
   }
 }
+
+
 
 #guaranteeModalOuter {
 

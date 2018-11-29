@@ -1,26 +1,32 @@
-<div id="leading" class="content section-pad">
-    <div class="content_row ">
+<div class="content section-pad">
+    <div class="content_row">
         <div class="content_row__main">
-            <nav>
+            <nav class="d-none d-sm-none d-md-block d-lg-block d-xl-block">
+                <a href="#topOfSection" class="topOfSection"></a>
+
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                    <a class="nav-item nav-link active" id="getting-started-tab" data-toggle="tab" href="#getting-started" role="tab" aria-controls="getting-started" aria-selected="true">Getting Started</a>
-                    <a class="nav-item nav-link" id="prices-tab" data-toggle="tab" href="#prices" role="tab" aria-controls="prices" aria-selected="false">Prices</a>
-                    <a class="nav-item nav-link" id="results-tab" data-toggle="tab" href="#results" role="tab" aria-controls="results" aria-selected="false">Results</a>
-                    <a class="nav-item nav-link" id="quality-tab" data-toggle="tab" href="#quality" role="tab" aria-controls="quality" aria-selected="false">Quality Guarantee</a>
+                    <a id="getting-started-tab" class="nav-item nav-link active"  data-toggle="tab" href="#getting-started" role="tab" aria-controls="getting-started" aria-selected="true">Getting Started</a>
+                    <a id="prices-tab" class="nav-item nav-link"  data-toggle="tab" href="#prices" role="tab" aria-controls="prices" aria-selected="false">Prices</a>
+                    <a id="results-tab" class="nav-item nav-link"  data-toggle="tab" href="#results" role="tab" aria-controls="results" aria-selected="false">Results</a>
+                    <a id="quality-tab" class="nav-item nav-link"  data-toggle="tab" href="#quality" role="tab" aria-controls="quality" aria-selected="false">Quality Guarantee</a>
                 </div>
             </nav>
-            <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade" id="getting-started" role="tabpanel" aria-labelledby="getting-started-tab">
+            <div class="tab-content cs-tabs-panels" id="nav-tabContent">
+                <div id="getting-started" class="tab-pane fade show active "  role="tabpanel" aria-labelledby="getting-started-tab">
                     {{>content-gettingstarted}}
                 </div>
-                <div class="tab-pane fade in show active" id="prices" role="tabpanel" aria-labelledby="prices-tab">
+                <div id="prices"  class="tab-pane fade in full-pane" role="tabpanel" aria-labelledby="prices-tab">
                     {{>content-pricing}}
                 </div>
-                <div class="tab-pane fade" id="results" role="tabpanel" aria-labelledby="results-tab">
+                <div id="results" class="tab-pane fade full-pane"  role="tabpanel" aria-labelledby="results-tab">
                     {{>content-results}}
                 </div>
-                <div class="tab-pane fade" id="quality" role="tabpanel" aria-labelledby="quality-tab">
+                <div id="quality" class="tab-pane fade"  role="tabpanel" aria-labelledby="quality-tab">
                     {{>content-quality}}
+                </div>
+                <div id="inlineFormContact" class="tab-pane-fixed">
+                    <h4 class="h3 text-center txt-c2 mb-3">Free CBCT X-ray (worth £195)</h4>
+                    {{>booking-form-comp}}
                 </div>
             </div>
         </div>
