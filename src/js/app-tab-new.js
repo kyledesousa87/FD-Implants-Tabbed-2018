@@ -214,46 +214,31 @@ function reOpen(){
     }
 }
 // autoscroll anchors
-function anim(p) {
-    if(p=='top')
-        target = 0;
-    else
-        target = p.top - 85;
 
-    if($('.fixedheader').length&&$(window).width()<=bpWidth)
-        target -= $('#header').height();
+// function anim(p) {
+//     if(p=='top')
+//         target = 0;
+//     else
+//         target = p.top - 85;
+//
+//     if($('.fixedheader').length&&$(window).width()<=bpWidth)
+//         target -= $('#header').height();
+//
+//     $('.st-content').animate({
+//         scrollTop:target+'px'
+//     },500);
+// }
 
-    $('.st-content').animate({
-        scrollTop:target+'px'
-    },500);
-}
-function navScroll(){
-    var menuBarOpenedOnce = 0;
-    //caches a jQuery object containing the header element
-    $(window).scroll(function() {
-        var scroll = $(window).scrollTop();
-        if (scroll >= 50) {
-            $(".main-nav").addClass("pass");
-            menuBarOpenedOnce = 1;
-        }else if(scroll >= 0){
-            $(".main-nav").removeClass("pass");
-        }
-    });
-}
 
-$(window).on('resize scroll', function() {
 
-    navScroll();
-});
+
+
 
 $(document).ready(function() {
 
     $(".hamburger").click(function(){
         $(this).toggleClass("is-active");
     });
-
-    navScroll();
-
 
 
     $('.btn-readmore').on('click', function(e){
@@ -294,16 +279,18 @@ $(document).ready(function() {
         }
     });
 
-    $('.nav .nav-item .nav-link ').click(function() {
-        $('.navbar .nav-anchor ul li a').removeClass('active');
-        $(this).addClass('active');
+    //This might work
 
-        var target = $(this.hash);
-        if (target.length == 0) target = $('a[name="' + this.hash.substr(1) + '"]');
-        if (target.length == 0) target = $('html');
-        $('html, body').animate({ scrollTop: target.offset().top - 52}, 1000);
-        return false;
-    });
+    // $('.nav .nav-item .nav-link ').click(function() {
+    //     $('.navbar .nav-anchor ul li a').removeClass('active');
+    //     $(this).addClass('active');
+    //
+    //     var target = $(this.hash);
+    //     if (target.length == 0) target = $('a[name="' + this.hash.substr(1) + '"]');
+    //     if (target.length == 0) target = $('html');
+    //     $('html, body').animate({ scrollTop: target.offset().top - 52}, 1000);
+    //     return false;
+    // });
 
     // close modal if overlay tapped/clicked
     $('#cover,.modal,#coverLight' ).click(function(e) {
@@ -480,7 +467,7 @@ $(document).ready(function() {
     }
 
     // Add scrollspy to <body>
-    $('body').scrollspy({offset: 50});
+    $('body').scrollspy({offset: 100});
 
     $('.teeth-card').click(function(e){
         e.preventDefault();
@@ -495,7 +482,7 @@ $(document).ready(function() {
             } else {
                 $(this).find('a.corner').not('.top').fadeOut(500);
             }
-            anim($('#panelsAnchor').offset());
+            // anim($('#panelsAnchor').offset());
         });
 
     });
@@ -508,9 +495,9 @@ $(document).ready(function() {
         $('#cover').fadeOut(500);
         $('#coverLight').fadeOut(500);
         // if ($(window).width()<=bpWidth)
-        if($(this).hasClass('corner')) {
-            anim($('#panelsAnchor').offset());
-        }
+        // if($(this).hasClass('corner')) {
+        //     anim($('#panelsAnchor').offset());
+        // }
     });
 
 
@@ -616,7 +603,8 @@ $(document).ready(function() {
     });
 
 
-    $( '[data-trigger="tab"]' ).click( function( e ) {
+    $( '[data-nav="tab"]' ).click( function( e ) {
+        e.preventDefault();
         var href = $( this ).attr('href');
         $('[data-toggle="tab"][href="'+ href +'"]' ).tab('show');
         if(href === '#prices'){
@@ -626,11 +614,21 @@ $(document).ready(function() {
         }else {
             $('#inlineFormContact').show();
         }
-        // $('html,body').animate({scrollTop: $(href).offset().top},'slow');
+        console.log('got here');
+
+        var $toElement = $("a[name='cstop']");
+        var toPosition = $toElement.position().top;
+
+        $("body,html").animate({
+            scrollTop : toPosition
+        },500, "linear");
+
+        return false;
     } );
 
 
     $( '[data-toggle="tab"]' ).click( function( e ) {
+        e.preventDefault();
         var href = $( this ).attr('href');
         $('[data-toggle="tab"][href="'+ href +'"]' ).tab('show');
 
@@ -649,24 +647,46 @@ $(document).ready(function() {
 
     $( '#mobileNav .nav-item .nav-link' ).click( function( e ) {
         e.preventDefault();
-        var href = $( this ).attr('href');
-
-        $('.st-container').removeClass('st-menu-open');
-        $('[data-toggle="tab"][href="'+ href +'"]' ).tab('show');
-        // main-holder_content
-
-        $('.hamburger').removeClass('is-active');
 
 
-        if(href === '#prices'){
-            $('#inlineFormContact').hide();
-        }else if(href === '#results'){
-            $('#inlineFormContact').hide();
-        }else {
-            $('#inlineFormContact').show();
-        }
-        // $('html,body').animate({scrollTop: $(href).offset().top},'slow');
-    } );
+        function initRemClass(){
+            $('.hamburger').removeClass('is-active');
+            $('.st-container').removeClass('st-menu-open');
+        };
+        function initHideFrom(){
+
+            var href = $( this ).attr('href');
+            $('[data-toggle="tab"][href="'+ href +'"]' ).tab('show');
+
+            if(href === '#prices'){
+                $('#inlineFormContact').hide();
+            }else if(href === '#results'){
+                $('#inlineFormContact').hide();
+            }else {
+                $('#inlineFormContact').show();
+            }
+
+        };
+        function initScroll(){
+            var $toElement = $("a[name='cstop']");
+            var toPosition = $toElement.position().top;
+
+            $('#cstop').position().top;
+
+            $("body,html").animate({
+                scrollTop : toPosition
+            },500, "linear");
+
+
+        };
+
+        setTimeout(initRemClass, 1000);
+        setTimeout(initHideFrom, 2000);
+        setTimeout(initScroll, 3000);
+
+        return false;
+
+    });
 
 
 });

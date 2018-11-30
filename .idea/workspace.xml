@@ -7,45 +7,12 @@
   <component name="ChangeListManager">
     <list default="true" id="cebb2776-d0dd-4d61-b84f-7000b5ba04a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app-imp-new.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/layout-booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout-booking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app-tab-new.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app-tab-new.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/layout-tabbed.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout-tabbed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/content-hero-banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/content/content-hero-banner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/content-home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/content-nobel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/content-peaceofmind.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/content-price-terms.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/content-usp.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/content/grouped-content.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/content/grouped-content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/tabbed-content/content-gettingstarted.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/content/tabbed-content/content-gettingstarted.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/content/tabbed-content/content-pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/content/tabbed-content/content-pricing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/tabbed-content/content-quality.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/content/tabbed-content/content-quality.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/tabbed-content/content-results.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/content/tabbed-content/content-results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/teeth-panel/teeth-panels-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/content/teeth-panel/teeth-panels-single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/teeth-panel/teeth-panels-tiad.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/content/teeth-panel/teeth-panels-tiad.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/layout/navigation/main-nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/layout/navigation/main-nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/layout/page-layout/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/layout/page-layout/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/layout/page-layout/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/layout/page-layout/reviews.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/layout/widget-quote.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/layout/widget-quote.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/modals/modal-complaints.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/modals/modal-complaints.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/modals/modal-form-quote.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/modals/modal-form-quote.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/modals/modal-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/modals/modal-form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/modals/modal-guarantee.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/modals/modal-guarantee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/modals/modal-privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/modals/modal-privacy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/modals/modal-terms.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/modals/modal-terms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/app-imp-new.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_font.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_font.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_modal.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_sidebareffects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_sidebareffects.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/comps/_bookingform.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/comps/_bookingform.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/comps/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/comps/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/_content-hero-banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_content-hero-banner.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/_main-nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_main-nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/mixins/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/mixins/mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/pages/_layout-tabbed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/_layout-tabbed.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,38 +24,39 @@
     <session id="617120960">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="5" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="255" />
-          <entry key="js" value="58" />
+          <entry key="html" value="259" />
+          <entry key="js" value="59" />
           <entry key="json" value="8" />
-          <entry key="scss" value="98" />
+          <entry key="scss" value="99" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="5" />
-          <entry key="HTML" value="255" />
+          <entry key="HTML" value="259" />
           <entry key="JSON" value="8" />
-          <entry key="JavaScript" value="58" />
+          <entry key="JavaScript" value="59" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="SCSS" value="98" />
+          <entry key="SCSS" value="99" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="24" />
-          <entry key="html" value="2643" />
-          <entry key="js" value="842" />
+          <entry key="html" value="2680" />
+          <entry key="js" value="1223" />
           <entry key="json" value="199" />
           <entry key="scss" value="2985" />
           <entry key="txt" value="8" />
@@ -97,9 +65,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="2643" />
+          <entry key="HTML" value="2680" />
           <entry key="JSON" value="199" />
-          <entry key="JavaScript" value="841" />
+          <entry key="JavaScript" value="1222" />
           <entry key="PLAIN_TEXT" value="32" />
           <entry key="SCSS" value="2985" />
         </counts>
@@ -112,10 +80,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/partials/content/grouped-content.html">
+        <entry file="file://$PROJECT_DIR$/src/scss/components/_sidebareffects.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="38" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="38" />
+            <state relative-caret-position="120">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <folding>
+                <element signature="e#135#154#0" />
+                <element signature="e#168#193#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,52 +95,70 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/app-tab-new.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1815">
-              <caret line="670" column="4" selection-start-line="670" selection-start-column="4" selection-end-line="670" selection-end-column="4" />
+            <state relative-caret-position="99">
+              <caret line="606" column="27" lean-forward="true" selection-start-line="606" selection-start-column="27" selection-end-line="606" selection-end-column="27" />
               <folding>
-                <element signature="e#65#428#0" />
-                <element signature="n#!!block;n#validateCancellationForm#0" />
                 <element signature="n#!!block;n#validateForm#0" />
                 <element signature="n#!!block;n#closeModal#0" />
                 <element signature="n#!!block;n#doVideo#0" />
+                <element signature="n#!!block;n#openModal#0" />
                 <element signature="n#!!block;n#reOpen#0" />
-                <element signature="n#!!block;n#navScroll#0" />
+                <element signature="e#7501#7550#0" />
                 <element signature="e#7620#8155#0" />
-                <element signature="e#8212#8660#0" />
-                <element signature="e#8701#9082#0" />
+                <element signature="e#8197#8645#0" />
                 <element signature="e#9185#9509#0" />
-                <element signature="e#9564#9750#0" />
-                <element signature="e#9809#10011#0" />
-                <element signature="e#10057#10319#0" />
-                <element signature="e#10361#10611#0" />
-                <element signature="e#10655#10911#0" />
-                <element signature="e#10958#11223#0" />
-                <element signature="e#11260#11569#0" />
-                <element signature="e#11606#11935#0" />
-                <element signature="e#12018#12163#0" />
-                <element signature="e#12246#12408#0" />
-                <element signature="e#12473#12596#0" />
-                <element signature="e#12670#12806#0" />
+                <element signature="e#9549#9735#0" />
+                <element signature="e#9794#9996#0" />
+                <element signature="e#10042#10304#0" />
+                <element signature="e#10346#10596#0" />
+                <element signature="e#10640#10896#0" />
+                <element signature="e#10943#11208#0" />
+                <element signature="e#11245#11554#0" />
+                <element signature="e#11591#11920#0" />
+                <element signature="e#12003#12148#0" />
+                <element signature="e#12231#12393#0" />
+                <element signature="e#12461#12584#0" />
+                <element signature="e#12658#12794#0" />
                 <element signature="e#12907#12979#0" />
-                <element signature="e#13053#13602#0" />
+                <element signature="e#13041#13590#0" />
                 <element signature="e#13688#13742#0" />
                 <element signature="e#13827#15354#0" />
                 <element signature="e#15465#16000#0" />
                 <element signature="e#16073#16459#0" />
-                <element signature="e#16503#20146#0" />
-                <element signature="e#20206#20628#0" />
-                <element signature="e#20686#21161#0" />
-                <element signature="e#21229#21820#0" />
+                <element signature="e#16501#20144#0" />
+                <element signature="e#16889#18056#0" />
+                <element signature="e#18125#18770#0" />
+                <element signature="e#18308#18760#0" />
+                <element signature="e#18777#20116#0" />
+                <element signature="e#20682#21157#0" />
+                <element signature="e#21994#22018#0" />
+                <element signature="e#21311#21711#0" />
+                <element signature="e#21478#21541#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/partials/content/teeth-panel/teeth-panels-multiple.html">
+        <entry file="file://$PROJECT_DIR$/src/partials/content/grouped-content.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="35" />
+            <state relative-caret-position="60">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/partials/layout/navigation/main-nav.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="65" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
+              <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+              <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+              <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+              <folding>
+                <element signature="e#281#287#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,7 +167,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>imgName</find>
       <find>brea</find>
       <find>panel</find>
       <find>xp</find>
@@ -195,7 +184,6 @@
       <find>.contact-form</find>
       <find>navbar-toggle-offcanvas-left</find>
       <find>offcanvas-left</find>
-      <find>panelsAnchor</find>
       <find>content-results</find>
       <find>#</find>
       <find>booking-form</find>
@@ -206,7 +194,9 @@
       <find>https://finestdental.co.uk/</find>
       <find>../images/</find>
       <find>&lt;a href=&quot;#</find>
+      <find>panelsAnchor</find>
       <find>anim</find>
+      <find>navScroll</find>
     </findStrings>
     <replaceStrings>
       <replace>$.support.owltransition</replace>
@@ -241,13 +231,11 @@
         <option value="$PROJECT_DIR$/src/scss/layout/_main-nav.scss" />
         <option value="$PROJECT_DIR$/src/partials/layout/page-layout/reviews.html" />
         <option value="$PROJECT_DIR$/src/partials/content/tabbed-content/content-results.html" />
-        <option value="$PROJECT_DIR$/src/scss/components/_sidebareffects.scss" />
         <option value="$PROJECT_DIR$/src/scss/layout/_cs-tab-panels.scss" />
         <option value="$PROJECT_DIR$/src/scss/comps/_bookingform.scss" />
         <option value="$PROJECT_DIR$/src/partials/modals/modal-form.html" />
         <option value="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp.html" />
         <option value="$PROJECT_DIR$/src/partials/modals/modal-form-quote.html" />
-        <option value="$PROJECT_DIR$/src/partials/layout/navigation/main-nav.html" />
         <option value="$PROJECT_DIR$/src/layouts/layout-booking.html" />
         <option value="$PROJECT_DIR$/src/partials/content/content-hero-banner.html" />
         <option value="$PROJECT_DIR$/src/js/app-imp-new.js" />
@@ -263,13 +251,15 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/partials/content/teeth-panel/teeth-panels-single.html" />
         <option value="$PROJECT_DIR$/src/partials/content/teeth-panel/teeth-panels-tiad.html" />
-        <option value="$PROJECT_DIR$/src/partials/content/tabbed-content/content-pricing.html" />
-        <option value="$PROJECT_DIR$/src/partials/content/grouped-content.html" />
-        <option value="$PROJECT_DIR$/src/layouts/layout-tabbed.html" />
         <option value="$PROJECT_DIR$/src/js/analytics.js" />
         <option value="$PROJECT_DIR$/src/js/forms.js" />
         <option value="$PROJECT_DIR$/src/js/carousels.js" />
         <option value="$PROJECT_DIR$/src/js/modals.js" />
+        <option value="$PROJECT_DIR$/src/scss/components/_sidebareffects.scss" />
+        <option value="$PROJECT_DIR$/src/partials/content/tabbed-content/content-pricing.html" />
+        <option value="$PROJECT_DIR$/src/layouts/layout-tabbed.html" />
+        <option value="$PROJECT_DIR$/src/partials/layout/navigation/main-nav.html" />
+        <option value="$PROJECT_DIR$/src/partials/content/grouped-content.html" />
         <option value="$PROJECT_DIR$/src/js/app-tab-new.js" />
       </list>
     </option>
@@ -283,6 +273,66 @@
     <gulpfiles>
       <GulpfileState>
         <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+        <tasks>
+          <GulpTaskState>
+            <task-name>sass</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>compile-html</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>resetPages</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <dependencies>
+              <dependency value="sass" />
+            </dependencies>
+            <task-name>watch</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>images</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>media</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>iconfonts</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>owl</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>font</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>fontAwesome</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>scripts</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>clean:dist</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <dependencies>
+              <dependency value="clean:dist" />
+              <dependency value="iconfonts" />
+              <dependency value="font" />
+              <dependency value="owl" />
+              <dependency value="fontAwesome" />
+              <dependency value="scripts" />
+              <dependency value="images" />
+              <dependency value="compile-html" />
+              <dependency value="resetPages" />
+              <dependency value="media" />
+              <dependency value="watch" />
+            </dependencies>
+            <task-name>default</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>build</task-name>
+          </GulpTaskState>
+        </tasks>
       </GulpfileState>
     </gulpfiles>
     <sorting>DEFINITION_ORDER</sorting>
@@ -295,16 +345,18 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="975" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1680" />
+    <option name="y" value="-558" />
+    <option name="width" value="2560" />
+    <option name="height" value="1417" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -315,18 +367,7 @@
             <path>
               <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
@@ -355,46 +396,33 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="partials" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="teeth-cards" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
               <item name="teeth-panel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/partials/content" />
-      <recent name="$PROJECT_DIR$/src/js/vendors" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/js" />
       <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/src/partials/layout/page-layout" />
       <recent name="$PROJECT_DIR$/src/scss/layout" />
       <recent name="$PROJECT_DIR$/src/layouts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/partials/content" />
+      <recent name="$PROJECT_DIR$/src/js/vendors" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -408,6 +436,17 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -424,11 +463,12 @@
       <workItem from="1543412692316" duration="196000" />
       <workItem from="1543412899928" duration="14766000" />
       <workItem from="1543437942813" duration="34406000" />
+      <workItem from="1543567287217" duration="5750000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73457000" />
+    <option name="totallyTimeSpent" value="79722000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -440,14 +480,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="975" extended-state="6" />
-    <editor active="true" />
+    <frame x="1680" y="-558" width="2560" height="1417" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8660714" visible="true" weight="0.23321123" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.86463296" visible="true" weight="0.15329626" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info id="Gulp" order="2" sideWeight="0.13536702" side_tool="true" weight="0.15329626" />
       <window_info id="npm" order="3" side_tool="true" />
-      <window_info id="Favorites" order="4" sideWeight="0.13392857" side_tool="true" weight="0.25772098" />
+      <window_info id="Favorites" order="4" sideWeight="0.13536702" side_tool="true" visible="true" weight="0.15329626" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32830188" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -459,7 +498,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31257078" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.20830189" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -473,20 +512,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/js/vendors/sidebarEffects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/components/_sidebareffects.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/comps/_bookingform.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -528,17 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding>
-            <element signature="n#button#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/layout/navigation/main-nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -567,23 +581,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/geo-location-brentwood.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/geo-location-birmingham.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/geo-location-bermondsey.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/geo-location-brentwood.html" />
+    <entry file="file://$PROJECT_DIR$/src/pages/geo-location-birmingham.html" />
+    <entry file="file://$PROJECT_DIR$/src/pages/geo-location-bermondsey.html" />
     <entry file="file://$PROJECT_DIR$/src/pages/tab-geo-birmingham.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -665,16 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="172" column="25" selection-start-line="172" selection-start-column="25" selection-end-line="172" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/partials/content/teeth-cards/card-type.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -692,17 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/tabbed-content/content-pricing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding>
-            <element signature="n#a#2;n#div#1;n#!!top" />
-            <element signature="n#div#0;n#a#2;n#div#1;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -776,33 +758,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/layout-tabbed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="59" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/grouped-content.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/carousels.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding>
-            <element signature="e#38#486#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -810,18 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-          <folding>
-            <element signature="e#36#222#0" />
-            <element signature="e#277#422#0" />
-            <element signature="e#505#667#0" />
-            <element signature="e#281#483#0" />
-            <element signature="e#529#791#0" />
-            <element signature="e#833#1083#0" />
-            <element signature="e#1127#1383#0" />
-            <element signature="e#1430#1695#0" />
-            <element signature="e#1732#2041#0" />
-            <element signature="e#2078#2407#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -829,10 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-          <folding>
-            <element signature="e#64#187#0" />
-            <element signature="e#261#397#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -843,44 +786,120 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="199" selection-start-line="199" selection-end-line="199" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/components/_sidebareffects.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="e#135#154#0" />
+            <element signature="e#168#193#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/layout/navigation/main-nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="65" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
+          <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+          <folding>
+            <element signature="e#281#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/content/tabbed-content/content-pricing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="n#a#2;n#div#1;n#!!top" />
+            <element signature="n#div#0;n#a#2;n#div#1;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/layout-tabbed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/content/grouped-content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/app-tab-new.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="670" column="4" selection-start-line="670" selection-start-column="4" selection-end-line="670" selection-end-column="4" />
+        <state relative-caret-position="99">
+          <caret line="606" column="27" lean-forward="true" selection-start-line="606" selection-start-column="27" selection-end-line="606" selection-end-column="27" />
           <folding>
-            <element signature="e#65#428#0" />
-            <element signature="n#!!block;n#validateCancellationForm#0" />
             <element signature="n#!!block;n#validateForm#0" />
             <element signature="n#!!block;n#closeModal#0" />
             <element signature="n#!!block;n#doVideo#0" />
+            <element signature="n#!!block;n#openModal#0" />
             <element signature="n#!!block;n#reOpen#0" />
-            <element signature="n#!!block;n#navScroll#0" />
+            <element signature="e#7501#7550#0" />
             <element signature="e#7620#8155#0" />
-            <element signature="e#8212#8660#0" />
-            <element signature="e#8701#9082#0" />
+            <element signature="e#8197#8645#0" />
             <element signature="e#9185#9509#0" />
-            <element signature="e#9564#9750#0" />
-            <element signature="e#9809#10011#0" />
-            <element signature="e#10057#10319#0" />
-            <element signature="e#10361#10611#0" />
-            <element signature="e#10655#10911#0" />
-            <element signature="e#10958#11223#0" />
-            <element signature="e#11260#11569#0" />
-            <element signature="e#11606#11935#0" />
-            <element signature="e#12018#12163#0" />
-            <element signature="e#12246#12408#0" />
-            <element signature="e#12473#12596#0" />
-            <element signature="e#12670#12806#0" />
+            <element signature="e#9549#9735#0" />
+            <element signature="e#9794#9996#0" />
+            <element signature="e#10042#10304#0" />
+            <element signature="e#10346#10596#0" />
+            <element signature="e#10640#10896#0" />
+            <element signature="e#10943#11208#0" />
+            <element signature="e#11245#11554#0" />
+            <element signature="e#11591#11920#0" />
+            <element signature="e#12003#12148#0" />
+            <element signature="e#12231#12393#0" />
+            <element signature="e#12461#12584#0" />
+            <element signature="e#12658#12794#0" />
             <element signature="e#12907#12979#0" />
-            <element signature="e#13053#13602#0" />
+            <element signature="e#13041#13590#0" />
             <element signature="e#13688#13742#0" />
             <element signature="e#13827#15354#0" />
             <element signature="e#15465#16000#0" />
             <element signature="e#16073#16459#0" />
-            <element signature="e#16503#20146#0" />
-            <element signature="e#20206#20628#0" />
-            <element signature="e#20686#21161#0" />
-            <element signature="e#21229#21820#0" />
+            <element signature="e#16501#20144#0" />
+            <element signature="e#16889#18056#0" />
+            <element signature="e#18125#18770#0" />
+            <element signature="e#18308#18760#0" />
+            <element signature="e#18777#20116#0" />
+            <element signature="e#20682#21157#0" />
+            <element signature="e#21994#22018#0" />
+            <element signature="e#21311#21711#0" />
+            <element signature="e#21478#21541#0" />
           </folding>
         </state>
       </provider>
