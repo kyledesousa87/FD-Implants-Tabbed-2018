@@ -13,7 +13,8 @@
     flex-grow: 1;
   }
   &_sidebar{
-    width: 400px;
+    width: 500px;
+    min-width: 300px;
 
     @include media-breakpoint-up(xs) {
       display: none;

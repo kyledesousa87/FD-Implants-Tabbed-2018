@@ -15,19 +15,11 @@
     <title>UK's Finest Dental Implants</title>
     <link rel="stylesheet" href="{{root}}/css/app-tab-new.css">
     <link rel="shortcut icon" href="https://finestdental.co.uk/favicon.ico" />
-    <!--<script async src="//176199.tctm.co/t.js"></script>-->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58568623-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
 
-        gtag('config', 'UA-58568623-1');
-    </script>
+
 </head>
 
-<body>
+<body class="veneers">
 
     {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
 
@@ -36,33 +28,27 @@
 
     {{>main-nav}}
 
+    <nav class="st-menu st-effect-3" id="menu-3">
 
+        <ul id="mobileNav">
+            <li class="nav-item"><a class="nav-link" data-nav-mobi="tab" href="#getting-started">Get&nbsp;Started</a></li>
+            <li class="nav-item"><a class="nav-link" data-nav-mobi="tab" href="#prices"  aria-pressed="true">Prices</a></li>
+            <li class="nav-item"><a class="nav-link" data-nav-mobi="tab" href="#results"  aria-pressed="true">Results</a></li>
+            <li class="nav-item"><a class="nav-link" data-nav-mobi="tab" href="#quality"  aria-pressed="true">Quality Guarantee</a></li>
+            <li class="nav-item"><a class="nav-link" href="#reviews"  href="#reviews" aria-pressed="true">Reviews</a></li>
+
+        </ul>
+    </nav>
 
     <div id="st-container" class="st-container">
-
-
-        <!-- content push wrapper -->
         <div class="st-pusher">
+            <div class="st-content">
+                <div class="st-content-inner">
 
-            <nav class="st-menu st-effect-3" id="menu-3">
-
-                <ul id="mobileNav">
-                    <li class="nav-item"><a class="nav-link" data-trigger="tab" href="#getting-started">Get&nbsp;Started</a></li>
-                    <li class="nav-item"><a class="nav-link" data-trigger="tab" href="#prices"  aria-pressed="true">Prices</a></li>
-                    <li class="nav-item"><a class="nav-link" data-trigger="tab" href="#results"  aria-pressed="true">Results</a></li>
-                    <li class="nav-item"><a class="nav-link" data-trigger="tab" href="#quality"  aria-pressed="true">Quality Guarantee</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#reviews"  href="#reviews" aria-pressed="true">Reviews</a></li>
-                </ul>
-            </nav>
-
-
-            <div class="st-content"><!-- this is the wrapper for the content -->
-                <div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
-                    <!-- Top Navigation -->
 
 
                     <div class="main clearfix">
-                        <div>
+
                             {{>content-hero-banner}}
                             <main role="main" class="main-holder">
                                 <div class="main-holder_content">
@@ -70,19 +56,18 @@
                                     {{> body}}
                                 </div>
                                 <div class="main-holder_sidebar">
-                                    {{>widget-quote}}
+                                  {{>booking-form-comp}}
                                 </div>
                             </main>
-
                             {{>reviews}}
                             {{>footer}}
-                        </div>
+
 
                     </div><!-- /main -->
                 </div><!-- /st-content-inner -->
             </div><!-- /st-content -->
-        </div><!-- /st-pusher -->
-    </div><!-- /st-container -->
+        </div>
+    </div>
 
     <div class="mobile-btn">
         <button class="openForm btn submit " name="submitC" value="BOOK NOW">Book <span class="hideMe">Your </span><strong>Free Consultation</strong><span class="hideMe"> Now</span></button>
