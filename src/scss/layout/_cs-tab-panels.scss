@@ -16,7 +16,6 @@
   .tab-pane {
     flex-grow: 1;
     margin-right: 20px;
-    padding: 25px 0;
 
     @include media-breakpoint-up(xs) {
       width: 100%;
@@ -52,7 +51,7 @@
       width: 30%;
     }
     align-self: start;
-    padding-top: 25px;
+
   }
 }
 

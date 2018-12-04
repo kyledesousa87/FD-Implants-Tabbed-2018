@@ -113,7 +113,20 @@
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-
+  max-width: 1600px;
+  margin: 0 auto;
+  @include media-breakpoint-up(xs) {
+    width: 97%;
+  }
+  @include media-breakpoint-up(sm) {
+    width: 97%;
+  }
+  @include media-breakpoint-up(md) {
+    width: 97%;
+  }
+  @include media-breakpoint-up(lg) {
+    width: 100%;
+  }
   h3, h4 {
     display: flex;
     flex-direction: row;
@@ -130,7 +143,6 @@
     @include media-breakpoint-up(md) {
       top: -15px;
     }
-
     @include media-breakpoint-up(lg) {
       top: -15px;
     }
@@ -154,15 +166,15 @@
   }
 
   .usp-implant-row {
-
-    flex-direction: row;
     width: 100%;
+    margin: 0 auto;
+    flex-direction: row;
     flex-grow: 1;
     display: flex;
     align-items: center;
 
-
     justify-content: space-evenly;
+
 
     .usp-implant-row-inner {
       background-image: linear-gradient(to left, rgba(255,255,255,0), rgba(255,255,255,1)); /* Standard syntax (must be last) */

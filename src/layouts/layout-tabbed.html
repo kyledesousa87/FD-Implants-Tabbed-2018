@@ -36,6 +36,7 @@
             <li class="nav-item"><a class="nav-link" data-nav-mobi="tab" href="#prices"  aria-pressed="true">Prices</a></li>
             <li class="nav-item"><a class="nav-link" data-nav-mobi="tab" href="#results"  aria-pressed="true">Results</a></li>
             <li class="nav-item"><a class="nav-link" data-nav-mobi="tab" href="#quality"  aria-pressed="true">Quality Guarantee</a></li>
+            <li class="nav-item"><a class="nav-link" data-nav-mobi="tab" href="#practice"  aria-pressed="true">Practice</a></li>
         </ul>
     </nav>
     <div id="st-container" class="st-container">
@@ -44,9 +45,22 @@
                 <div class="st-content-inner">
                     <div class="main clearfix">
                             {{>content-home}}
+                            <div class="nav-tab-holder d-none d-sm-none d-md-block d-lg-block d-xl-block">
+                                <nav>
+                                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                        <a id="getting-started-tab" class="nav-item nav-link active"  data-toggle="tab" href="#getting-started" role="tab" aria-controls="getting-started" aria-selected="true">Getting Started</a>
+                                        <a id="prices-tab" class="nav-item nav-link"  data-toggle="tab" href="#prices" role="tab" aria-controls="prices" aria-selected="false">Prices</a>
+                                        <a id="results-tab" class="nav-item nav-link"  data-toggle="tab" href="#results" role="tab" aria-controls="results" aria-selected="false">Results</a>
+                                        <a id="quality-tab" class="nav-item nav-link"  data-toggle="tab" href="#quality" role="tab" aria-controls="quality" aria-selected="false">Quality Guarantee</a>
+                                        <a id="practice-tab" class="nav-item nav-link"  data-toggle="tab" href="#practice" role="tab" aria-controls="practice" aria-selected="false">Practice</a>
+                                    </div>
+                                </nav>
+                            </div>
                             <main role="main" class="main-holder">
+
                                 <div class="main-holder_content">
                                     <div id="coverLight" style="display: none"></div>
+
                                     {{> body}}
                                 </div>
                                 <div class="main-holder_sidebar">

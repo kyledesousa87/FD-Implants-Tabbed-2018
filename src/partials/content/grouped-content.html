@@ -4,14 +4,7 @@
 
     <div class="content_row">
         <div class="content_row__main">
-            <nav class="d-none d-sm-none d-md-block d-lg-block d-xl-block">
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                    <a id="getting-started-tab" class="nav-item nav-link active"  data-toggle="tab" href="#getting-started" role="tab" aria-controls="getting-started" aria-selected="true">Getting Started</a>
-                    <a id="prices-tab" class="nav-item nav-link"  data-toggle="tab" href="#prices" role="tab" aria-controls="prices" aria-selected="false">Prices</a>
-                    <a id="results-tab" class="nav-item nav-link"  data-toggle="tab" href="#results" role="tab" aria-controls="results" aria-selected="false">Results</a>
-                    <a id="quality-tab" class="nav-item nav-link"  data-toggle="tab" href="#quality" role="tab" aria-controls="quality" aria-selected="false">Quality Guarantee</a>
-                </div>
-            </nav>
+
             <div class="tab-content cs-tabs-panels" id="nav-tabContent">
                 <div id="getting-started" class="tab-pane fade show active "  role="tabpanel" aria-labelledby="getting-started-tab">
                     {{>content-gettingstarted}}
@@ -24,6 +17,9 @@
                 </div>
                 <div id="quality" class="tab-pane fade full-pane"  role="tabpanel" aria-labelledby="quality-tab">
                     {{>content-quality}}
+                </div>
+                <div id="practice" class="tab-pane fade "  role="tabpanel" aria-labelledby="practice-tab">
+                    <h1>practice</h1>
                 </div>
                 <div id="inlineFormContact" class="tab-pane-fixed">
                     {{>widget-quote}}

@@ -319,7 +319,6 @@ $(document).ready(function() {
     }, 500);
 
 
-
     $('.btn-readmore').on('click', function(e){
         e.preventDefault();
         var elem =  $(this).closest('.more-text').find(".btn-readmore").text();
@@ -451,11 +450,6 @@ $(document).ready(function() {
         $('#videoModalOuter').find('#cover', '#videoModalOuter').html('');
     });
 
-
-
-    // Add scrollspy to <body>
-    $('body').scrollspy({offset: 100});
-
     $('.teeth-card').click(function(e){
         e.preventDefault();
         var i = $(this).attr( "id" );
@@ -492,8 +486,10 @@ $(document).ready(function() {
     $( '[data-nav="tab"]' ).click( function( e ) {
         e.preventDefault();
         var href = $( this ).attr('href');
-        $('[data-toggle="tab"][href="'+ href +'"]' ).tab('show');
-        $('[data-toggle="tab"][href="'+ href +'"]' ).toggleClass('active');
+        var currentTab = $('[data-toggle="tab"][href="'+ href +'"]' );
+        currentTab.not(this).removeClass("active");
+        $(this).toggleClass("active");
+        currentTab.tab('show');
 
         if(href === '#results'){
             $('#inlineFormContact').hide();
@@ -503,24 +499,20 @@ $(document).ready(function() {
             $('#inlineFormContact').show();
         }
 
-
         var $toElement = $("a[name='cstop']");
+
         var toPosition = $toElement.position().top;
 
         $("body,html").animate({
-            scrollTop : toPosition
+            scrollTop : ((toPosition) - 50 )
         },500, "linear");
 
         return false;
+
     } );
 
-
     $( '[data-toggle="tab"]' ).click( function( e ) {
-        e.preventDefault();
         var href = $( this ).attr('href');
-        $('[data-toggle="tab"][href="'+ href +'"]' ).tab('show');
-        $('[data-toggle="tab"][href="'+ href +'"]' ).toggleClass('active');
-
 
         if(href === '#results'){
             $('#inlineFormContact').hide();
@@ -529,13 +521,8 @@ $(document).ready(function() {
         }else {
             $('#inlineFormContact').show();
         }
-        // $('html,body').animate({scrollTop: $(href).offset().top},'slow');
-        $('.hamburger').removeClass('is-active');
+
     } );
-
-
-
-
 
 
     $(".st-pusher").click(function(){
@@ -582,11 +569,6 @@ $(document).ready(function() {
     });
 
 
-    $('.nav-links .nav .nav-item .nav-link').click(function() {
-        $('.nav-links .nav .nav-item .nav-link').removeClass('active');
-        $(this).addClass('active');
-        return false;
-    });
 
 
 });

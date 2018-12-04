@@ -234,20 +234,3 @@ p.bigText {
   }
 }
 
-.hero-hed {
-
-  @include media-breakpoint-up(xs) {
-
-    padding-top: 15px;
-    font-size: 30px;
-  }
-  @include media-breakpoint-up(sm) {
-    font-size: 35px;
-  }
-  @include media-breakpoint-up(md) {
-    font-size: 45px;
-  }
-  @include media-breakpoint-up(lg) {
-    font-size: 55px;
-  }
-}
