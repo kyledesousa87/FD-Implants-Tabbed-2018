@@ -6,24 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cebb2776-d0dd-4d61-b84f-7000b5ba04a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app-tab-new.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app-tab-new.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/layout-booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout-booking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/layout-tabbed.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout-tabbed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/content-home-henry-lg.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/content/content-home-henry-lg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/content-home-henry-md.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/content/content-home-henry-md.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/content-home-henry-sm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/content/content-home-henry-sm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/grouped-content.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/content/grouped-content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/tabbed-content/content-gettingstarted.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/content/tabbed-content/content-gettingstarted.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/content/tabbed-content/content-pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/content/tabbed-content/content-pricing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/layout/navigation/main-nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/layout/navigation/main-nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_font.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_font.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/comps/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/comps/_backgrounds.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/_content-hero-banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_content-hero-banner.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/_cs-tab-panels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_cs-tab-panels.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/_main-nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_main-nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/_teeth-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_teeth-card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/pages/_layout-tabbed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/_layout-tabbed.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp-mobi.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp-mobi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/comps/_bookingform.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/comps/_bookingform.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,43 +32,43 @@
         <counts>
           <entry key="css" value="5" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="460" />
+          <entry key="html" value="462" />
           <entry key="js" value="82" />
           <entry key="jsOLD" value="1" />
           <entry key="json" value="8" />
-          <entry key="scss" value="140" />
+          <entry key="scss" value="141" />
           <entry key="ts" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="5" />
-          <entry key="HTML" value="460" />
+          <entry key="HTML" value="462" />
           <entry key="JSON" value="8" />
           <entry key="JavaScript" value="82" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="SCSS" value="140" />
+          <entry key="SCSS" value="141" />
           <entry key="TypeScript" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="24" />
-          <entry key="html" value="3270" />
+          <entry key="html" value="3274" />
           <entry key="js" value="1791" />
           <entry key="json" value="199" />
-          <entry key="scss" value="3629" />
+          <entry key="scss" value="3640" />
           <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="3270" />
+          <entry key="HTML" value="3274" />
           <entry key="JSON" value="199" />
           <entry key="JavaScript" value="1790" />
           <entry key="PLAIN_TEXT" value="32" />
-          <entry key="SCSS" value="3629" />
+          <entry key="SCSS" value="3640" />
         </counts>
       </usages-collector>
     </session>
@@ -92,156 +77,7 @@
     <favorites_list name="FD-Implants-Tabbed-2018" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/app-tab-new.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="440" column="27" lean-forward="true" selection-start-line="440" selection-start-column="27" selection-end-line="440" selection-end-column="27" />
-              <folding>
-                <element signature="e#65#428#0" />
-                <element signature="e#105#258#0" />
-                <element signature="e#198#252#0" />
-                <element signature="e#383#424#0" />
-                <element signature="n#!!block;n#validateCancellationForm#0" />
-                <element signature="e#542#908#0" />
-                <element signature="e#615#843#0" />
-                <element signature="e#741#802#0" />
-                <element signature="e#849#902#0" />
-                <element signature="e#1157#2167#0" />
-                <element signature="e#1222#1342#0" />
-                <element signature="e#1348#2160#0" />
-                <element signature="e#1379#1510#0" />
-                <element signature="e#1516#2150#0" />
-                <element signature="e#1716#1936#0" />
-                <element signature="e#1788#1917#0" />
-                <element signature="e#1975#2136#0" />
-                <element signature="e#2214#2243#0" />
-                <element signature="n#!!block;n#validateForm#0" />
-                <element signature="e#2355#2463#0" />
-                <element signature="e#2517#2634#0" />
-                <element signature="e#2687#2800#0" />
-                <element signature="e#2849#2963#0" />
-                <element signature="e#3209#4351#0" />
-                <element signature="e#3274#3434#0" />
-                <element signature="e#3440#4344#0" />
-                <element signature="e#3471#3646#0" />
-                <element signature="e#3652#4334#0" />
-                <element signature="e#3852#4072#0" />
-                <element signature="e#3924#4053#0" />
-                <element signature="e#4111#4320#0" />
-                <element signature="e#4401#4509#0" />
-                <element signature="e#4602#4716#0" />
-                <element signature="e#4721#4881#0" />
-                <element signature="e#4928#5213#0" />
-                <element signature="e#4956#5162#0" />
-                <element signature="e#5048#5109#0" />
-                <element signature="n#!!block;n#closeModal#0" />
-                <element signature="e#5272#5338#0" />
-                <element signature="e#5344#5483#0" />
-                <element signature="n#!!block;n#doVideo#0" />
-                <element signature="n#!!block;n#openModal#0" />
-                <element signature="e#5761#5820#0" />
-                <element signature="n#!!block;n#reOpen#0" />
-                <element signature="e#5982#6203#0" />
-                <element signature="e#6101#6137#0" />
-                <element signature="e#6150#6197#0" />
-                <element signature="e#6262#6354#0" />
-                <element signature="e#6300#6342#0" />
-                <element signature="e#6360#6671#0" />
-                <element signature="e#6402#6665#0" />
-                <element signature="e#6599#6649#0" />
-                <element signature="e#6796#6919#0" />
-                <element signature="e#6833#6869#0" />
-                <element signature="e#6875#6912#0" />
-                <element signature="e#6993#7129#0" />
-                <element signature="e#7042#7078#0" />
-                <element signature="e#7084#7121#0" />
-                <element signature="e#7242#7314#0" />
-                <element signature="e#7356#8807#0" />
-                <element signature="e#7514#7640#0" />
-                <element signature="e#7646#8778#0" />
-                <element signature="e#7672#7718#0" />
-                <element signature="e#7749#7795#0" />
-                <element signature="e#7826#7872#0" />
-                <element signature="e#7903#7949#0" />
-                <element signature="e#7990#8037#0" />
-                <element signature="e#8077#8123#0" />
-                <element signature="e#8164#8210#0" />
-                <element signature="e#8252#8299#0" />
-                <element signature="e#8331#8378#0" />
-                <element signature="e#8410#8457#0" />
-                <element signature="e#8483#8525#0" />
-                <element signature="e#8870#9419#0" />
-                <element signature="e#8904#9219#0" />
-                <element signature="e#8939#9022#0" />
-                <element signature="e#9516#9570#0" />
-                <element signature="e#9626#10161#0" />
-                <element signature="e#9769#9925#0" />
-                <element signature="e#9931#10089#0" />
-                <element signature="e#10203#10651#0" />
-                <element signature="e#10358#10645#0" />
-                <element signature="e#10374#10439#0" />
-                <element signature="e#10457#10523#0" />
-                <element signature="e#10542#10635#0" />
-                <element signature="e#10754#11078#0" />
-                <element signature="e#10785#11071#0" />
-                <element signature="e#11118#11304#0" />
-                <element signature="e#11363#11565#0" />
-                <element signature="e#11611#11873#0" />
-                <element signature="e#11915#12165#0" />
-                <element signature="e#12209#12465#0" />
-                <element signature="e#12512#12777#0" />
-                <element signature="e#12814#13123#0" />
-                <element signature="e#13160#13489#0" />
-                <element signature="e#13227#13483#0" />
-                <element signature="e#13572#13717#0" />
-                <element signature="e#13800#13962#0" />
-                <element signature="e#14005#14707#0" />
-                <element signature="e#14149#14698#0" />
-                <element signature="e#14267#14387#0" />
-                <element signature="e#14393#14475#0" />
-                <element signature="e#14618#14672#0" />
-                <element signature="e#14792#15038#0" />
-                <element signature="e#15092#15824#0" />
-                <element signature="e#15391#15446#0" />
-                <element signature="e#15474#15529#0" />
-                <element signature="e#15534#15589#0" />
-                <element signature="e#15723#15779#0" />
-                <element signature="e#16625#16729#0" />
-                <element signature="e#16801#18003#0" />
-                <element signature="e#16905#17081#0" />
-                <element signature="e#17114#17383#0" />
-                <element signature="e#17150#17213#0" />
-                <element signature="e#17241#17304#0" />
-                <element signature="e#17309#17372#0" />
-                <element signature="e#17415#17576#0" />
-                <element signature="e#17607#17842#0" />
-                <element signature="e#17751#17815#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/partials/content/tabbed-content/content-pricing.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/layout/_teeth-card.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -316,11 +152,8 @@
         <option value="$PROJECT_DIR$/src/pages/tab-geo-winchester.html" />
         <option value="$PROJECT_DIR$/src/js/vendors/sidebarEffects.js" />
         <option value="$PROJECT_DIR$/src/scss/comps/_buttons.scss" />
-        <option value="$PROJECT_DIR$/src/scss/comps/_bookingform.scss" />
         <option value="$PROJECT_DIR$/src/scss/layout/_sidebar.scss" />
         <option value="$PROJECT_DIR$/src/partials/layout/widget-quote.html" />
-        <option value="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp.html" />
-        <option value="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp-mobi.html" />
         <option value="$PROJECT_DIR$/src/partials/content/tabbed-content/content-gettingstarted.html" />
         <option value="$PROJECT_DIR$/src/partials/content/content-home-henry-sm.html" />
         <option value="$PROJECT_DIR$/src/partials/content/content-home.html" />
@@ -339,6 +172,9 @@
         <option value="$PROJECT_DIR$/src/js/app-tab-new.js" />
         <option value="$PROJECT_DIR$/src/scss/layout/_teeth-card.scss" />
         <option value="$PROJECT_DIR$/src/partials/content/tabbed-content/content-pricing.html" />
+        <option value="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp-mobi.html" />
+        <option value="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp.html" />
+        <option value="$PROJECT_DIR$/src/scss/comps/_bookingform.scss" />
       </list>
     </option>
   </component>
@@ -595,12 +431,12 @@
       <workItem from="1543437942813" duration="34406000" />
       <workItem from="1543567287217" duration="5793000" />
       <workItem from="1543833740453" duration="23224000" />
-      <workItem from="1543913611008" duration="12929000" />
+      <workItem from="1543913611008" duration="13716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115918000" />
+    <option name="totallyTimeSpent" value="116705000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -613,7 +449,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2560" y="-247" width="2560" height="1365" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6318681" visible="true" weight="0.12509929" />
       <window_info id="Structure" order="1" sideWeight="0.36813188" side_tool="true" visible="true" weight="0.12509929" />
@@ -788,13 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/comps/_bookingform.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/comps/_buttons.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -823,20 +651,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app-tab-new.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp-mobi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="36" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/partials/layout/widget-quote.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1021,6 +835,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/content/tabbed-content/content-pricing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="727">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+          <caret line="64" column="40" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/app-tab-new.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
@@ -1149,10 +972,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/tabbed-content/content-pricing.html">
+    <entry file="file://$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+        <state relative-caret-position="15">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/comps/_bookingform.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp-mobi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>

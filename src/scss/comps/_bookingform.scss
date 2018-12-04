@@ -1,6 +1,6 @@
 .booking-form {
   box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 0px 12px rgba(0,0,0,0.10);
-width: 100%;
+  width: 100%;
 
   @include media-breakpoint-up(xs) {
     margin: auto;
@@ -12,7 +12,7 @@ width: 100%;
     align-self: start;
   }
   @include media-breakpoint-up(lg) {
-   margin: auto;
+   margin: 0 auto 25px auto;
     align-self: center;
   }
   &_hed{
