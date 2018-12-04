@@ -213,6 +213,9 @@ p.bigText {
 
 .alt {
   font-family: $altFont;
+  b {
+    font-weight: 700;
+  }
 }
 
 
@@ -228,5 +231,23 @@ p.bigText {
     padding-bottom: 10px;
     margin-bottom: 10px;
     border-bottom: 1px solid $gray-400;
+  }
+}
+
+.hero-hed {
+
+  @include media-breakpoint-up(xs) {
+
+    padding-top: 15px;
+    font-size: 30px;
+  }
+  @include media-breakpoint-up(sm) {
+    font-size: 35px;
+  }
+  @include media-breakpoint-up(md) {
+    font-size: 45px;
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: 55px;
   }
 }

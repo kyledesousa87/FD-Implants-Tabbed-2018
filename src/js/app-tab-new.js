@@ -215,127 +215,110 @@ function reOpen(){
 }
 // autoscroll anchors
 
-// function anim(p) {
-//     if(p=='top')
-//         target = 0;
-//     else
-//         target = p.top - 85;
-//
-//     if($('.fixedheader').length&&$(window).width()<=bpWidth)
-//         target -= $('#header').height();
-//
-//     $('.st-content').animate({
-//         scrollTop:target+'px'
-//     },500);
-// }
-
-
-
-
 
 
 $(document).ready(function() {
 
-    $('form#quote').submit(function(){
-        var quoteMode = 'none';
-        if($('.veneers').length||quoteMode=='Veneers'||quoteMode=='none') {
-            // veneers mode
-            // validate
-            var tt = $('#treatmentType').val();
-            var nt = $('#numTreatments').val();
-            if(tt==''||nt=='0') {
-                alert("You need to choose the treatment type, and the quantity.");
-            } else {
-                if(tt=='sv') {
-                    if(nt=='1')
-                        var c = 11.23;
-                    else if (nt=='2')
-                        var c = 20.68;
-                    else if (nt=='4')
-                        var c = 44.94;
-                    else if (nt=='6')
-                        var c = 56.11;
-                    else if (nt=='12')
-                        var c = 85.00;
-                } else {
-                    if(nt=='4')
-                        var c = 37.68;
-                    else if (nt=='6')
-                        var c = 50.90;
-                    else if (nt=='8')
-                        var c = 64.13;
-                    else if (nt=='12')
-                        var c = 90.58;
-                    else if (nt=='16')
-                        var c = 113.25;
-                    else if (nt=='20')
-                        var c = 132.14;
-                }
-                $('#quoteModalOuter h3 strong').html(c);
 
-                $('#quoteModalOuter').modal('show');
-                // set Veneers-specific treatment ID
-                $('#quoteModalOuter input[name="treatment"]').val('15');
-            }
-        } else if($('.invisalign').length||quoteMode=='Invisalign') {
-            // invisalign mode;
-            var p = $('#chooseProduct').val();
-            if(p==''||p=='0') {
-                alert('Please choose a product.');
-            } else {
-                if(p=='1')
-                    var c = '28.23';
-                else if (p=='2')
-                    var c = '35.89';
-                else if (p=='3')
-                    var c = '55.73';
-                $('#quoteModalOuter h3').html(c);
+    $("form[action='/consultation.php']").submit(function(event){
 
-                $('#quoteModalOuter').modal('show');
-
-                // set Invisalign-specific treatment ID
-                $('#quoteModalOuter input[name="treatment"]').val('1');
-            }
-        } else  {
-            // implants mode
-
-            // validate
-            var nt = $('#numTeeth').val();
-            var ms = $('#missingSince').val();
-            if(nt==''||ms=='') {
-                alert("You need to choose the number of teeth you need replaced, and how long they've been missing.");
-            } else {
-                if(nt=='1'||nt=='2') {
-                    var c = 28.23;
-                } else if (nt=='3'||nt=='4') {
-                    var c = 47.23;
-                } else if (nt=='5'||nt=='6') {
-                    var c = 56.38;
-                } else if (nt=='7'||nt=='8') {
-                    var c = 75.19;
-                } else if (nt=='9'||nt=='10') {
-                    var c = 84.53;
-                } else if (nt=='11'||nt=='12') {
-                    var c = 101.45;
-                } else if (nt=='1A') {
-                    var c = 113.35;
-                } else if (nt=='2A') {
-                    var c = 188.92;
-                }
-                if (ms=='2') {
-                    c += 7.56;
-                }
-                $('#quoteModalOuter').modal('show');
-                $('#quoteModalOuter h3 span').html(Math.round(c * 100) / 100);
-
-
-
-                // set Implants-specific treatment ID
-                $('#quoteModalOuter input[name="treatment"]').val('4');
-            }
+        if(validateForm($(this))) {
+            return true;
+        } else {
+            return false;
         }
+
+    });
+
+    $("form[action='/patient_submission.php']").submit(function(event){
+
+        if(validateCancellationForm($(this))) {
+            return true;
+        } else {
+            return false;
+        }
+
+
+    });
+
+    // cancel popup form if any other form touched
+    $('input,select,a').on('focus click change',function(){
+        if(typeof pop !== 'undefined') window.clearTimeout(pop);
+    });
+
+
+    $('form#quote').submit(function(){
+
+        // implants mode
+
+        // validate
+        var nt = $('#numTeeth').val();
+        var ms = $('#missingSince').val();
+        if(nt==''||ms=='') {
+            alert("You need to choose the number of teeth you need replaced, and how long they've been missing.");
+        } else {
+            if(nt=='1') {
+                var c = 32.00;
+            }
+            else if (nt=='2') {
+                var c = 47.23;
+            }
+            else if (nt=='3') {
+                var c = 47.23;
+            }
+            else if (nt=='4') {
+                var c = 47.23;
+            }
+
+            else if (nt=='5'||nt=='6') {
+                var c = 127.52;
+            }
+            else if (nt=='7'||nt=='8') {
+                var c = 75.19;
+            }
+            else if (nt=='9'||nt=='10') {
+                var c = 84.53;
+            }
+            else if (nt=='11'||nt=='12') {
+                var c = 101.45;
+            }
+            else if (nt=='1A') {
+                var c = 113.35;
+            }
+            else if (nt=='2A') {
+                var c = 188.92;
+            }
+            if (ms=='2') {
+                c += 7.56;
+            }
+            $('#quoteModalOuter').modal('show');
+            $('#quoteModalOuter h3 span').html(Math.round(c * 100) / 100);
+
+            // set Implants-specific treatment ID
+            $('#quoteModalOuter input[name="treatment"]').val('4');
+        }
+
         return false;
     });
+
+
+    // defer FB pixel
+    var dfbp = setTimeout(function(){
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1477526785873521'); // Insert your pixel ID here.
+        fbq('track', 'PageView');
+    },3000);
+
+    // delayed load of above-the-fold reviews widget
+    var dr = setTimeout(function() {
+        $('#widgetOuter').addClass('visible');
+    }, 500);
+
+
 
     $('.btn-readmore').on('click', function(e){
         e.preventDefault();
@@ -374,7 +357,6 @@ $(document).ready(function() {
             }
         }
     });
-
 
     // close modal if overlay tapped/clicked
     $('#cover,.modal,#coverLight' ).click(function(e) {
@@ -469,86 +451,7 @@ $(document).ready(function() {
         $('#videoModalOuter').find('#cover', '#videoModalOuter').html('');
     });
 
-    $("form[action='/consultation.php']").submit(function(event){
 
-        if(validateForm($(this))) {
-            return true;
-        } else {
-            return false;
-        }
-
-    });
-
-    $("form[action='/patient_submission.php']").submit(function(event){
-
-        if(validateCancellationForm($(this))) {
-            return true;
-        } else {
-            return false;
-        }
-
-
-    });
-
-    // cancel popup form if any other form touched
-    $('input,select,a').on('focus click change',function(){
-        if(typeof pop !== 'undefined') window.clearTimeout(pop);
-    });
-
-    // defer FB pixel
-    var dfbp = setTimeout(function(){
-        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-            document,'script','https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1477526785873521'); // Insert your pixel ID here.
-        fbq('track', 'PageView');
-    },3000);
-
-
-    // delayed load of above-the-fold reviews widget
-    var dr = setTimeout(function() {
-        $('#widgetOuter').addClass('visible');
-    }, 500);
-
-    // delayed load of reviews row
-    if($('#carousel-widget-360').length) {
-        var dlrw = setTimeout(function() {
-            var headID = document.getElementsByTagName("head")[0];
-            var newScript = document.createElement('script');
-            newScript.type = 'text/javascript';
-            newScript.src = 'https://widget.reviews.co.uk/carousel/dist.js';
-            headID.appendChild(newScript);
-
-            var lw = setTimeout(function() {
-                if(typeof carouselWidget === 'undefined') {
-                    // try again
-                    var lw2 = setTimeout(function() {
-                        if(typeof carouselWidget !== 'undefined') {
-                            carouselWidget('carousel-widget-360',{
-                                store: 'finest-dental',
-                                primaryClr: '#1d8fd5',
-                                neutralClr: '#f4f4f4',
-                                reviewTextClr: '#494949',
-                                layout:'fullWidth',
-                                numReviews: 21
-                            });
-                        }
-                    }, 1500);
-                } else {
-                    carouselWidget('carousel-widget-360',{
-                        store: 'finest-dental',
-                        primaryClr: '#1d8fd5',
-                        neutralClr: '#f4f4f4',
-                        reviewTextClr: '#494949',
-                        layout:'fullWidth',
-                        numReviews: 21
-                    });
-                }
-            }, 1500);
-        }, 1500);
-    }
 
     // Add scrollspy to <body>
     $('body').scrollspy({offset: 100});
@@ -575,29 +478,26 @@ $(document).ready(function() {
 
     });
 
-    $('.panel-expand a.corner,#cover, #coverLight').click(function(e){
+    $('.panel-expand a.corner,#cover, #coverLight, .hamburger').click(function(e){
         e.preventDefault();
         $('.fpanel').removeClass('inactive');
         $('.panel-expand').removeClass('active');
         $('.panel-expand').slideUp(500);
         $('#cover').fadeOut(500);
         $('#coverLight').fadeOut(500);
-        // if ($(window).width()<=bpWidth)
-        // if($(this).hasClass('corner')) {
-        //     anim($('#panelsAnchor').offset());
-        // }
-    });
 
+    });
 
 
     $( '[data-nav="tab"]' ).click( function( e ) {
         e.preventDefault();
         var href = $( this ).attr('href');
         $('[data-toggle="tab"][href="'+ href +'"]' ).tab('show');
+        $('[data-toggle="tab"][href="'+ href +'"]' ).toggleClass('active');
 
-        if(href === '#prices'){
+        if(href === '#results'){
             $('#inlineFormContact').hide();
-        }else if(href === '#results'){
+        }else if(href === '#quality'){
             $('#inlineFormContact').hide();
         }else {
             $('#inlineFormContact').show();
@@ -619,12 +519,12 @@ $(document).ready(function() {
         e.preventDefault();
         var href = $( this ).attr('href');
         $('[data-toggle="tab"][href="'+ href +'"]' ).tab('show');
+        $('[data-toggle="tab"][href="'+ href +'"]' ).toggleClass('active');
 
 
-
-        if(href === '#prices'){
+        if(href === '#results'){
             $('#inlineFormContact').hide();
-        }else if(href === '#results'){
+        }else if(href === '#quality'){
             $('#inlineFormContact').hide();
         }else {
             $('#inlineFormContact').show();
@@ -635,19 +535,10 @@ $(document).ready(function() {
 
 
 
-    $(".hamburger").click(function(e){
-        e.preventDefault();
 
-        $(this).toggleClass("is-active");
 
-        $("#st-container").toggleClass("st-menu-open");
 
-        $("#menu-3").addClass("mobi-open");
-
-    });
-
-    $(".st-pusher").click(function(e){
-        e.preventDefault();
+    $(".st-pusher").click(function(){
         $('.hamburger').removeClass("is-active");
         $('#menu-3').removeClass("mobi-open");
     });
@@ -672,14 +563,14 @@ $(document).ready(function() {
 
         }
         function initGoToTab() {
-
             $('[data-toggle="tab"][href="'+ href +'"]' ).tab('show');
+            $('[data-toggle="tab"][href="'+ href +'"]' ).toggleClass('active');
         };
         function initScroll(){
             var $toElement = $("a[name='cstop']");
             var toPosition = $toElement.position().top;
             $("body,html").animate({
-                scrollTop : toPosition
+                scrollTop : ((toPosition) - 50 )
             },500, "linear");
 
         };
@@ -688,6 +579,13 @@ $(document).ready(function() {
         setTimeout(initHideFrom, 200);
         setTimeout(initScroll, 300);
         setTimeout(initGoToTab, 400);
+    });
+
+
+    $('.nav-links .nav .nav-item .nav-link').click(function() {
+        $('.nav-links .nav .nav-item .nav-link').removeClass('active');
+        $(this).addClass('active');
+        return false;
     });
 
 

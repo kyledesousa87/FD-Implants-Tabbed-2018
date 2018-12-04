@@ -9,6 +9,30 @@
   }
   .inner {
     padding: 25px;
+    .corner{
+      display: block;
+      top: 0;
+      background: url($imgPathRoot + "xpanel_corner_top.png");
+      position: absolute;
+      right: 0;
+      bottom: 0;
+
+      width: 42px;
+      height: 42px;
+      text-decoration: none;
+      &.top {
+        display: block;
+        top: 0;
+        background: url($imgPathRoot + "xpanel_corner_top.png");
+        position: absolute;
+        right: 0;
+        bottom: 0;
+
+        width: 42px;
+        height: 42px;
+        text-decoration: none;
+      }
+    }
   }
 }
 

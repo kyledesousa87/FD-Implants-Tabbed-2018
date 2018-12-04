@@ -71,7 +71,7 @@
           justify-content: center;
           text-transform: capitalize;
           .nav-link {
-
+            color: $gray-700;
             border-right:1px solid $gray-300 ;
             @include media-breakpoint-up(lg) {
               font-size: 22px;
@@ -82,6 +82,9 @@
               padding: 0 10px;
             }
 
+            &.active {
+              color: $acc1;
+            }
 
             &:last-child {
               border-right:0;
@@ -158,7 +161,7 @@
 
   @include media-breakpoint-up(xs) {
     font-size: 17px;
-    color: $acc2;
+    color: $acc4;
     background-color: $white;
     padding-bottom: 10px;
 
@@ -168,7 +171,7 @@
     padding: 5px 10px;
     margin-bottom: 10px;
     color: white;
-    background-color: $acc2;
+    background-color: $acc4;
 
     font-weight: bold;
     border: 0;
@@ -262,8 +265,13 @@
 
 
 .nav-tabs {
-  .nav-item {
+  a.nav-item {
     font-size: 22px;
+    color: $gray-600;
+    &.active {
+      background-color: $acc2;
+      color: white;
+    }
   }
 }
 

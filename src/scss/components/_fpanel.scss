@@ -104,11 +104,20 @@
   cursor: auto;
   a {
     &.corner{
+      display: block;
+      top: 0;
+      border-top-right-radius: 8px;
+      background: url($imgPathRoot + "xpanel_corner_top.png");
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      border-bottom-right-radius: 8px;
+      width: 42px;
+      height: 42px;
+      text-decoration: none;
       &.top {
         display: block;
-
         top: 0;
-
         border-top-right-radius: 8px;
         background: url($imgPathRoot + "xpanel_corner_top.png");
         position: absolute;

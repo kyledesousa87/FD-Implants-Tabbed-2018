@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
 
-  margin: 25px -10px;
+  margin: 0px -10px;
   @include media-breakpoint-up(xs) {
     flex-wrap: wrap;
   }
@@ -10,10 +10,10 @@
     flex-wrap: wrap;
   }
   @include media-breakpoint-up(lg) {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
   @include media-breakpoint-up(xl) {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
 
   a {
@@ -38,7 +38,7 @@
 
       @include media-breakpoint-up(xl) {
         margin:0 10px 20px 10px ;
-        flex-basis: 100%;
+        flex-basis: 44%;
       }
 
 

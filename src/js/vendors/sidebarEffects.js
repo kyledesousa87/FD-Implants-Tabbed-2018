@@ -28,11 +28,16 @@
 	function init() {
 
 		var container = document.getElementById( 'st-container' ),
+         	burgerBtn = document.getElementById( 'hamburger' ),
+            mobileNav = document.getElementById( 'menu-3' ),
+
 			buttons = Array.prototype.slice.call( document.querySelectorAll( '#st-trigger-effects > button' ) ),
 			// event type (if mobile use touch events)
 			eventtype = mobilecheck() ? 'touchstart' : 'click',
 			resetMenu = function() {
 				classie.remove( container, 'st-menu-open' );
+                classie.remove( burgerBtn, 'is-active' );
+                classie.remove( mobileNav, 'mobi-open' );
 			},
 			bodyClickFn = function(evt) {
 				if( !hasParentClass( evt.target, 'st-menu' ) ) {
@@ -51,6 +56,10 @@
 				classie.add( container, effect );
 				setTimeout( function() {
 					classie.add( container, 'st-menu-open' );
+                    classie.add( burgerBtn, 'is-active' );
+                    classie.add( mobileNav, 'mobi-open' );
+
+
 				}, 25 );
 				document.addEventListener( eventtype, bodyClickFn );
 			});

@@ -20,8 +20,10 @@ width: 100%;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+
+    background-color: $white;
     a {
-      background-color: $acc1;
+      background-color: $acc4;
       text-align: center;
       color: white;
       font-size: 18px;
@@ -30,7 +32,7 @@ width: 100%;
       text-decoration: none;
       flex-grow: 1;
       &:hover {
-        background-color: lighten($acc1, 10%);
+        background-color: lighten($acc4, 10%);
       }
       span {
         color: white;
@@ -42,7 +44,7 @@ width: 100%;
     }
     &:before {
       order: 1;
-      background-color: $acc2;
+      background-color: lighten($acc4, 10%);
       $icoW: 39px;
       $icoH: 40px;
       @include svgPngFb("new/icon-call");
@@ -128,7 +130,7 @@ width: 100%;
   }
 
   .submit {
-    background-color: $acc1;
+    background-color: $acc4;
     border-radius: 50px !important;
     padding: 10px 0;
     font-family: $fontName;
