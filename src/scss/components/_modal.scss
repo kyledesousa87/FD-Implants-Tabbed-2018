@@ -52,6 +52,59 @@ button.close-blue {
 
 }
 
+
+#galleryModalOuter {
+  button.close {
+    width: 65px;
+    height: 65px;
+    display: block;
+    bottom: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    outline: none;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 8px;
+    z-index: 10;
+
+    span {
+      font-size: 52px;
+      font-weight: bold ;
+      color: #ffffff;
+      -webkit-transition: -webkit-transform .8s ease-in-out;
+      transition:         transform .8s ease-in-out;
+      transition: all 0.3s ease-in-out 0s;
+      &:hover {
+        cursor: default;
+        transform: rotate(360deg);
+        transition: all 0.3s ease-in-out 0s;
+      }
+    }
+
+  }
+  padding: 0px;
+  .modal-dialog {
+    max-width: 1000px;
+    padding: 0px;
+    .modal-content {
+      padding: 0px;
+      .modal-body {
+        padding: 0px;
+        h3 {
+          margin-bottom: 25px;
+          padding-bottom: 10px;
+          border-bottom: 1px solid #dddddd;
+        }
+        position: relative;
+        clear: both;
+        width: 100%;
+
+      }
+
+    }
+  }
+}
+
 #quoteModalOuter{
   button.close {
     width: 65px;

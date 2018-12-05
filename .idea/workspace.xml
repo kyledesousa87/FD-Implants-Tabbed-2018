@@ -2,13 +2,83 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/partials/layout/navigation/main-nav.html" line="17" />
-    <bookmark url="file://$PROJECT_DIR$/src/scss/comps/_bookingform.scss" line="176" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/src/scss/comps/_bookingform.scss" line="188" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cebb2776-d0dd-4d61-b84f-7000b5ba04a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/birmingham/office-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/birmingham/office-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/birmingham/office-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/birmingham/office-img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/birmingham/office-img-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/birmingham/office-img-hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/brentwood/office-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/brentwood/office-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/brentwood/office-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/brentwood/office-img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/brentwood/office-img-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/brentwood/office-img-hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/cannon-st/office-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/cannon-st/office-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/cannon-st/office-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/cannon-st/office-img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/cannon-st/office-img-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/cannon-st/office-img-hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/leicester/office-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/leicester/office-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/leicester/office-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/leicester/office-img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/leicester/office-img-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/leicester/office-img-hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/liverpool/office-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/liverpool/office-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/liverpool/office-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/liverpool/office-img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/liverpool/office-img-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/liverpool/office-img-hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/milton-keynes/office-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/milton-keynes/office-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/milton-keynes/office-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/milton-keynes/office-img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/milton-keynes/office-img-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/milton-keynes/office-img-hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/winchester/office-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/winchester/office-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/winchester/office-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/winchester/office-img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/winchester/office-img-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/winchester/office-img-hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/wokingham/office-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/wokingham/office-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/wokingham/office-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/wokingham/office-img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/wokingham/office-img-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/new/branches/wokingham/office-img-hero.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app-tab-new.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app-tab-new.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/layout-booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout-booking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/layout-tabbed.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout-tabbed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/fd-implants-tabbed.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/fd-implants-tabbed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tab-geo-bermondsey.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/tab-geo-bermondsey.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tab-geo-birmingham.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/tab-geo-birmingham.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tab-geo-brentwood.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/tab-geo-brentwood.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tab-geo-cannon-st.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/tab-geo-cannon-st.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tab-geo-leicester.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/tab-geo-leicester.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tab-geo-liverpool-st.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/tab-geo-liverpool-st.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tab-geo-milton-keynes.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/tab-geo-milton-keynes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tab-geo-winchester.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/tab-geo-winchester.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tab-geo-wokingham.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/tab-geo-wokingham.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/content/content-home-henry-sm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/content/content-home-henry-sm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/content/grouped-content.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/content/grouped-content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/content/tabbed-content/content-quality.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/content/tabbed-content/content-quality.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp-mobi.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp-mobi.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/app-tab-new.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app-tab-new.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_modal.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/comps/_bookingform.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/comps/_bookingform.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/layout/_cs-tab-panels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_cs-tab-panels.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,55 +90,55 @@
     <session id="617120960">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="5" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="462" />
-          <entry key="js" value="82" />
+          <entry key="html" value="498" />
+          <entry key="js" value="87" />
           <entry key="jsOLD" value="1" />
           <entry key="json" value="8" />
-          <entry key="scss" value="141" />
+          <entry key="scss" value="153" />
           <entry key="ts" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="5" />
-          <entry key="HTML" value="462" />
+          <entry key="HTML" value="498" />
           <entry key="JSON" value="8" />
-          <entry key="JavaScript" value="82" />
+          <entry key="JavaScript" value="87" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="SCSS" value="141" />
+          <entry key="SCSS" value="153" />
           <entry key="TypeScript" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="24" />
-          <entry key="html" value="3274" />
-          <entry key="js" value="1791" />
+          <entry key="html" value="3563" />
+          <entry key="js" value="1858" />
           <entry key="json" value="199" />
-          <entry key="scss" value="3640" />
+          <entry key="scss" value="3877" />
           <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="3274" />
+          <entry key="HTML" value="3563" />
           <entry key="JSON" value="199" />
-          <entry key="JavaScript" value="1790" />
+          <entry key="JavaScript" value="1857" />
           <entry key="PLAIN_TEXT" value="32" />
-          <entry key="SCSS" value="3640" />
+          <entry key="SCSS" value="3877" />
         </counts>
       </usages-collector>
     </session>
@@ -77,16 +147,63 @@
     <favorites_list name="FD-Implants-Tabbed-2018" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/tab-geo-bermondsey.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/partials/content/grouped-content.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="39" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/partials/content/tabbed-content/content-practice.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scss/layout/_manson_gallery.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/layout/_main-nav.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="92" column="12" selection-start-line="92" selection-start-column="12" selection-end-line="103" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>/ autoscroll anchors</find>
-      <find>layout-booking</find>
-      <find>https://finestdental.co.uk/</find>
-      <find>../images/</find>
-      <find>&lt;a href=&quot;#</find>
-      <find>panelsAnchor</find>
       <find>anim</find>
       <find>navScroll</find>
       <find>topOfSection</find>
@@ -111,6 +228,12 @@
       <find>nav-mobi</find>
       <find>teeth-card_price</find>
       <find>nav-tabs</find>
+      <find>scripts</find>
+      <find>ModalOuter</find>
+      <find>QualityGuarantee</find>
+      <find>group</find>
+      <find>gallery</find>
+      <find>img</find>
     </findStrings>
     <replaceStrings>
       <replace>$.support.owltransition</replace>
@@ -124,57 +247,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/partials/content/content-hero-banner.html" />
-        <option value="$PROJECT_DIR$/src/js/app-imp-new.js" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/src/partials/content/teeth-panel/teeth-panels-single.html" />
-        <option value="$PROJECT_DIR$/src/partials/content/teeth-panel/teeth-panels-tiad.html" />
-        <option value="$PROJECT_DIR$/src/js/analytics.js" />
-        <option value="$PROJECT_DIR$/src/js/forms.js" />
-        <option value="$PROJECT_DIR$/src/js/carousels.js" />
-        <option value="$PROJECT_DIR$/src/js/modals.js" />
         <option value="$PROJECT_DIR$/src/scss/components/_sidebareffects.scss" />
         <option value="$PROJECT_DIR$/src/partials/content/content-usp.html" />
         <option value="$PROJECT_DIR$/src/partials/content/teeth-panel/teeth-panels-multiple.html" />
         <option value="$PROJECT_DIR$/src/scss/components/_fpanel.scss" />
         <option value="$PROJECT_DIR$/src/scss/layout/_teeth-panels.scss" />
         <option value="$PROJECT_DIR$/src/partials/layout/navigation/main-nav-mobi.html" />
-        <option value="$PROJECT_DIR$/src/pages/tab-geo-bermondsey.html" />
-        <option value="$PROJECT_DIR$/src/pages/tab-geo-birmingham.html" />
-        <option value="$PROJECT_DIR$/src/pages/tab-geo-brentwood.html" />
-        <option value="$PROJECT_DIR$/src/pages/tab-geo-cannon-st.html" />
-        <option value="$PROJECT_DIR$/src/pages/tab-geo-milton-keynes.html" />
-        <option value="$PROJECT_DIR$/src/pages/tab-geo-wokingham.html" />
-        <option value="$PROJECT_DIR$/src/pages/fd-implants-tabbed.html" />
-        <option value="$PROJECT_DIR$/src/pages/tab-geo-leicester.html" />
-        <option value="$PROJECT_DIR$/src/pages/tab-geo-liverpool-st.html" />
         <option value="$PROJECT_DIR$/app-tab-new.js" />
-        <option value="$PROJECT_DIR$/src/pages/tab-geo-winchester.html" />
         <option value="$PROJECT_DIR$/src/js/vendors/sidebarEffects.js" />
         <option value="$PROJECT_DIR$/src/scss/comps/_buttons.scss" />
         <option value="$PROJECT_DIR$/src/scss/layout/_sidebar.scss" />
         <option value="$PROJECT_DIR$/src/partials/layout/widget-quote.html" />
         <option value="$PROJECT_DIR$/src/partials/content/tabbed-content/content-gettingstarted.html" />
-        <option value="$PROJECT_DIR$/src/partials/content/content-home-henry-sm.html" />
         <option value="$PROJECT_DIR$/src/partials/content/content-home.html" />
         <option value="$PROJECT_DIR$/src/partials/content/content-home-henry-md.html" />
         <option value="$PROJECT_DIR$/src/scss/components/_font.scss" />
         <option value="$PROJECT_DIR$/src/partials/content/content-home-henry-lg.html" />
         <option value="$PROJECT_DIR$/src/scss/comps/_backgrounds.scss" />
         <option value="$PROJECT_DIR$/src/scss/layout/_content-hero-banner.scss" />
-        <option value="$PROJECT_DIR$/src/layouts/layout-booking.html" />
         <option value="$PROJECT_DIR$/src/scss/pages/_layout-tabbed.scss" />
-        <option value="$PROJECT_DIR$/src/scss/layout/_cs-tab-panels.scss" />
         <option value="$PROJECT_DIR$/src/scss/layout/_main-nav.scss" />
-        <option value="$PROJECT_DIR$/src/partials/content/grouped-content.html" />
-        <option value="$PROJECT_DIR$/src/layouts/layout-tabbed.html" />
         <option value="$PROJECT_DIR$/src/partials/layout/navigation/main-nav.html" />
-        <option value="$PROJECT_DIR$/src/js/app-tab-new.js" />
         <option value="$PROJECT_DIR$/src/scss/layout/_teeth-card.scss" />
         <option value="$PROJECT_DIR$/src/partials/content/tabbed-content/content-pricing.html" />
-        <option value="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp-mobi.html" />
+        <option value="$PROJECT_DIR$/src/layouts/layout-booking.html" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/src/layouts/layout-tabbed.html" />
+        <option value="$PROJECT_DIR$/src/partials/content/tabbed-content/content-results.html" />
+        <option value="$PROJECT_DIR$/src/partials/content/tabbed-content/content-quality.html" />
+        <option value="$PROJECT_DIR$/src/partials/modals/modal-gallery.html" />
+        <option value="$PROJECT_DIR$/src/js/app-tab-new.js" />
+        <option value="$PROJECT_DIR$/src/scss/layout/_cs-tab-panels.scss" />
+        <option value="$PROJECT_DIR$/src/scss/app-tab-new.scss" />
+        <option value="$PROJECT_DIR$/src/partials/content/grouped-content.html" />
+        <option value="$PROJECT_DIR$/src/pages/tab-geo-bermondsey.html" />
+        <option value="$PROJECT_DIR$/src/pages/tab-geo-brentwood.html" />
+        <option value="$PROJECT_DIR$/src/pages/tab-geo-cannon-st.html" />
+        <option value="$PROJECT_DIR$/src/pages/tab-geo-leicester.html" />
+        <option value="$PROJECT_DIR$/src/pages/tab-geo-liverpool-st.html" />
+        <option value="$PROJECT_DIR$/src/pages/tab-geo-milton-keynes.html" />
+        <option value="$PROJECT_DIR$/src/pages/tab-geo-winchester.html" />
+        <option value="$PROJECT_DIR$/src/pages/tab-geo-wokingham.html" />
+        <option value="$PROJECT_DIR$/src/pages/tab-geo-birmingham.html" />
+        <option value="$PROJECT_DIR$/src/pages/fd-implants-tabbed.html" />
+        <option value="$PROJECT_DIR$/src/partials/content/tabbed-content/content-practice.html" />
+        <option value="$PROJECT_DIR$/src/scss/components/_modal.scss" />
         <option value="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp.html" />
         <option value="$PROJECT_DIR$/src/scss/comps/_bookingform.scss" />
+        <option value="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp-mobi.html" />
+        <option value="$PROJECT_DIR$/src/partials/content/content-home-henry-sm.html" />
+        <option value="$PROJECT_DIR$/src/pages/index.html" />
+        <option value="$PROJECT_DIR$/src/scss/layout/_manson_gallery.scss" />
       </list>
     </option>
   </component>
@@ -262,8 +385,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-2560" />
     <option name="y" value="-247" />
-    <option name="width" value="2560" />
-    <option name="height" value="1417" />
+    <option name="width" value="1280" />
+    <option name="height" value="1360" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -287,68 +410,13 @@
               <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="new" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="tabbed-content" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="comps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="forms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
@@ -356,13 +424,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
               <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="mixins" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -380,15 +441,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/partials/content" />
-      <recent name="$PROJECT_DIR$/src/js/vendors" />
+      <recent name="$PROJECT_DIR$/src/images/new/branches/milton-keynes" />
+      <recent name="$PROJECT_DIR$/src/images/new/branches/wokingham" />
+      <recent name="$PROJECT_DIR$/src/images/new/branches/winchester" />
+      <recent name="$PROJECT_DIR$/src/images/new/branches/liverpool" />
+      <recent name="$PROJECT_DIR$/src/images/new/branches/leicester" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/partials/layout/page-layout" />
-      <recent name="$PROJECT_DIR$/src/partials/layout/navigation" />
-      <recent name="$PROJECT_DIR$/src/partials/content" />
-      <recent name="$PROJECT_DIR$/src/js" />
-      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/images/new/branches/wokingham" />
+      <recent name="$PROJECT_DIR$/src/images/new/branches/winchester" />
+      <recent name="$PROJECT_DIR$/src/images/new/branches/milton-Keynes" />
+      <recent name="$PROJECT_DIR$/src/images/new/branches/liverpool" />
+      <recent name="$PROJECT_DIR$/src/images/new/branches/leicester" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -431,12 +495,13 @@
       <workItem from="1543437942813" duration="34406000" />
       <workItem from="1543567287217" duration="5793000" />
       <workItem from="1543833740453" duration="23224000" />
-      <workItem from="1543913611008" duration="13716000" />
+      <workItem from="1543913611008" duration="22320000" />
+      <workItem from="1544002855629" duration="2515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116705000" />
+    <option name="totallyTimeSpent" value="127824000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -448,10 +513,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2560" y="-247" width="2560" height="1365" extended-state="6" />
+    <frame x="-2560" y="-247" width="2560" height="1361" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6318681" visible="true" weight="0.12509929" />
-      <window_info id="Structure" order="1" sideWeight="0.36813188" side_tool="true" visible="true" weight="0.12509929" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6302428" visible="true" weight="0.12589356" />
+      <window_info id="Structure" order="1" sideWeight="0.36975718" side_tool="true" visible="true" weight="0.12589356" />
       <window_info id="Gulp" order="2" sideWeight="0.138322" side_tool="true" weight="0.15506716" />
       <window_info id="npm" order="3" sideWeight="0.13878328" side_tool="true" weight="0.22222222" />
       <window_info id="Favorites" order="4" sideWeight="0.13776337" side_tool="true" weight="0.22222222" />
@@ -465,8 +531,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.28515318" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015886" side_tool="true" visible="true" weight="0.28605202" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49841145" visible="true" weight="0.28605202" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -480,161 +546,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pages/tab-geo-liverpool-st.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/modals/modal-form-quote.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="55" lean-forward="true" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/layout-callus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" selection-start-line="17" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/modals/modal-complaints.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/tab-geo-milton-keynes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/tab-geo-bermondsey.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="11" selection-start-line="3" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/tab-geo-winchester.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/tab-geo-wokingham.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="12" selection-start-line="4" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/tab-geo-birmingham.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/tab-geo-leicester.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/tab-geo-cannon-st.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="50" lean-forward="true" selection-end-line="1982" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/tab-geo-brentwood.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="38" lean-forward="true" selection-end-line="1982" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/tab-geo-wokingham.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="49" lean-forward="true" selection-end-line="1982" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/tab-geo-winchester.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="31" lean-forward="true" selection-end-line="1982" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/tab-geo-milton-keynes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-end-line="1982" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/tab-geo-liverpool-st.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="33" selection-end-line="1982" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/tab-geo-bermondsey.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="44" selection-end-line="1983" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/vendors/classie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/vendors/sidebarEffects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/fd-implants-tabbed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/comps/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="251" column="13" lean-forward="true" selection-start-line="251" selection-start-column="13" selection-end-line="251" selection-end-column="13" />
-          <folding>
-            <element signature="e#12#722#0" />
-            <element signature="e#743#1952#0" />
-            <element signature="e#1979#3213#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/partials/modals/modal-form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -649,39 +560,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app-tab-new.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/layout/widget-quote.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/tabbed-content/content-quality.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#80#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/tabbed-content/content-results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/content-home-henry-sm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app-tab-new.js" />
     <entry file="file://$PROJECT_DIR$/src/partials/content/tabbed-content/content-gettingstarted.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -689,27 +568,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/layout/_content-hero-banner.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-          <folding>
-            <element signature="e#1866#2006#0" />
-            <element signature="e#1898#1983#0" />
-            <element signature="e#2167#2280#0" />
-            <element signature="e#2318#2431#0" />
-            <element signature="e#2470#2601#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/partials/content/content-home-henry-lg.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -724,14 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
           <caret line="115" column="20" lean-forward="true" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
-          <folding>
-            <element signature="e#2174#2223#0" />
-            <element signature="e#2293#2315#0" />
-            <element signature="e#2353#2375#0" />
-            <element signature="e#2413#2438#0" />
-            <element signature="e#2477#2502#0" />
-            <element signature="e#2512#2801#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -753,9 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -763,24 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/layout-booking.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#4897#7872#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/layout/_main-nav.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="232" column="8" lean-forward="true" selection-start-line="232" selection-start-column="8" selection-end-line="232" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -801,33 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/layout-tabbed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="54" column="55" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
-          <folding>
-            <element signature="n#script#2;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/layout/_cs-tab-panels.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/grouped-content.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/layout/_teeth-card.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -844,152 +650,255 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/app-tab-new.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/ekko-lightbox/dist/ekko-lightbox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="440" column="27" lean-forward="true" selection-start-line="440" selection-start-column="27" selection-end-line="440" selection-end-column="27" />
-          <folding>
-            <element signature="e#65#428#0" />
-            <element signature="e#105#258#0" />
-            <element signature="e#198#252#0" />
-            <element signature="e#383#424#0" />
-            <element signature="n#!!block;n#validateCancellationForm#0" />
-            <element signature="e#542#908#0" />
-            <element signature="e#615#843#0" />
-            <element signature="e#741#802#0" />
-            <element signature="e#849#902#0" />
-            <element signature="e#1157#2167#0" />
-            <element signature="e#1222#1342#0" />
-            <element signature="e#1348#2160#0" />
-            <element signature="e#1379#1510#0" />
-            <element signature="e#1516#2150#0" />
-            <element signature="e#1716#1936#0" />
-            <element signature="e#1788#1917#0" />
-            <element signature="e#1975#2136#0" />
-            <element signature="e#2214#2243#0" />
-            <element signature="n#!!block;n#validateForm#0" />
-            <element signature="e#2355#2463#0" />
-            <element signature="e#2517#2634#0" />
-            <element signature="e#2687#2800#0" />
-            <element signature="e#2849#2963#0" />
-            <element signature="e#3209#4351#0" />
-            <element signature="e#3274#3434#0" />
-            <element signature="e#3440#4344#0" />
-            <element signature="e#3471#3646#0" />
-            <element signature="e#3652#4334#0" />
-            <element signature="e#3852#4072#0" />
-            <element signature="e#3924#4053#0" />
-            <element signature="e#4111#4320#0" />
-            <element signature="e#4401#4509#0" />
-            <element signature="e#4602#4716#0" />
-            <element signature="e#4721#4881#0" />
-            <element signature="e#4928#5213#0" />
-            <element signature="e#4956#5162#0" />
-            <element signature="e#5048#5109#0" />
-            <element signature="n#!!block;n#closeModal#0" />
-            <element signature="e#5272#5338#0" />
-            <element signature="e#5344#5483#0" />
-            <element signature="n#!!block;n#doVideo#0" />
-            <element signature="n#!!block;n#openModal#0" />
-            <element signature="e#5761#5820#0" />
-            <element signature="n#!!block;n#reOpen#0" />
-            <element signature="e#5982#6203#0" />
-            <element signature="e#6101#6137#0" />
-            <element signature="e#6150#6197#0" />
-            <element signature="e#6262#6354#0" />
-            <element signature="e#6300#6342#0" />
-            <element signature="e#6360#6671#0" />
-            <element signature="e#6402#6665#0" />
-            <element signature="e#6599#6649#0" />
-            <element signature="e#6796#6919#0" />
-            <element signature="e#6833#6869#0" />
-            <element signature="e#6875#6912#0" />
-            <element signature="e#6993#7129#0" />
-            <element signature="e#7042#7078#0" />
-            <element signature="e#7084#7121#0" />
-            <element signature="e#7242#7314#0" />
-            <element signature="e#7356#8807#0" />
-            <element signature="e#7514#7640#0" />
-            <element signature="e#7646#8778#0" />
-            <element signature="e#7672#7718#0" />
-            <element signature="e#7749#7795#0" />
-            <element signature="e#7826#7872#0" />
-            <element signature="e#7903#7949#0" />
-            <element signature="e#7990#8037#0" />
-            <element signature="e#8077#8123#0" />
-            <element signature="e#8164#8210#0" />
-            <element signature="e#8252#8299#0" />
-            <element signature="e#8331#8378#0" />
-            <element signature="e#8410#8457#0" />
-            <element signature="e#8483#8525#0" />
-            <element signature="e#8870#9419#0" />
-            <element signature="e#8904#9219#0" />
-            <element signature="e#8939#9022#0" />
-            <element signature="e#9516#9570#0" />
-            <element signature="e#9626#10161#0" />
-            <element signature="e#9769#9925#0" />
-            <element signature="e#9931#10089#0" />
-            <element signature="e#10203#10651#0" />
-            <element signature="e#10358#10645#0" />
-            <element signature="e#10374#10439#0" />
-            <element signature="e#10457#10523#0" />
-            <element signature="e#10542#10635#0" />
-            <element signature="e#10754#11078#0" />
-            <element signature="e#10785#11071#0" />
-            <element signature="e#11118#11304#0" />
-            <element signature="e#11363#11565#0" />
-            <element signature="e#11611#11873#0" />
-            <element signature="e#11915#12165#0" />
-            <element signature="e#12209#12465#0" />
-            <element signature="e#12512#12777#0" />
-            <element signature="e#12814#13123#0" />
-            <element signature="e#13160#13489#0" />
-            <element signature="e#13227#13483#0" />
-            <element signature="e#13572#13717#0" />
-            <element signature="e#13800#13962#0" />
-            <element signature="e#14005#14707#0" />
-            <element signature="e#14149#14698#0" />
-            <element signature="e#14267#14387#0" />
-            <element signature="e#14393#14475#0" />
-            <element signature="e#14618#14672#0" />
-            <element signature="e#14792#15038#0" />
-            <element signature="e#15092#15824#0" />
-            <element signature="e#15391#15446#0" />
-            <element signature="e#15474#15529#0" />
-            <element signature="e#15534#15589#0" />
-            <element signature="e#15723#15779#0" />
-            <element signature="e#16625#16729#0" />
-            <element signature="e#16801#18003#0" />
-            <element signature="e#16905#17081#0" />
-            <element signature="e#17114#17383#0" />
-            <element signature="e#17150#17213#0" />
-            <element signature="e#17241#17304#0" />
-            <element signature="e#17309#17372#0" />
-            <element signature="e#17415#17576#0" />
-            <element signature="e#17607#17842#0" />
-            <element signature="e#17751#17815#0" />
-          </folding>
+        <state relative-caret-position="615">
+          <caret line="656" column="4" selection-start-line="656" selection-start-column="4" selection-end-line="656" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp.html">
+    <entry file="file://$PROJECT_DIR$/src/js/vendors/ekko-lightbox.js" />
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        <state relative-caret-position="300">
+          <caret line="150" column="39" lean-forward="true" selection-start-line="150" selection-start-column="39" selection-end-line="150" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/ekko-lightbox/ekko-lightbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="222" column="28" lean-forward="true" selection-start-line="222" selection-start-column="28" selection-end-line="222" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/layout-booking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/layout-tabbed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="87" column="7" selection-start-line="87" selection-start-column="7" selection-end-line="87" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/modals/modal-video.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/content/tabbed-content/content-results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="38" column="46" lean-forward="true" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/layout/_cs-tab-panels.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/content/tabbed-content/content-quality.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/layout/widget-quote.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/app-tab-new.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="378" column="27" lean-forward="true" selection-start-line="378" selection-start-column="27" selection-end-line="378" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/app-tab-new.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/layout/_content-hero-banner.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="73" selection-start-line="73" selection-end-line="84" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/tab-geo-wokingham.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/tab-geo-winchester.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/tab-geo-milton-keynes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/tab-geo-liverpool-st.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/tab-geo-leicester.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/tab-geo-cannon-st.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/tab-geo-brentwood.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/components/_modal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="60" column="17" lean-forward="true" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/modals/modal-gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/fd-implants-tabbed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/tab-geo-birmingham.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/comps/_bookingform.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="285">
+          <caret line="107" column="32" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
+          <folding>
+            <element signature="e#1697#2214#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/content/teeth-panel/teeth-panels-tiad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/content/content-home-henry-sm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp-mobi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="90">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="45" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/tab-geo-bermondsey.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/content/grouped-content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/content/tabbed-content/content-practice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/layout/_main-nav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="92" column="12" selection-start-line="92" selection-start-column="12" selection-end-line="103" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/layout/_manson_gallery.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
         </state>
       </provider>
     </entry>

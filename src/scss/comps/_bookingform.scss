@@ -102,7 +102,9 @@
 
   }
   &_map{
-
+    background-color: $gray-200;
+  }
+  &_office{
     background-color: $gray-200;
   }
 }
@@ -154,21 +156,31 @@
 }
 
 .widget-form {
+  height: 100%;
   background-color: $white;
 
-  @include linearGradient($acc1, $acc2);
-
-  box-shadow: 0 0px 13px -2px rgba(0,0,0,0.4);
+  @include media-breakpoint-up(xs) {
+    border-left: 0;
+  }
+  @include media-breakpoint-up(sm) {
+    border-left: 0;
+  }
+  @include media-breakpoint-up(md) {
+    border-left: 1px solid $gray-300;
+  }
+  @include media-breakpoint-up(lg) {
+    border-left: 1px solid $gray-300;
+  }
   h3 {
-    color: $white;
+    color: $gray-700;
     font-size: 42px;
     text-align: center;
-    padding: 15px 0 0 0;
+    padding: 0;
   }
   &_body {
     padding: 25px;
     .meta-text {
-      color: white;
+      color: $gray-700;
     }
   }
 }

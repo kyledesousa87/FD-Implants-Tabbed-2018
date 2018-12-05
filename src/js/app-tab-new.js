@@ -385,6 +385,17 @@ $(document).ready(function() {
         $('#guaranteeModalOuter .modal-content .modal-body').css('max-height', $(window).height() * 0.7);
     });
 
+    $('a.btn-gallery').click(function(e){
+        e.preventDefault();
+        if(!$(this).hasClass('big')) {
+            openModal('gallery');
+            $('.panel-expand').removeClass('active');
+            $('.panel-expand').hide();
+            $('#coverLight').fadeOut(500);
+            $('#galleryModalOuter .modal-body').html($(this).data('iframe'));
+        }
+    });
+
     $('.guaranteePopup').click(function(e){
         e.preventDefault();
         openModal('guarantee');
@@ -424,6 +435,7 @@ $(document).ready(function() {
         closeModal('terms');
         closeModal('privacy');
         closeModal('complaints');
+        closeModal('gallery');
     });
 
     $('a.play').click(function(e){
@@ -438,6 +450,8 @@ $(document).ready(function() {
         }
     });
 
+
+
     // kill iframe on close
     $('#videoModalOuter').on('.modal', function () {
         $('#videoModalOuter .modal-content .modal-body iframe').attr('src','');
@@ -445,9 +459,9 @@ $(document).ready(function() {
     });
 
     // kill iframe on close
-    $('#videoModalOuter').on('.modal', function () {
-        $('#videoModalOuter .modal-content .modal-body iframe').attr('src','');
-        $('#videoModalOuter').find('#cover', '#videoModalOuter').html('');
+    $('#galleryModalOuter').on('.modal', function () {
+        $('#galleryModalOuter .modal-content .modal-body iframe').attr('src','');
+        $('#galleryModalOuter').find('#coverLight', '#galleryModalOuter').html('');
     });
 
     $('.teeth-card').click(function(e){
