@@ -261,32 +261,22 @@ $(document).ready(function() {
                 var c = 32.00;
             }
             else if (nt=='2') {
-                var c = 47.23;
+                var c = 64.00;
             }
-            else if (nt=='3') {
-                var c = 47.23;
+            else if (nt=='3' || nt=='4') {
+                var c = 64.00;
             }
-            else if (nt=='4') {
-                var c = 47.23;
+            else if (nt=='5' || nt=='6' ) {
+                var c = 77.08;
             }
-
-            else if (nt=='5'||nt=='6') {
-                var c = 127.52;
-            }
-            else if (nt=='7'||nt=='8') {
-                var c = 75.19;
-            }
-            else if (nt=='9'||nt=='10') {
-                var c = 84.53;
-            }
-            else if (nt=='11'||nt=='12') {
-                var c = 101.45;
+            else if (nt=='7' || nt=='8') {
+                var c = 102.77;
             }
             else if (nt=='1A') {
-                var c = 113.35;
+                var c = 113.24;
             }
             else if (nt=='2A') {
-                var c = 188.92;
+                var c = 188.81;
             }
             if (ms=='2') {
                 c += 7.56;
