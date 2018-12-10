@@ -292,6 +292,7 @@ $(document).ready(function() {
                 c += 7.56;
             }
             $('#quoteModalOuter').modal('show');
+
             $('#quoteModalOuter h3 span').html(Math.round(c * 100) / 100);
 
             // set Implants-specific treatment ID
@@ -586,7 +587,6 @@ $(document).ready(function() {
 
 
 });
-
 
 
 
