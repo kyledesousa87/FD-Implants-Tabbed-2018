@@ -263,13 +263,13 @@ $(document).ready(function() {
             else if (nt=='2') {
                 var c = 64.00;
             }
-            else if (nt=='3' || nt=='4') {
+            else if (nt=='3') {
                 var c = 64.00;
             }
-            else if (nt=='5' || nt=='6' ) {
+            else if (nt=='4' ) {
                 var c = 77.08;
             }
-            else if (nt=='7' || nt=='8') {
+            else if (nt=='5') {
                 var c = 102.77;
             }
             else if (nt=='1A') {
