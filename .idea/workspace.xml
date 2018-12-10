@@ -7,7 +7,15 @@
   <component name="ChangeListManager">
     <list default="true" id="cebb2776-d0dd-4d61-b84f-7000b5ba04a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app-tab-new.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app-tab-new.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consultation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/layout-booking.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/layout-callus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/layout-test-nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp-mobi.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp-mobi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/modals/modal-form-quote.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/modals/modal-form-quote.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/modals/modal-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/modals/modal-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/index.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,25 +88,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="4" />
+          <entry key="html" value="25" />
           <entry key="js" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="4" />
+          <entry key="HTML" value="25" />
           <entry key="JavaScript" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="11" />
+          <entry key="html" value="65" />
           <entry key="js" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="11" />
+          <entry key="HTML" value="65" />
           <entry key="JavaScript" value="87" />
         </counts>
       </usages-collector>
@@ -110,31 +118,55 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/partials/layout/widget-quote.html">
+        <entry file="file://$PROJECT_DIR$/src/pages/tab-geo-brentwood.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            <state relative-caret-position="165">
+              <caret line="11" column="12" selection-start-line="11" selection-end-line="11" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/tab-geo-birmingham.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/partials/modals/modal-form-quote.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/js/app-tab-new.js">
+        <entry file="file://$PROJECT_DIR$/src/partials/modals/modal-form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="271" column="28" selection-start-line="271" selection-start-column="28" selection-end-line="271" selection-end-column="28" />
-              <folding>
-                <element signature="e#65#428#0" />
-                <element signature="n#!!block;n#validateCancellationForm#0" />
-                <element signature="n#!!block;n#validateForm#0" />
-                <element signature="n#!!block;n#closeModal#0" />
-                <element signature="n#!!block;n#doVideo#0" />
-                <element signature="n#!!block;n#openModal#0" />
-                <element signature="n#!!block;n#reOpen#0" />
-                <element signature="e#6796#6919#0" />
-                <element signature="e#6993#7129#0" />
-                <element signature="e#7242#7314#0" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="18" column="106" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp-mobi.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="59" lean-forward="true" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -186,8 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/scss/components/_fpanel.scss" />
-        <option value="$PROJECT_DIR$/src/partials/layout/navigation/main-nav-mobi.html" />
         <option value="$PROJECT_DIR$/app-tab-new.js" />
         <option value="$PROJECT_DIR$/src/js/vendors/sidebarEffects.js" />
         <option value="$PROJECT_DIR$/src/scss/comps/_buttons.scss" />
@@ -213,7 +243,6 @@
         <option value="$PROJECT_DIR$/src/scss/app-tab-new.scss" />
         <option value="$PROJECT_DIR$/src/partials/content/grouped-content.html" />
         <option value="$PROJECT_DIR$/src/pages/tab-geo-bermondsey.html" />
-        <option value="$PROJECT_DIR$/src/pages/tab-geo-brentwood.html" />
         <option value="$PROJECT_DIR$/src/pages/tab-geo-cannon-st.html" />
         <option value="$PROJECT_DIR$/src/pages/tab-geo-leicester.html" />
         <option value="$PROJECT_DIR$/src/pages/tab-geo-liverpool-st.html" />
@@ -223,9 +252,7 @@
         <option value="$PROJECT_DIR$/src/pages/tab-geo-birmingham.html" />
         <option value="$PROJECT_DIR$/src/pages/fd-implants-tabbed.html" />
         <option value="$PROJECT_DIR$/src/partials/content/tabbed-content/content-practice.html" />
-        <option value="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp.html" />
         <option value="$PROJECT_DIR$/src/scss/comps/_bookingform.scss" />
-        <option value="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp-mobi.html" />
         <option value="$PROJECT_DIR$/src/partials/content/content-home-henry-sm.html" />
         <option value="$PROJECT_DIR$/src/pages/index.html" />
         <option value="$PROJECT_DIR$/src/scss/layout/_manson_gallery.scss" />
@@ -237,6 +264,11 @@
         <option value="$PROJECT_DIR$/src/partials/content/tabbed-content/content-pricing.html" />
         <option value="$PROJECT_DIR$/src/partials/layout/widget-quote.html" />
         <option value="$PROJECT_DIR$/src/js/app-tab-new.js" />
+        <option value="$PROJECT_DIR$/src/pages/tab-geo-brentwood.html" />
+        <option value="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp-mobi.html" />
+        <option value="$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp.html" />
+        <option value="$PROJECT_DIR$/src/partials/modals/modal-form-quote.html" />
+        <option value="$PROJECT_DIR$/src/partials/modals/modal-form.html" />
       </list>
     </option>
   </component>
@@ -321,7 +353,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-2560" />
     <option name="y" value="-57" />
     <option name="width" value="1280" />
@@ -348,7 +380,13 @@
               <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FD-Implants-Tabbed-2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FD-Implants-Tabbed-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -423,12 +461,12 @@
       <workItem from="1543833740453" duration="23224000" />
       <workItem from="1543913611008" duration="22320000" />
       <workItem from="1544002855629" duration="5259000" />
-      <workItem from="1544443871275" duration="1864000" />
+      <workItem from="1544443871275" duration="2691000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132432000" />
+    <option name="totallyTimeSpent" value="133259000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -440,16 +478,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2560" y="-57" width="1280" height="1361" extended-state="0" />
+    <frame x="-2560" y="-57" width="2560" height="1361" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.75665396" visible="true" weight="0.26009694" />
-      <window_info id="Structure" order="1" sideWeight="0.243346" side_tool="true" visible="true" weight="0.26009694" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.75665396" visible="true" weight="0.12787926" />
+      <window_info id="Structure" order="1" sideWeight="0.243346" side_tool="true" visible="true" weight="0.12787926" />
       <window_info id="Gulp" order="2" sideWeight="0.138322" side_tool="true" weight="0.15506716" />
       <window_info id="npm" order="3" sideWeight="0.13878328" side_tool="true" weight="0.22222222" />
       <window_info id="Favorites" order="4" sideWeight="0.13776337" side_tool="true" weight="0.22222222" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32679245" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49960285" weight="0.32624114" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -458,8 +496,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.503231" side_tool="true" visible="true" weight="0.3782506" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49676898" visible="true" weight="0.3782506" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039715" side_tool="true" visible="true" weight="0.3782506" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4960286" weight="0.3782506" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -473,65 +511,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/layouts/layout-booking.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/layout-tabbed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="87" column="7" selection-start-line="87" selection-start-column="7" selection-end-line="87" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/modals/modal-video.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/tabbed-content/content-results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="38" column="46" lean-forward="true" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/layout/_cs-tab-panels.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/content/tabbed-content/content-quality.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/layout/_content-hero-banner.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="73" selection-start-line="73" selection-end-line="84" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/tab-geo-wokingham.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/tab-geo-winchester.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/tab-geo-milton-keynes.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -560,13 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/tab-geo-brentwood.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/partials/modals/modal-gallery.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -578,13 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/tab-geo-birmingham.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -609,20 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp-mobi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="45" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -795,17 +746,10 @@
     <entry file="file://$PROJECT_DIR$/src/js/carousels.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/partials/layout/widget-quote.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/app-tab-new.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="271" column="28" selection-start-line="271" selection-start-column="28" selection-end-line="271" selection-end-column="28" />
+        <state relative-caret-position="377">
+          <caret line="268" column="26" selection-start-line="268" selection-start-column="26" selection-end-line="268" selection-end-column="26" />
           <folding>
             <element signature="e#65#428#0" />
             <element signature="n#!!block;n#validateCancellationForm#0" />
@@ -818,6 +762,84 @@
             <element signature="e#6993#7129#0" />
             <element signature="e#7242#7314#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/layout/page-layout/call-form-comp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/layout-callus.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/layout/widget-quote.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/layout-booking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="41" column="36" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/layout-test-nav.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/layout-tabbed.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/tab-geo-brentwood.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="12" selection-start-line="11" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/tab-geo-birmingham.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/modals/modal-form-quote.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/layout/page-layout/booking-form-comp-mobi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="59" lean-forward="true" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/modals/modal-form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="106" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="106" />
         </state>
       </provider>
     </entry>
